@@ -1,0 +1,2 @@
+Renames all cif files with ( and ) in the filename
+rename 's/\(//;s/\)//' *.cif

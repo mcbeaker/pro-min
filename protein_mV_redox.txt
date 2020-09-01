@@ -1,0 +1,102 @@
+source: J Am Chem Soc. 2020 Jun 24;142(25):10964-10977. doi: 10.1021/jacs.0c01671. Epub 2020 Jun 12.
+
+source: Biochem J. 2020 May 29;477(10):1865-1878. doi: 10.1042/BCJ20190124.
+
+source: Biomol NMR Assign. 2020 May 15. pii: 10.1007/s12104-020-09947-6. doi: 10.1007/s12104-020-09947-6.
+
+source: Photosynth Res. 2020 Jun;144(3):341-347. doi: 10.1007/s11120-020-00744-9. Epub 2020 Apr 4.
+
+source: Free Radic Biol Med. 2020 May 20;152:375-385. doi: 10.1016/j.freeradbiomed.2020.03.008. Epub 2020 Mar 9.
+
+source: FEBS J. 2020 Mar 11. doi: 10.1111/febs.15290.
+
+source: Front Bioeng Biotechnol. 2020 Jan 9;7:432. doi: 10.3389/fbioe.2019.00432. eCollection 2019.
+
+source: Metallomics. 2020 Mar 25;12(3):337-345. doi: 10.1039/c9mt00255c.
+
+source: Front Microbiol. 2019 Nov 29;10:2785. doi: 10.3389/fmicb.2019.02785. eCollection 2019.
+
+source: Front Mol Neurosci. 2019 Dec 3;12:285. doi: 10.3389/fnmol.2019.00285. eCollection 2019.
+
+source: Proc Natl Acad Sci U S A. 2019 Dec 17;116(51):25917-25922. doi: 10.1073/pnas.1908578116. Epub 2019 Dec 4.
+
+source: J Phys Chem Lett. 2020 Jan 2;11(1):249-255. doi: 10.1021/acs.jpclett.9b02831. Epub 2019 Dec 19.
+
+source: FEBS J. 2020 Jun;287(11):2281-2291. doi: 10.1111/febs.15136. Epub 2019 Nov 29.
+
+source: J Inorg Biochem. 2020 Feb;203:110889. doi: 10.1016/j.jinorgbio.2019.110889. Epub 2019 Oct 22.
+
+source: ACS Appl Mater Interfaces. 2020 Jan 22;12(3):3903-3911. doi: 10.1021/acsami.9b15286. Epub 2019 Dec 31.
+
+source: Photosynth Res. 2020 Feb;143(2):165-181. doi: 10.1007/s11120-019-00679-w. Epub 2019 Oct 23.
+
+source: J Am Chem Soc. 2019 Nov 6;141(44):17571-17587. doi: 10.1021/jacs.9b05715. Epub 2019 Oct 28.
+
+source: Chemistry. 2019 Dec 2;25(67):15252-15256. doi: 10.1002/chem.201904020. Epub 2019 Oct 31.
+
+source: Protein Sci. 2019 Oct;28(10):1902-1908. doi: 10.1002/pro.3699. Epub 2019 Aug 7.
+
+source: Proc Natl Acad Sci U S A. 2019 Aug 13;116(33):16631-16640. doi: 10.1073/pnas.1903314116. Epub 2019 Jul 29.
+
+source: Sci Rep. 2019 Jul 18;9(1):10428. doi: 10.1038/s41598-019-46982-3.
+
+source: FEBS J. 2019 Nov;286(21):4278-4293. doi: 10.1111/febs.14974. Epub 2019 Jul 11.
+
+source: Methods Enzymol. 2019;620:1-25. doi: 10.1016/bs.mie.2019.03.004. Epub 2019 Mar 29.
+
+source: J Biol Chem. 2019 Jun 14;294(24):9367-9376. doi: 10.1074/jbc.RA118.007285. Epub 2019 May 1.
+
+source: Chembiochem. 2019 Sep 16;20(18):2360-2372. doi: 10.1002/cbic.201900184. Epub 2019 Aug 7.
+
+source: Biochim Biophys Acta Proteins Proteom. 2019 Jun;1867(6):595-603. doi: 10.1016/j.bbapap.2019.04.001. Epub 2019 Apr 4.
+
+source: Free Radic Biol Med. 2019 Apr;134:545-554. doi: 10.1016/j.freeradbiomed.2019.01.035. Epub 2019 Feb 5.
+
+source: Biochemistry. 2019 Feb 19;58(7):940-950. doi: 10.1021/acs.biochem.8b01082. Epub 2019 Jan 25.
+
+source: Inorg Chem. 2019 Jan 22;58(2):1216-1223. doi: 10.1021/acs.inorgchem.8b02667. Epub 2019 Jan 7.
+
+source: Redox Biol. 2019 Feb;21:101071. doi: 10.1016/j.redox.2018.101071. Epub 2018 Dec 7.
+
+source: Biochim Biophys Acta Proteins Proteom. 2019 Mar;1867(3):194-201. doi: 10.1016/j.bbapap.2018.12.005. Epub 2018 Dec 18.
+
+source: J Biol Inorg Chem. 2019 Feb;24(1):117-135. doi: 10.1007/s00775-018-1632-y. Epub 2018 Dec 6.
+
+source: Biochim Biophys Acta Gen Subj. 2019 Feb;1863(2):426-436. doi: 10.1016/j.bbagen.2018.11.014. Epub 2018 Nov 28.
+
+source: Protein Sci. 2019 Jan;28(1):257-266. doi: 10.1002/pro.3547.
+
+source: ACS Catal. 2018 Sep 7;8(9):8046-8057. doi: 10.1021/acscatal.8b02153. Epub 2018 Jul 19.
+
+source: Protein Sci. 2019 Jan;28(1):176-190. doi: 10.1002/pro.3517.
+
+source: J Am Chem Soc. 2018 Sep 19;140(37):11800-11810. doi: 10.1021/jacs.8b07362. Epub 2018 Sep 6.
+
+source: Biochem Biophys Res Commun. 2018 Sep 10;503(3):2083-2088. doi: 10.1016/j.bbrc.2018.07.163. Epub 2018 Aug 10.
+
+source: Protein Sci. 2019 Jan;28(1):68-78. doi: 10.1002/pro.3479. Epub 2018 Oct 17.
+
+source: J Chem Theory Comput. 2018 Sep 11;14(9):4948-4957. doi: 10.1021/acs.jctc.8b00403. Epub 2018 Aug 10.
+
+source: ACS Omega. 2018 May 31;3(5):5435-5444. doi: 10.1021/acsomega.8b00322. Epub 2018 May 21.
+
+source: FEBS Open Bio. 2018 Apr 25;8(6):923-931. doi: 10.1002/2211-5463.12422. eCollection 2018 Jun.
+
+source: Biochemistry. 2018 Jun 19;57(24):3402-3415. doi: 10.1021/acs.biochem.8b00160. Epub 2018 Apr 17.
+
+source: Biochemistry. 2018 Apr 24;57(16):2308-2316. doi: 10.1021/acs.biochem.8b00091. Epub 2018 Apr 9.
+
+source: Langmuir. 2018 Mar 27;34(12):3610-3618. doi: 10.1021/acs.langmuir.8b00163. Epub 2018 Mar 13.
+
+source: J Am Chem Soc. 2018 Mar 14;140(10):3784-3790. doi: 10.1021/jacs.8b00426. Epub 2018 Mar 6.
+
+source: Biochim Biophys Acta Gen Subj. 2018 May;1862(5):1190-1198. doi: 10.1016/j.bbagen.2018.02.011. Epub 2018 Feb 19.
+
+source: J Biol Chem. 2018 Feb 16;293(7):2523-2533. doi: 10.1074/jbc.RA117.000103. Epub 2018 Jan 3.
+
+source: Bioelectrochemistry. 2018 Apr;120:83-86. doi: 10.1016/j.bioelechem.2017.11.012. Epub 2017 Nov 27.
+
+source: Biochim Biophys Acta Bioenerg. 2018 Feb;1859(2):78-87. doi: 10.1016/j.bbabio.2017.10.005. Epub 2017 Oct 28.
+
+source: Biochemistry. 2017 Aug 15;56(32):4177-4190. doi: 10.1021/acs.biochem.7b00389. Epub 2017 Aug 3.
+
