@@ -1,0 +1,61 @@
+-----------------------------------------------------
+-               Supercell program                   -
+-----------------------------------------------------
+-      Authors:   * Kirill Okhotnikov               -
+-                  (kirill.okhotnikov@gmail.com)    -
+-                 * Sylvian Cadars                  -
+-                  (sylvian.cadars@cnrs-imn.fr)     -
+-                 * Thibault Charpentier            -
+-                  (Thibault.Charpentier@cea.fr)    -
+-----------------------------------------------------
+-  please cite:                                     -
+-    K. Okhotnikov, T. Charpentier and S. Cadars    -
+-    J. Cheminform. 8 (2016) 17 – 33.               -
+-----------------------------------------------------
+
+Initial system:
+  Chemical Formula: *0.028 Al0.244 Ca3.604 Fe1.15 H3.88 Mg8.958 Mn0.032 Na0.248 O48 Si15.88 Ti0.004
+
+Supercell system (2x2x2):
+  Size a=19.668, b=36.156, c=10.566
+
+Current charge balance option is "try"
+Total charge oxidation state (cif):  nan
+Total charge cell:   0
+Charge balancing:   yes
+----------------------------------------------------------------
+| Atom Label	| 	charge  	| mult	| occup x mult
+| 		| Ox. state	| Used	| (cif)	|		 
+----------------------------------------------------------------
+|  Al1		|  nan		|  0	|  8	|  0.12
+|  Al2		|  nan		|  0	|  4	|  0.124
+|  Ca4		|  nan		|  0	|  4	|  3.604
+|  Fe1		|  nan		|  0	|  4	|  0.38
+|  Fe2		|  nan		|  0	|  4	|  0.368
+|  Fe3		|  nan		|  0	|  2	|  0.19
+|  Fe4		|  nan		|  0	|  4	|  0.212
+|  H		|  nan		|  0	|  4	|  3.88
+|  KA(m)		|  nan		|  0	|  4	|  0.028
+|  Mg1		|  nan		|  0	|  4	|  3.612
+|  Mg2		|  nan		|  0	|  4	|  3.492
+|  Mg3		|  nan		|  0	|  2	|  1.81
+|  Mg4		|  nan		|  0	|  4	|  0.044
+|  Mn1		|  nan		|  0	|  4	|  0.008
+|  Mn2		|  nan		|  0	|  4	|  0.012
+|  Mn4		|  nan		|  0	|  4	|  0.012
+|  Na4		|  nan		|  0	|  4	|  0.128
+|  NaA(m)		|  nan		|  0	|  4	|  0.12
+|  O1		|  nan		|  0	|  8	|  8
+|  O2		|  nan		|  0	|  8	|  8
+|  O3		|  nan		|  0	|  4	|  4
+|  O4		|  nan		|  0	|  8	|  8
+|  O5		|  nan		|  0	|  8	|  8
+|  O6		|  nan		|  0	|  8	|  8
+|  O7		|  nan		|  0	|  4	|  4
+|  Si1		|  nan		|  0	|  8	|  7.88
+|  Si2		|  nan		|  0	|  8	|  8
+|  Ti2		|  nan		|  0	|  4	|  0.004
+----------------------------------------------------------------
+
+WARN: The number of combinations to check is high 107495424
+WARN: Structure is too big and/or problems with charges values.107495424

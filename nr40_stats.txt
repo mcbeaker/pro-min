@@ -1,0 +1,120 @@
+minVal descriptors
+
+count    1566.000000
+mean        0.914278
+std         0.683827
+min         0.040000
+25%         0.440000
+50%         0.760000
+75%         1.110000
+max         4.790000
+Name: valence, dtype: float64
+proVal descriptors
+
+count    2244.000000
+mean        1.742888
+std         1.090133
+min         0.050000
+25%         0.750000
+50%         1.570000
+75%         2.710000
+max         4.760000
+Name: valence, dtype: float64
+val t-test
+
+Ttest_indResult(statistic=-26.642249438061068, pvalue=1.5034165653379285e-143)
+minRMSD descriptors
+
+count    905.000000
+mean      18.921535
+std       10.860038
+min        2.864789
+25%       10.313240
+50%       16.042818
+75%       25.783101
+max       43.544792
+Name: gRMSD, dtype: float64
+proRMSD descriptors
+
+count    1829.000000
+mean       19.651920
+std        10.299836
+min         2.864789
+25%        11.459156
+50%        18.334649
+75%        26.929016
+max        43.544792
+Name: gRMSD, dtype: float64
+0        9.167325
+1       28.647890
+2       15.469860
+3        9.740283
+4       22.918312
+          ...    
+2511    15.469860
+2512    29.220848
+2514    25.783101
+2518    37.815214
+2519    20.626481
+Name: gRMSD, Length: 1829, dtype: float64
+Ttest_indResult(statistic=-1.7134415597826163, pvalue=0.08674478183139796)
+Starting group by type/pdb/atomName/resNum/envComp metal sites
+
+           count      mean       std   min   25%    50%    75%   max
+atomName                                                            
+CO         225.0  1.218222  0.928439  0.00  0.52  0.880  1.570  3.89
+CU         803.0  0.580237  0.441219  0.00  0.32  0.510  0.810  2.88
+FE        1738.0  1.913337  1.091111  0.00  0.95  1.935  2.790  4.76
+MN         916.0  0.800644  0.622410  0.00  0.31  0.710  1.190  3.81
+MO          51.0  1.946275  1.289470  0.00  0.73  1.800  2.620  4.26
+NI         381.0  0.430262  0.518718  0.00  0.00  0.310  0.620  4.59
+V          112.0  1.907500  1.217763  0.41  0.75  1.630  2.955  4.79
+W           47.0  1.429149  1.319125  0.00  0.00  1.540  2.645  4.56
+CO gRMSD t-test
+Ttest_indResult(statistic=0.9725941463482439, pvalue=0.33261849098753105)
+CU gRMSD t-test
+Ttest_indResult(statistic=-7.810969751981435, pvalue=4.2921450244750633e-14)
+FE gRMSD t-test
+Ttest_indResult(statistic=4.874124548785607, pvalue=1.2246594669674084e-06)
+MN gRMSD t-test
+Ttest_indResult(statistic=-4.8695370006210545, pvalue=1.522870919706306e-06)
+MO gRMSD t-test
+Ttest_indResult(statistic=-1.7945896270299146, pvalue=0.08067741892999647)
+NI gRMSD t-test
+Ttest_indResult(statistic=0.2653760646287792, pvalue=0.7909958621642451)
+V gRMSD t-test
+Ttest_indResult(statistic=-0.6965868437418941, pvalue=0.48800768987396204)
+W gRMSD t-test
+Ttest_indResult(statistic=0.6665919634742984, pvalue=0.5096667815258749)
+CO val t-test
+Ttest_indResult(statistic=-6.874915230689443, pvalue=6.148609425145967e-11)
+
+
+CU val t-test
+Ttest_indResult(statistic=-1.9889000013133544, pvalue=0.047052050982679235)
+
+
+FE val t-test
+Ttest_indResult(statistic=-32.863149156227216, pvalue=1.379185262588784e-184)
+
+
+MN val t-test
+Ttest_indResult(statistic=-1.752879782379683, pvalue=0.07995789148575369)
+
+
+MO val t-test
+Ttest_indResult(statistic=-3.9754717953151553, pvalue=0.00023077595903338608)
+
+
+NI val t-test
+Ttest_indResult(statistic=-4.5232504719442375, pvalue=8.157918377048173e-06)
+
+
+V val t-test
+Ttest_indResult(statistic=-5.197317180384231, pvalue=9.400063931303934e-07)
+
+
+W val t-test
+Ttest_indResult(statistic=-0.21766499007816317, pvalue=0.8286741296510878)
+
+

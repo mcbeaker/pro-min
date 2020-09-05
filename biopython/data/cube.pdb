@@ -1,0 +1,8 @@
+HETATM    1  C   CUB A   1       0.000   0.000   0.000  0.00  0.00           C  
+HETATM    2  C   CUB A   1       1.000   0.000   0.000  0.00  0.00           C  
+HETATM    3  C   CUB A   1       1.000   1.000   0.000  0.00  0.00           C  
+HETATM    4  C   CUB A   1       0.000   1.000   0.000  0.00  0.00           C  
+HETATM    5  C   CUB A   1       0.000   0.000   1.000  0.00  0.00           C  
+HETATM    6  C   CUB A   1       1.000   0.000   1.000  0.00  0.00           C  
+HETATM    7  C   CUB A   1       1.000   1.000   1.000  0.00  0.00           C  
+HETATM    8  C   CUB A   1       0.000   1.000   1.000  0.00  0.00           C  
