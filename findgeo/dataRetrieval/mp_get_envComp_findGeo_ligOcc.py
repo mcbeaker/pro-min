@@ -22,33 +22,15 @@ import glob
 import math
 # from elements import ELEMENTS
 import platform #check if Mac or Linux
+import sys
 
 #global variables
 global pdbPaths
-pdbPaths = {}
-
-baseDir = ''
-
-if platform.system() == 'Darwin':
-    baseDir = '/Users/ken/Box/proj/proXtal'
-elif platform.system() == 'Linux':
-    baseDir = '/home/kenneth/proj/proMin/'
-else:
-    exit()
 
 pdbPathsLoc='/home/kenneth/proj/proMin/proteins/rcsb/pdbs_0_1.5/findgeo/combineFindGeoResults'
-# pdbPathsLoc='/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/pdb_reSeq_res_atom/combineFindGeoResults'
-count = 0 
-
-# metals = ["FE_"]
-for pdbFile in glob.iglob(pdbPathsLoc+'/*.pdb'):
-    # if any(metal in pdbFile for metal in metals):
-        # print(pdbFile)
-    pdbPaths[count] = pdbFile
-    count += 1
-    # else:
-        # continue
-        
+pdbPaths = pd.read_csv(os.path.join(pdbPathsLoc,'pdbFileNames.csv'),index_col=0)
+# print(pdbPaths)
+# exit()
 
 def get_pdb_STR(pdbPath):
     STR = PDB.MMCIFParser(QUIET=True).get_structure("pdb",pdbPath)
@@ -120,7 +102,7 @@ def get_valParms(metElem,ligElem):
 	dfParms['valence_param_atom_2'] = dfParms.valence_param_atom_2.str.upper()
     # print(dfParms.valence_param_atom_1)
 	dfParms = dfParms[(dfParms.valence_param_atom_1.isin(metElem)) & (dfParms.valence_param_atom_2.isin(ligElem))]
-	dfParms = dfParms[dfParms.valence_param_atom_1_valence <= 9]
+	dfParms = dfParms[dfParms.valence_param_atom_1_valence <= 6]
 	# get distinct values of the dataframe based on column
 
 	return dfParms
@@ -158,7 +140,7 @@ def calc_valency(dists):  # inpu
 	dfParms = get_valParms(mElem,lElem)
 	# print(dfParms)
 	# get distinct values of the dataframe based on column
-	dfParms = dfParms.drop_duplicates(subset = ["valence_param_atom_1","valence_param_atom_1_valence","valence_param_atom_2"], keep='first')
+	# dfParms = dfParms.drop_duplicates(subset = ["valence_param_atom_1","valence_param_atom_1_valence","valence_param_atom_2"], keep='first')
 	# print(dfParms)
 	metVal = {}
 
@@ -185,6 +167,7 @@ def calc_valency(dists):  # inpu
 			r0 = oxParm['valence_param_Ro']
 			Ox = oxParm['valence_param_atom_1_valence']
 			metVal[key]['Ox'].append(Ox)
+			# print(type(ligOcc))
 			metVal[key]['Valence'].append(get_valence(r0,dist,Ox)*ligOcc)
 		#first time through
 		if count == 0:
@@ -234,8 +217,10 @@ def calc_vecsum(valency,STR,metalName):
 		if idx != metalRow:
 			distance = atoms[metalRow] - atoms[idx]
 			atomNames = metalName+"_"+atoms[idx].get_name().upper()
+			metOcc = atoms[metalRow].get_occupancy()
+			ligOcc = atoms[idx].get_occupancy()
 			# distance12[atomNames] = (get_element(metalName)+":"+get_element(atoms[idx].get_name().upper()),distance)
-			distance12[atomNames] = (atoms[metalRow].element+":"+atoms[idx].element,distance)
+			distance12[atomNames] = (atoms[metalRow].element+":"+atoms[idx].element,distance,metOcc,ligOcc)
 	return distance12
 
 def get_rmsd(pdbFileName):
@@ -262,8 +247,7 @@ def get_rmsd(pdbFileName):
 					RMSD = found.group()
 	else:
 		RMSD = "NA"
-	#convert radians to degrees
-	RMSD = RMSD * (180/np.pi)
+	#RMSD is in Angstroms
 	return RMSD
 
 def get_environment(STR,pdbFileName):
@@ -296,7 +280,7 @@ def get_environment(STR,pdbFileName):
 #test one to three
 def process_queue(id):
 
-	pdbPath = pdbPaths[id]
+	pdbPath = pdbPaths.iloc[id]['pdbPath']
 	# print(pdbPath)
 	pdbFileName = os.path.basename(pdbPath)
 	# pdb,amcsdID,metalName,resNum,atomNum,chain,geoShort,ext = re.split('[._]',pdbFileName)
@@ -321,9 +305,9 @@ def process_queue(id):
 	# print(metalElements)
 	# print(ligElements)
 	# print(atomDist)
-		valency = calc_valency(atomDist)
+		metVal = calc_valency(atomDist)
 
-		vecsum = calc_vecsum(valency,STR,metalName)
+		vecsum = calc_vecsum(metVal,STR,metalName)
 
 # print(valency)
 # output = ""
@@ -335,7 +319,7 @@ def process_queue(id):
 #         output += " " + dic[1][0]
 
 	# print(output)
-		output = os.path.splitext(pdbFileName)[0] + " " + environment + " " + str(gRMSD) + " " + str(valency)
+		output = os.path.splitext(pdbFileName)[0] + " " + environment + " " + str(gRMSD) + " " + str(metVal['valency'])
 	# print(output)
 		process_queue.q.put(output)
 	except PDB.PDBExceptions.PDBConstructionWarning as e:
@@ -344,6 +328,9 @@ def process_queue(id):
 	except TypeError as t:
 		print(t)
 		print(pdbPath)
+		exc_type, exc_obj, exc_tb = sys.exc_info()
+		fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+		print(exc_type, fname, exc_tb.tb_lineno)
 
 	# print(output)
 	return output
@@ -398,7 +385,7 @@ def main():
     jobs = []
 
     with tqdm(total=len(pdbPaths.keys())) as pbar: 
-        for i, job in tqdm(enumerate(pool.imap_unordered(process_queue,list(pdbPaths.keys())))):
+        for i, job in tqdm(enumerate(pool.imap_unordered(process_queue,list(pdbPaths.index)))):
             jobs.append(job)
             # print(job)
             pbar.update()
