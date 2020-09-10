@@ -3,25 +3,15 @@ import os
 # from CifFile import ReadCif
 import pandas as pd
 import numpy as np
-from Bio.PDB import MMCIF2Dict
-from Bio.PDB.PDBIO import Select
 from Bio import PDB
-# from diffpy import structure 
-# import gemmi
 import subprocess
-import inspect
 import re
 import multiprocessing as mp
-# from elements import ELEMENTS
 from collections import defaultdict
-import json
 from tqdm import tqdm
 from collections import Counter
-import glob
-import math
-# from elements import ELEMENTS
-import platform #check if Mac or Linux
 import sys
+import tools
 
 #global variables
 global pdbPaths
@@ -32,10 +22,7 @@ pdbPaths = pd.read_csv(os.path.join(pdbPathsLoc,'pdbFileNames.csv'),index_col=0)
 # exit()
 
 def f_init(q):
-    process_queue.q = q
-#
-
-
+	process_queue.q = q
 
 #test one to three
 def process_queue(id):
@@ -56,32 +43,23 @@ def process_queue(id):
 
 		STR = PDB.PDBParser(QUIET=False).get_structure(pdb,pdbPath)
 
-		environment = get_environment(STR,pdbFileName)
+		environment = tools.get_environment(STR,pdbFileName)
 
-		gRMSD = get_rmsd(pdbFileName)
+		gRMSD = tools.get_rmsd(pdbFileName)
 
-		atomDist = get_atomDistances(STR,metalName)
+		atomDist = tools.get_atomDistances(STR,metalName)
 	# print(atomDist)
 	# print(metalElements)
 	# print(ligElements)
 	# print(atomDist)
-		metVal = calc_valency(atomDist)
+		metVal = tools.calc_bvs(atomDist)
 
-		vecsum = calc_vecsum(metVal,STR,metalName)
+		vecsum = tools.calc_vecsum(metVal,STR,metalName)
 
-# print(valency)
-# output = ""
-# for i,dic in enumerate(atom_dist.items()):
-#     if i == 0:
-#         # print(dic)
-#         output = pdbFileName + " " + dic[1][0]
-#     else:
-#         output += " " + dic[1][0]
-
-	# print(output)
 		output = os.path.splitext(pdbFileName)[0] + " " + environment + " " + str(gRMSD) + " " + str(metVal['valency'])
-	# print(output)
+		
 		process_queue.q.put(output)
+
 	except PDB.PDBExceptions.PDBConstructionWarning as e:
 		print(e)
 		print(pdbPath)
@@ -94,8 +72,6 @@ def process_queue(id):
 
 	# print(output)
 	return output
-
-
 
 def listener():
 	'''listens for messages on a the q, writes to a file'''
@@ -126,8 +102,6 @@ def listener():
 				outWriter.write(m + '\n')
 				outWriter.flush()
 
-# print(logFile)
-# print(feDF)
 def main():
     
     manager = mp.Manager()
