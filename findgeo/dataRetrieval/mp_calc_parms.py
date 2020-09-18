@@ -40,7 +40,6 @@ def process_queue(id):
 	# print(pdb,metalName)
 	output=""
 	try:
-
 		STR = PDB.PDBParser(QUIET=False).get_structure(pdb,pdbPath)
 
 		environment = tools.get_environment(STR,pdbFileName)
@@ -48,18 +47,36 @@ def process_queue(id):
 		gRMSD = tools.get_rmsd(pdbFileName)
 
 		atomDist = tools.get_atomDistances(STR,metalName)
+
+		for key in atomDist.keys():
+			metName,ligName = key.split("_")
+			metElm, ligElm = atomDist[key][0].split(':')
+			dist = atomDist[key][1]
+			metOcc = atomDist[key][2]
+			ligOcc = atomDist[key][3]
+			metResName, ligResName = atomDist[key][4].split("_")
+			metResNum, ligResNum = atomDist[key][5].split("_") 
+			metChain, ligChain = atomDist[key][6].split("_") 
+			output = pdbFileName + ',' + metElm + "," + ligElm + "," + str(round(dist,2)) + "," + metName + "," + ligName + "," +  str(metOcc) + "," + \
+						str(ligOcc) + "," + metResName + "," + ligResName + "," + str(metResNum) + "," + ligResNum + "," + \
+						metChain + "," + ligChain 
+			process_queue.q.put(output)
+
+
+					
+		# print(atomDist)
 	# print(atomDist)
 	# print(metalElements)
 	# print(ligElements)
 	# print(atomDist)
-		metVal = tools.calc_bvs(atomDist)
+		# metVal = tools.calc_bvs(atomDist)
 
-		vecsum = tools.calc_vecsum(metVal,STR,metalName)
+		# vecsum = tools.calc_vecsum(metVal,STR,metalName)
 
-		output = os.path.splitext(pdbFileName)[0] + " " + environment + " " + str(gRMSD) + " " + str(metVal['valency'])
+		# output = os.path.splitext(pdbFileName)[0] + " " + environment + " " + str(gRMSD) + " " + str(metVal['valency'])
 		
-		process_queue.q.put(output)
-
+		# process_queue.q.put(output)
+		
 	except PDB.PDBExceptions.PDBConstructionWarning as e:
 		print(e)
 		print(pdbPath)
@@ -80,7 +97,7 @@ def listener():
 	pdir = '/home/kenneth/proj/proMin/proteins/rcsb/pdbs_0_1.5/findgeo/combineFindGeoResults/analysis'
 	# pdir = '/home/kenneth/proj/proMin/proteins/hagai/pdbs/combineFindGeoResults/analysis'
 	# pdir = '/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/pdb_reSeq_res_atom/combineFindGeoResults/analysis'
-	outFile='pro_fg_dictionaryValues_ligOcc.csv'
+	outFile='pro_fg_dictionaryValues_ligOcc_distances.csv'
 	outFile = os.path.join(pdir,outFile)
 	if os.path.exists(pdir) == False:
 		# print('exists ' + outFile)

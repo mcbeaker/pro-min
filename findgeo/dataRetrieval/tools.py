@@ -45,18 +45,20 @@ def get_atomDistances(structure,metalName):
         if idx != metalRow:
             distance = atoms[metalRow] - atoms[idx]
             atomNames = metalName+"_"+atoms[idx].get_name().upper()
-            # distance12[atomNames] = (get_element(metalName)+":"+get_element(atoms[idx].get_name().upper()),distance)
+            residueNames = atoms[metalRow].get_parent().get_resname() + "_" + atoms[idx].get_parent().get_resname()
+            residueNumbers = str(atoms[metalRow].get_parent().get_full_id()[3][1]) + "_" + str(atoms[idx].get_parent().get_full_id()[3][1]) 
+            residueChain = str(atoms[metalRow].get_parent().get_full_id()[2]) + "_" + str(atoms[idx].get_parent().get_full_id()[2]) 
             metOcc = atoms[metalRow].get_occupancy()
             ligOcc = atoms[idx].get_occupancy() #use for valency calc
-            distance12[atomNames] = (atoms[metalRow].element+":"+atoms[idx].element,distance,metOcc,ligOcc)
+            distance12[atomNames] = (atoms[metalRow].element+":"+atoms[idx].element,distance,metOcc,ligOcc,residueNames,residueNumbers,residueChain)
     return distance12
 #
 def get_valParms(metElem,ligElem):
     # need metal elements
     # metals = ["CO","CU","FE","MN","MO","NI","V","W"] #NO MG
     # ligands = ["C","N","O","F","P","S"]
-	parmFile='/home/kenneth/proj/proMin/valenceParms/bvparm2006.csv'
-	# parmFile = '/home/kenneth/box/proj/proXtal/nolan_valance/valenceParms/bvparm2006.csv'
+	parmFile='/home/kenneth/proj/proMin/valenceParms/bvparm2006.csv' #includes 2017 Zheng Fe - spin II/III
+	
 	dfParms = pd.read_csv(parmFile,sep=",",index_col=False,usecols=["valence_param_atom_1",
                                             "valence_param_atom_1_valence",
                                             "valence_param_atom_2",
@@ -72,6 +74,8 @@ def get_valParms(metElem,ligElem):
 
 	return dfParms
 
+# defining the VALENCY calculation function --------------------------------------------------------------------------
+# Author: Nolan Fehon/Kenneth
 def calc_bond_valence(r0,measured,ox_num):
 	r0 = float(r0)
 	measured = float(measured)
@@ -81,8 +85,6 @@ def calc_bond_valence(r0,measured,ox_num):
 	valence = math.exp((r0 - measured) / b)
 	return valence
 
-# defining the VALENCY calculation function --------------------------------------------------------------------------
-# Author: Nolan Fehon/Kenneth
 def calc_bvs(dists):  # inpu
 	#calculates bond valence sum
 
@@ -96,9 +98,7 @@ def calc_bvs(dists):  # inpu
     # #keep track of metal and ligand name to get distance values
 	dfParms = get_valParms(mElem,lElem)
 	# print(dfParms)
-	# get distinct values of the dataframe based on column
-	# dfParms = dfParms.drop_duplicates(subset = ["valence_param_atom_1","valence_param_atom_1_valence","valence_param_atom_2"], keep='first')
-	# print(dfParms)
+	
 	metVal = {}
 
 	# loop through key, metElem, ligElem, dist
