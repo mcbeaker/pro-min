@@ -15,8 +15,9 @@ import tools
 
 #global variables
 global pdbPaths
-
 pdbPathsLoc='/home/kenneth/proj/proMin/proteins/rcsb/pdbs_0_1.5/findgeo/combineFindGeoResults'
+# pdbPathsLoc = '/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/pdb_reSeq_res_atom/combineFindGeoResults'
+# tools.get_pdbFilePaths(pdbPathsLoc,'pdbFileNames.csv')
 pdbPaths = pd.read_csv(os.path.join(pdbPathsLoc,'pdbFileNames.csv'),index_col=0)
 # print(pdbPaths)
 # exit()
@@ -30,37 +31,48 @@ def process_queue(id):
 	pdbPath = pdbPaths.iloc[id]['pdbPath']
 	# print(pdbPath)
 	pdbFileName = os.path.basename(pdbPath)
-	# pdb,amcsdID,metalName,resNum,atomNum,chain,geoShort,ext = re.split('[._]',pdbFileName)
 	pdb,metalName,resNum,atomNum,chain,geoShort,ext = re.split('[._]',pdbFileName)
+	# print(pdbPath)
+	# print(re.split('[.]',pdbFileName))
+	
+	# mineral,Mn_30_30_A_irr,geoShort,ext = re.split('[.]',pdbFileName)
+	# metalName,resNum,atomNum,chain = re.split('[._]',Mn_30_30_A_irr)
+	
 	metalName = metalName.upper()
-
 
 	import warnings
 	warnings.filterwarnings("error")
 	# print(pdb,metalName)
 	output=""
 	try:
-		STR = PDB.PDBParser(QUIET=False).get_structure(pdb,pdbPath)
+		STR = PDB.PDBParser(QUIET=False).get_structure('pdb',pdbPath)
 
 		environment = tools.get_environment(STR,pdbFileName)
 
 		gRMSD = tools.get_rmsd(pdbFileName)
 
-		atomDist = tools.get_atomDistances(STR,metalName)
+		angles = tools.get_angles(STR,metalName)
 
-		for key in atomDist.keys():
-			metName,ligName = key.split("_")
-			metElm, ligElm = atomDist[key][0].split(':')
-			dist = atomDist[key][1]
-			metOcc = atomDist[key][2]
-			ligOcc = atomDist[key][3]
-			metResName, ligResName = atomDist[key][4].split("_")
-			metResNum, ligResNum = atomDist[key][5].split("_") 
-			metChain, ligChain = atomDist[key][6].split("_") 
-			output = pdbFileName + ',' + metElm + "," + ligElm + "," + str(round(dist,2)) + "," + metName + "," + ligName + "," +  str(metOcc) + "," + \
-						str(ligOcc) + "," + metResName + "," + ligResName + "," + str(metResNum) + "," + ligResNum + "," + \
-						metChain + "," + ligChain 
-			process_queue.q.put(output)
+		for i in angles:
+			# print('Protein,'+i)
+			# process_queue.q.put('Mineral,'+pdbFileName + ',' + i + ',' + environment)
+			process_queue.q.put('Protein,'+pdbFileName + ',' + i + ',' + environment)
+
+		# atomDist = tools.get_atomDistances(STR,metalName)
+
+		# for key in atomDist.keys():
+		# 	metName,ligName = key.split("_")
+		# 	metElm, ligElm = atomDist[key][0].split(':')
+		# 	dist = atomDist[key][1]
+		# 	metOcc = atomDist[key][2]
+		# 	ligOcc = atomDist[key][3]
+		# 	metResName, ligResName = atomDist[key][4].split("_")
+		# 	metResNum, ligResNum = atomDist[key][5].split("_") 
+		# 	metChain, ligChain = atomDist[key][6].split("_") 
+		# 	output = pdbFileName + ',' + metElm + "," + ligElm + "," + str(round(dist,2)) + "," + metName + "," + ligName + "," +  str(metOcc) + "," + \
+		# 				str(ligOcc) + "," + metResName + "," + ligResName + "," + str(metResNum) + "," + ligResNum + "," + \
+		# 				metChain + "," + ligChain 
+		# 	process_queue.q.put(output)
 
 
 					
@@ -97,20 +109,21 @@ def listener():
 	pdir = '/home/kenneth/proj/proMin/proteins/rcsb/pdbs_0_1.5/findgeo/combineFindGeoResults/analysis'
 	# pdir = '/home/kenneth/proj/proMin/proteins/hagai/pdbs/combineFindGeoResults/analysis'
 	# pdir = '/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/pdb_reSeq_res_atom/combineFindGeoResults/analysis'
-	outFile='pro_fg_dictionaryValues_ligOcc_distances.csv'
+	# outFile='min_fg_dictionaryValues_ligOcc_angles.csv'
+	outFile='pro_fg_dictionaryValues_ligOcc_angles.csv'
 	outFile = os.path.join(pdir,outFile)
 	if os.path.exists(pdir) == False:
 		# print('exists ' + outFile)
 		os.mkdir(pdir)
     #     print("Output file exists already")
     #     exit()
-    
+
     # print("Output jobs to file\n")
 	# print(outFile)
 	with open(outFile,"w") as outWriter:
 		while 1:
 			m = process_queue.q.get()
-			# print(m)
+			print(m)
             # print(type(m))
 			if m == "kill":
 				outWriter.write('killed')

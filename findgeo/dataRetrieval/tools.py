@@ -5,6 +5,23 @@ import os
 from collections import Counter
 import math 
 import re 
+import glob
+import numpy as np
+
+
+def get_pdbFilePaths(pdbPathsLoc,pdbFileNames):
+	count = 0 
+ 
+	# metals = ["FE_"]
+	with open(os.path.join(pdbPathsLoc,pdbFileNames),"w") as output:
+		
+		for pdbFile in glob.iglob(pdbPathsLoc+'/*.pdb'):
+			# if any(metal in pdbFile for metal in metals):
+				# print(pdbFile)
+			output.write(str(count)+","+pdbFile+"\n")
+			count += 1
+	# outFile = pd.read_csv(os.path.join(pdbPathsLoc,pdbFileNames),index_col=0)
+	# return outFile
 
 def get_pdb_STR(pdbPath):
     STR = PDB.MMCIFParser(QUIET=True).get_structure("pdb",pdbPath)
@@ -25,6 +42,43 @@ def get_metalRow(listAtoms,metalName):
             index = i
             return index
     return index
+
+def get_angles(STR,metalName):
+	atoms = list(STR.get_atoms())
+	numAtoms = len(atoms)
+	metalRow = get_metalRow(atoms,metalName)
+
+	angles = []
+	for i in range(0,numAtoms):
+		for j in range(i+1,numAtoms):
+			if (i != metalRow) & (j != metalRow):
+				atm1 = atoms[i]
+				# print("test\n")
+				metal = atoms[metalRow]
+				# print("test2\n")
+				atm2 = atoms[j]
+				# print("test3\n")
+				angle = round(PDB.vectors.calc_angle(atm1.get_vector(),metal.get_vector(),atm2.get_vector()) * (180/np.pi),2)
+				# print(str(angle)+"\n")
+				atomNames = atm1.get_name().upper()+"_"+metalName+"_"+atm2.get_name().upper()
+				# print("test5\n")
+				residueNames = atm1.get_parent().get_resname() + "_" + metal.get_parent().get_resname() + "_" + atm2.get_parent().get_resname()
+				# print("test6\n")
+				residueNumbers = str(atm1.get_parent().get_full_id()[3][1]) + "_" +str(metal.get_parent().get_full_id()[3][1]) + "_" + str(atm2.get_parent().get_full_id()[3][1]) 
+				# print("test7\n")
+				residueChain = str(atm1.get_parent().get_full_id()[2]) + "_" + str(metal.get_parent().get_full_id()[2]) + "_" + str(atm2.get_parent().get_full_id()[2]) 
+				# print("test8\n")
+				occ = str(atm1.get_occupancy()) + "_" + str(metal.get_occupancy()) + "_" + str(atm2.get_occupancy()) 	
+				elements = atm1.element + "_" + metal.element + "_" + atm2.element  
+				angleInfo = [metal.element,elements,angle,atomNames,residueNames,residueNumbers,residueChain,occ]
+				angleStr = "" #string to easily output to file
+				for l in range(0,len (angleInfo)):
+					if l == 0:
+						angleStr = str(angleInfo[l])
+					if l > 0:
+						angleStr += "," + str(angleInfo[l])
+				angles.append(angleStr)
+	return angles
 
 def get_atomDistances(structure,metalName):
     # print(metalName) 
