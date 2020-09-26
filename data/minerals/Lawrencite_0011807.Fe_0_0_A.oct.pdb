@@ -1,0 +1,7 @@
+HETATM    0 Fe   UNK A   0       1.790   1.033   5.845  1.00  0.00          FE
+HETATM    1 Cl   UNK     1      -0.000   0.000   4.384  1.00  0.00          CL
+HETATM    9 Cl   UNK     9       3.579   2.066   7.307  1.00  0.00          CL
+HETATM    8 Cl   UNK     8       1.789  -1.033   7.307  1.00  0.00          CL
+HETATM    6 Cl   UNK     6       1.790   3.100   4.384  1.00  0.00          CL
+HETATM    7 Cl   UNK     7       3.579   0.000   4.384  1.00  0.00          CL
+HETATM    2 Cl   UNK     2       0.000   2.066   7.307  1.00  0.00          CL

@@ -1,0 +1,9 @@
+HETATM    0 Fe   UNK A   0       0.000   0.000   0.000  1.00  0.00          FE
+HETATM    7 Pt   UNK     7      -1.362   1.362  -1.860  1.00  0.00          PT
+HETATM    4 Pt   UNK     4       1.362  -1.362  -1.860  1.00  0.00          PT
+HETATM    2 Pt   UNK     2      -1.362  -1.362   1.860  1.00  0.00          PT
+HETATM    1 Pt   UNK     1       1.362   1.362   1.860  1.00  0.00          PT
+HETATM    3 Pt   UNK     3       1.362   1.362  -1.860  1.00  0.00          PT
+HETATM    8 Pt   UNK     8      -1.362  -1.362  -1.860  1.00  0.00          PT
+HETATM    5 Pt   UNK     5      -1.362   1.362   1.860  1.00  0.00          PT
+HETATM    6 Pt   UNK     6       1.362  -1.362   1.860  1.00  0.00          PT

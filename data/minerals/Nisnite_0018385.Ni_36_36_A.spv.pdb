@@ -1,0 +1,4 @@
+HETATM   36 Ni   UNK A  36       1.867   3.735   1.867  1.00  0.73          NI
+HETATM   45 Sn   UNK    45       0.000   3.735   3.735  1.00  0.65          SN
+HETATM   47 Sn   UNK    47       3.735   3.735   3.735  1.00  0.65          SN
+HETATM    3 Sn   UNK     3       0.000   3.735   0.000  1.00  0.65          SN

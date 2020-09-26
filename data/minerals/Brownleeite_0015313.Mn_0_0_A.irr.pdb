@@ -1,0 +1,8 @@
+HETATM    0 Mn   UNK A   0       0.636   0.636   0.636  1.00  0.04          MN
+HETATM    1 Si   UNK     1      -0.695  -0.695  -0.695  1.00  1.18          SI
+HETATM   14 Si   UNK    14       0.695   1.583   2.973  1.00  1.18          SI
+HETATM   12 Si   UNK    12       2.973   0.695   1.583  1.00  1.18          SI
+HETATM   11 Si   UNK    11      -1.583   0.695   1.583  1.00  1.18          SI
+HETATM   16 Si   UNK    16       1.583   2.973   0.695  1.00  1.18          SI
+HETATM   15 Si   UNK    15       1.583  -1.583   0.695  1.00  1.18          SI
+HETATM   13 Si   UNK    13       0.695   1.583  -1.583  1.00  1.18          SI

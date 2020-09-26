@@ -1,0 +1,4 @@
+HETATM    5 Ni   UNK A   5       0.000   0.000   2.505  1.00  0.00          NI
+HETATM    1 As   UNK     1       0.000   2.080   1.252  1.00  0.00          AS
+HETATM    8 As   UNK     8       1.801  -1.040   1.252  1.00  0.00          AS
+HETATM    9 As   UNK     9      -1.801  -1.040   1.252  1.00  0.00          AS

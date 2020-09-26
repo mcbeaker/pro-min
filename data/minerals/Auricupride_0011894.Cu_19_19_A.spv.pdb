@@ -1,0 +1,4 @@
+HETATM   19 Cu   UNK A  19       1.870   1.870   0.000  1.00  0.00          CU
+HETATM    8 Au   UNK     8       0.000   0.000   0.000  1.00  0.00          AU
+HETATM    5 Au   UNK     5       3.740   0.000   0.000  1.00  0.00          AU
+HETATM    2 Au   UNK     2       0.000   3.740   0.000  1.00  0.00          AU
