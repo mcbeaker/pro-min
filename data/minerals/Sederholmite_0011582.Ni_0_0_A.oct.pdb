@@ -1,0 +1,7 @@
+HETATM    0 Ni   UNK A   0       0.000   0.000   0.000  1.00  0.00          NI
+HETATM    1 Se   UNK     1       0.000   2.114   1.339  1.00  0.00          SE
+HETATM    9 Se   UNK     9      -1.831  -1.057   1.339  1.00  0.00          SE
+HETATM    8 Se   UNK     8       1.831  -1.057   1.339  1.00  0.00          SE
+HETATM   11 Se   UNK    11       1.831   1.057  -1.339  1.00  0.00          SE
+HETATM   12 Se   UNK    12      -1.831   1.057  -1.339  1.00  0.00          SE
+HETATM   10 Se   UNK    10      -0.000  -2.114  -1.339  1.00  0.00          SE

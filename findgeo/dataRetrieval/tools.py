@@ -5,6 +5,23 @@ import os
 from collections import Counter
 import math 
 import re 
+import glob
+import numpy as np
+
+
+def get_pdbFilePaths(pdbPathsLoc,pdbFileNames):
+	count = 0 
+ 
+	# metals = ["FE_"]
+	with open(os.path.join(pdbPathsLoc,pdbFileNames),"w") as output:
+		
+		for pdbFile in glob.iglob(pdbPathsLoc+'/*.pdb'):
+			# if any(metal in pdbFile for metal in metals):
+				# print(pdbFile)
+			output.write(str(count)+","+pdbFile+"\n")
+			count += 1
+	# outFile = pd.read_csv(os.path.join(pdbPathsLoc,pdbFileNames),index_col=0)
+	# return outFile
 
 def get_pdb_STR(pdbPath):
     STR = PDB.MMCIFParser(QUIET=True).get_structure("pdb",pdbPath)
@@ -26,6 +43,43 @@ def get_metalRow(listAtoms,metalName):
             return index
     return index
 
+def get_angles(STR,metalName):
+	atoms = list(STR.get_atoms())
+	numAtoms = len(atoms)
+	metalRow = get_metalRow(atoms,metalName)
+
+	angles = []
+	for i in range(0,numAtoms):
+		for j in range(i+1,numAtoms):
+			if (i != metalRow) & (j != metalRow):
+				atm1 = atoms[i]
+				# print("test\n")
+				metal = atoms[metalRow]
+				# print("test2\n")
+				atm2 = atoms[j]
+				# print("test3\n")
+				angle = round(PDB.vectors.calc_angle(atm1.get_vector(),metal.get_vector(),atm2.get_vector()) * (180/np.pi),2)
+				# print(str(angle)+"\n")
+				atomNames = atm1.get_name().upper()+"_"+metalName+"_"+atm2.get_name().upper()
+				# print("test5\n")
+				residueNames = atm1.get_parent().get_resname() + "_" + metal.get_parent().get_resname() + "_" + atm2.get_parent().get_resname()
+				# print("test6\n")
+				residueNumbers = str(atm1.get_parent().get_full_id()[3][1]) + "_" +str(metal.get_parent().get_full_id()[3][1]) + "_" + str(atm2.get_parent().get_full_id()[3][1]) 
+				# print("test7\n")
+				residueChain = str(atm1.get_parent().get_full_id()[2]) + "_" + str(metal.get_parent().get_full_id()[2]) + "_" + str(atm2.get_parent().get_full_id()[2]) 
+				# print("test8\n")
+				occ = str(atm1.get_occupancy()) + "_" + str(metal.get_occupancy()) + "_" + str(atm2.get_occupancy()) 	
+				elements = atm1.element + "_" + metal.element + "_" + atm2.element  
+				angleInfo = [metal.element,elements,angle,atomNames,residueNames,residueNumbers,residueChain,occ]
+				angleStr = "" #string to easily output to file
+				for l in range(0,len (angleInfo)):
+					if l == 0:
+						angleStr = str(angleInfo[l])
+					if l > 0:
+						angleStr += "," + str(angleInfo[l])
+				angles.append(angleStr)
+	return angles
+
 def get_atomDistances(structure,metalName):
     # print(metalName) 
     metals = ["FE", "CO", "MN", "CU", "NI", "MO","W", "V"]
@@ -45,18 +99,20 @@ def get_atomDistances(structure,metalName):
         if idx != metalRow:
             distance = atoms[metalRow] - atoms[idx]
             atomNames = metalName+"_"+atoms[idx].get_name().upper()
-            # distance12[atomNames] = (get_element(metalName)+":"+get_element(atoms[idx].get_name().upper()),distance)
+            residueNames = atoms[metalRow].get_parent().get_resname() + "_" + atoms[idx].get_parent().get_resname()
+            residueNumbers = str(atoms[metalRow].get_parent().get_full_id()[3][1]) + "_" + str(atoms[idx].get_parent().get_full_id()[3][1]) 
+            residueChain = str(atoms[metalRow].get_parent().get_full_id()[2]) + "_" + str(atoms[idx].get_parent().get_full_id()[2]) 
             metOcc = atoms[metalRow].get_occupancy()
             ligOcc = atoms[idx].get_occupancy() #use for valency calc
-            distance12[atomNames] = (atoms[metalRow].element+":"+atoms[idx].element,distance,metOcc,ligOcc)
+            distance12[atomNames] = (atoms[metalRow].element+":"+atoms[idx].element,distance,metOcc,ligOcc,residueNames,residueNumbers,residueChain)
     return distance12
 #
 def get_valParms(metElem,ligElem):
     # need metal elements
     # metals = ["CO","CU","FE","MN","MO","NI","V","W"] #NO MG
     # ligands = ["C","N","O","F","P","S"]
-	parmFile='/home/kenneth/proj/proMin/valenceParms/bvparm2006.csv'
-	# parmFile = '/home/kenneth/box/proj/proXtal/nolan_valance/valenceParms/bvparm2006.csv'
+	parmFile='/home/kenneth/proj/proMin/valenceParms/bvparm2006.csv' #includes 2017 Zheng Fe - spin II/III
+	
 	dfParms = pd.read_csv(parmFile,sep=",",index_col=False,usecols=["valence_param_atom_1",
                                             "valence_param_atom_1_valence",
                                             "valence_param_atom_2",
@@ -72,6 +128,8 @@ def get_valParms(metElem,ligElem):
 
 	return dfParms
 
+# defining the VALENCY calculation function --------------------------------------------------------------------------
+# Author: Nolan Fehon/Kenneth
 def calc_bond_valence(r0,measured,ox_num):
 	r0 = float(r0)
 	measured = float(measured)
@@ -81,8 +139,6 @@ def calc_bond_valence(r0,measured,ox_num):
 	valence = math.exp((r0 - measured) / b)
 	return valence
 
-# defining the VALENCY calculation function --------------------------------------------------------------------------
-# Author: Nolan Fehon/Kenneth
 def calc_bvs(dists):  # inpu
 	#calculates bond valence sum
 
@@ -96,9 +152,7 @@ def calc_bvs(dists):  # inpu
     # #keep track of metal and ligand name to get distance values
 	dfParms = get_valParms(mElem,lElem)
 	# print(dfParms)
-	# get distinct values of the dataframe based on column
-	# dfParms = dfParms.drop_duplicates(subset = ["valence_param_atom_1","valence_param_atom_1_valence","valence_param_atom_2"], keep='first')
-	# print(dfParms)
+	
 	metVal = {}
 
 	# loop through key, metElem, ligElem, dist

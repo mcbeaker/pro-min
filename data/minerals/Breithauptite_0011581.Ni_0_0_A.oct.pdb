@@ -1,0 +1,7 @@
+HETATM    0 Ni   UNK A   0       0.000   0.000   0.000  1.00  0.00          NI
+HETATM   19 Sb   UNK    19       1.970   1.137  -1.285  1.00  0.00          SB
+HETATM    3 Sb   UNK     3      -1.970  -1.137   1.285  1.00  0.00          SB
+HETATM   18 Sb   UNK    18      -0.000  -2.275  -1.285  1.00  0.00          SB
+HETATM   20 Sb   UNK    20      -1.970   1.137  -1.285  1.00  0.00          SB
+HETATM    2 Sb   UNK     2       1.970  -1.137   1.285  1.00  0.00          SB
+HETATM    1 Sb   UNK     1       0.000   2.275   1.285  1.00  0.00          SB

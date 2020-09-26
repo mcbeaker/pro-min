@@ -1,0 +1,5 @@
+HETATM   46 Cu   UNK A  46       1.400   4.200   1.835  1.00  0.00          CU
+HETATM   33 Au   UNK    33       2.800   2.800   0.000  1.00  0.00          AU
+HETATM   24 Au   UNK    24       0.000   2.800   0.000  1.00  0.00          AU
+HETATM   25 Au   UNK    25       0.000   2.800   3.670  1.00  0.00          AU
+HETATM   34 Au   UNK    34       2.800   2.800   3.670  1.00  0.00          AU

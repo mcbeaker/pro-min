@@ -1,0 +1,7 @@
+HETATM    0 Cu   UNK A   0       1.284   4.118   0.177  1.00  0.00          CU
+HETATM    1  O-H UNK     1       2.233   5.666  -0.682  1.00  0.00           O
+HETATM    9 Cl   UNK     9       2.593   2.736  -1.734  1.00  0.00          CL
+HETATM    8 Cl   UNK     8       2.962   3.935   1.734  1.00  0.00          CL
+HETATM    6  O-H UNK     6      -0.544   4.341  -0.682  1.00  0.00           O
+HETATM    7  O-H UNK     7       0.544   2.330   0.682  1.00  0.00           O
+HETATM    2 Cl   UNK     2       0.185   6.071   1.734  1.00  0.00          CL

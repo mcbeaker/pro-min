@@ -1,0 +1,7 @@
+HETATM    0 Mn   UNK A   0       2.152   2.134   2.117  1.00  0.00          MN
+HETATM    7 Cl   UNK     7       4.692   2.134   2.117  1.00  0.00          CL
+HETATM    4 Cl   UNK     4       2.173   2.155   4.657  1.00  0.00          CL
+HETATM   10 Cl   UNK    10       2.173   4.674   2.117  1.00  0.00          CL
+HETATM    1 Cl   UNK     1       2.131  -0.406   2.117  1.00  0.00          CL
+HETATM    8 Cl   UNK     8      -0.389   2.134   2.117  1.00  0.00          CL
+HETATM    5 Cl   UNK     5       2.131   2.113  -0.423  1.00  0.00          CL

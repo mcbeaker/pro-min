@@ -1,0 +1,7 @@
+HETATM    0 Fe   UNK A   0       1.788   2.396   2.857  1.00  0.00          FE
+HETATM    1 Se   UNK     1       1.788   3.402   0.743  1.00  0.00          SE
+HETATM    9 Se   UNK     9       3.575   1.006   2.115  1.00  0.00          SE
+HETATM    8 Se   UNK     8       0.000   1.006   2.115  1.00  0.00          SE
+HETATM   12 Se   UNK    12       1.788   1.389   4.972  1.00  0.00          SE
+HETATM   11 Se   UNK    11       3.575   3.785   3.600  1.00  0.00          SE
+HETATM   10 Se   UNK    10       0.000   3.785   3.600  1.00  0.00          SE

@@ -1,0 +1,4 @@
+HETATM    0 Cu   UNK A   0       2.123   4.209   3.561  1.00  1.18          CU
+HETATM    1 As   UNK     1       2.118   2.118   2.118  1.00  0.70          AS
+HETATM   25 As   UNK    25       0.287   4.523   5.096  1.00  0.70          AS
+HETATM   23 As   UNK    23       4.523   4.523   4.523  1.00  0.70          AS
