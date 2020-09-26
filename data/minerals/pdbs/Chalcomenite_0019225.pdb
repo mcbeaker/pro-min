@@ -1,0 +1,20 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Chalcomenite_0019225.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       0.123   1.418   2.109  1.00  0.97          CU
+HETATM    1 Se   UNK     1       1.523   3.591   0.319  1.00  0.82          SE
+HETATM    2  O1  UNK     2       1.607   2.576   1.671  1.00  1.26           O
+HETATM    3  O2  UNK     3       3.132   3.544  -0.218  1.00  1.11           O
+HETATM    4  O3  UNK     4       1.555   5.122   1.060  1.00  1.09           O
+HETATM    5  O4  UNK     5       0.331   1.981   4.002  1.00  1.31           O
+HETATM    6  H41 UNK     6      -0.573   1.925   4.343  1.00  0.00           H
+HETATM    7  H43 UNK     7       0.840   2.586   4.557  1.00  0.00           H
+HETATM    8  O5  UNK     8       1.391  -0.534   2.274  1.00  1.82           O
+HETATM    9  H52 UNK     9       2.346  -0.376   2.595  1.00  0.00           H
+HETATM   10  H54 UNK    10       1.467  -1.164   1.452  1.00  0.00           H
+HETATM   11 Cu   UNK    11      -0.123   6.003   1.578  1.00  0.97          CU
+HETATM   12 Cu   UNK    12       3.456   3.166  -2.109  1.00  0.97          CU
+HETATM   13  O2  UNK    13      -0.201   1.041   0.218  1.00  1.11           O
+HETATM   14  O3  UNK    14      -1.555   0.537   2.627  1.00  1.09           O
+END

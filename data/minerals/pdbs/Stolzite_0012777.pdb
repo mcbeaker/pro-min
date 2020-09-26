@@ -1,0 +1,25 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Stolzite_0012777.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  W   UNK     0       0.000   1.364   1.502  1.00  0.20           W
+HETATM    1  O   UNK     1       1.303   0.623   0.516  1.00  1.00           O
+HETATM    2 Pb   UNK     2       2.728  -1.364   1.502  1.00  0.20          PB
+HETATM    3  O   UNK     3      -0.741   0.061   2.489  1.00  1.00           O
+HETATM    4  O   UNK     4      -1.303   2.105   0.516  1.00  1.00           O
+HETATM    5  O   UNK     5       0.741   2.667   2.489  1.00  1.00           O
+HETATM    6  O   UNK     6       4.715   0.061   2.489  1.00  1.00           O
+HETATM    7  O   UNK     7       3.469  -2.789   3.521  1.00  1.00           O
+HETATM    8  O   UNK     8       1.303  -2.105  -0.516  1.00  1.00           O
+HETATM    9  O   UNK     9       4.153  -3.351   0.516  1.00  1.00           O
+HETATM   10  O   UNK    10       0.741  -2.789   2.489  1.00  1.00           O
+HETATM   11  O   UNK    11       1.987   0.061   3.521  1.00  1.00           O
+HETATM   12  O   UNK    12       4.153  -0.623  -0.516  1.00  1.00           O
+HETATM   13 Pb   UNK    13      -2.728  -1.364   1.502  1.00  0.20          PB
+HETATM   14 Pb   UNK    14      -2.728   4.092   1.502  1.00  0.20          PB
+HETATM   15 Pb   UNK    15       2.728   4.092   1.502  1.00  0.20          PB
+HETATM   16 Pb   UNK    16       0.000  -1.364   4.508  1.00  0.20          PB
+HETATM   17 Pb   UNK    17       0.000   4.092   4.508  1.00  0.20          PB
+HETATM   18 Pb   UNK    18      -2.728   1.364  -1.502  1.00  0.20          PB
+HETATM   19 Pb   UNK    19       2.728   1.364  -1.502  1.00  0.20          PB
+END

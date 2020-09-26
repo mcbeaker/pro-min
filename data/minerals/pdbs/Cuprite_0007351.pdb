@@ -1,0 +1,12 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Cuprite_0007351.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       1.067   1.067   1.067  1.00  0.00          CU
+HETATM    1  O   UNK     1       0.000   0.000   0.000  1.00  0.00           O
+HETATM    2 Cu   UNK     2      -1.067  -1.067   1.067  1.00  0.00          CU
+HETATM    3 Cu   UNK     3      -1.067   1.067  -1.067  1.00  0.00          CU
+HETATM    4 Cu   UNK     4       1.067  -1.067  -1.067  1.00  0.00          CU
+HETATM    5  O   UNK     5      -2.135  -2.135   2.135  1.00  0.00           O
+HETATM    6  O   UNK     6       2.135   2.135   2.135  1.00  0.00           O
+END

@@ -1,0 +1,24 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Bandylite_0005654.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       0.000   3.086   3.529  1.00  1.10          CU
+HETATM    1  B   UNK     1       3.086   3.086   2.793  1.00  1.32           B
+HETATM    2  O   UNK     2       4.237   2.752   3.656  1.00  0.96           O
+HETATM    3 Cl   UNK     3       0.000   3.086   0.797  1.00  1.47          CL
+HETATM    4  H   UNK     4       4.011   2.129   4.207  1.00  1.58           H
+HETATM    5  O   UNK     5       2.752   1.934   1.931  1.00  0.96           O
+HETATM    6  H   UNK     6       2.129   2.160   1.380  1.00  1.58           H
+HETATM    7  O   UNK     7       1.934   3.419   3.656  1.00  0.96           O
+HETATM    8  H   UNK     8       2.160   4.042   4.207  1.00  1.58           H
+HETATM    9  O   UNK     9       3.419   4.237   1.931  1.00  0.96           O
+HETATM   10  H   UNK    10       4.042   4.011   1.380  1.00  1.58           H
+HETATM   11 Cu   UNK    11       6.171   3.086   3.529  1.00  1.10          CU
+HETATM   12 Cu   UNK    12       0.000   3.086  -2.058  1.00  1.10          CU
+HETATM   13 Cu   UNK    13       3.086   0.000   2.058  1.00  1.10          CU
+HETATM   14 Cu   UNK    14       3.086   6.171   2.058  1.00  1.10          CU
+HETATM   15  O   UNK    15      -1.934   2.752   3.656  1.00  0.96           O
+HETATM   16  O   UNK    16       0.333   1.152   3.656  1.00  0.96           O
+HETATM   17  O   UNK    17      -0.333   5.019   3.656  1.00  0.96           O
+HETATM   18 Cl   UNK    18       0.000   3.086   6.384  1.00  1.47          CL
+END

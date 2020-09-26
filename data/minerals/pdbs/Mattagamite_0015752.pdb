@@ -1,0 +1,18 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Mattagamite_0015752.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Co   UNK     0       1.941   2.651   3.149  1.00  0.00          CO
+HETATM    1 Te   UNK     1       1.941   3.817   0.882  1.00  0.00          TE
+HETATM    2 Te   UNK     2       1.941   1.484  -0.882  1.00  0.00          TE
+HETATM    3 Co   UNK     3       1.941   2.651  -3.149  1.00  0.00          CO
+HETATM    4 Co   UNK     4       0.000   0.000   0.000  1.00  0.00          CO
+HETATM    5 Co   UNK     5       0.000   5.301   0.000  1.00  0.00          CO
+HETATM    6 Co   UNK     6       3.882   0.000   0.000  1.00  0.00          CO
+HETATM    7 Co   UNK     7       3.882   5.301   0.000  1.00  0.00          CO
+HETATM    8 Te   UNK     8       0.000   1.166   2.267  1.00  0.00          TE
+HETATM    9 Te   UNK     9       3.882   1.166   2.267  1.00  0.00          TE
+HETATM   10 Te   UNK    10       0.000   4.135   4.031  1.00  0.00          TE
+HETATM   11 Te   UNK    11       3.882   4.135   4.031  1.00  0.00          TE
+HETATM   12 Te   UNK    12       1.941   1.484   5.416  1.00  0.00          TE
+END

@@ -1,0 +1,29 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Stannite_0010546.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       2.730   0.000   2.681  1.00  0.00          CU
+HETATM    1 Fe   UNK     1       0.000   0.000   0.000  1.00  0.00          FE
+HETATM    2  S   UNK     2       1.338   1.338   1.416  1.00  0.00           S
+HETATM    3 Sn   UNK     3       2.730   2.730   0.000  1.00  0.00          SN
+HETATM    4 Cu   UNK     4      -0.000  -2.730   2.681  1.00  0.00          CU
+HETATM    5  S   UNK     5      -1.338  -1.338   1.416  1.00  0.00           S
+HETATM    6  S   UNK     6       4.068   1.392   3.947  1.00  0.00           S
+HETATM    7  S   UNK     7       1.392  -1.392   3.947  1.00  0.00           S
+HETATM    8 Cu   UNK     8      -2.730   0.000   2.681  1.00  0.00          CU
+HETATM    9 Cu   UNK     9       0.000   2.730   2.681  1.00  0.00          CU
+HETATM   10 Cu   UNK    10       5.460   2.730   2.681  1.00  0.00          CU
+HETATM   11 Fe   UNK    11       2.730  -2.730   5.362  1.00  0.00          FE
+HETATM   12 Fe   UNK    12       2.730   2.730   5.362  1.00  0.00          FE
+HETATM   13  S   UNK    13       1.338  -4.122   1.416  1.00  0.00           S
+HETATM   14  S   UNK    14       4.122  -1.338   1.416  1.00  0.00           S
+HETATM   15  S   UNK    15       4.122   4.122   1.416  1.00  0.00           S
+HETATM   16  S   UNK    16       1.338  -1.338  -1.416  1.00  0.00           S
+HETATM   17  S   UNK    17       1.338   4.122  -1.416  1.00  0.00           S
+HETATM   18  S   UNK    18      -1.392  -4.068   3.947  1.00  0.00           S
+HETATM   19  S   UNK    19      -1.338   1.338  -1.416  1.00  0.00           S
+HETATM   20  S   UNK    20       4.122   1.338  -1.416  1.00  0.00           S
+HETATM   21 Sn   UNK    21      -2.730  -2.730   0.000  1.00  0.00          SN
+HETATM   22 Sn   UNK    22       0.000   0.000   5.362  1.00  0.00          SN
+HETATM   23 Sn   UNK    23       5.460   0.000   5.362  1.00  0.00          SN
+END

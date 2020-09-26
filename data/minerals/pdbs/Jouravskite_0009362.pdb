@@ -1,0 +1,32 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Jouravskite_0009362.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Ca   UNK     0      -2.253   0.023   3.083  1.00  1.47          CA
+HETATM    1 O-H5 UNK     1      -0.749   1.299   1.553  1.00  2.08           O
+HETATM    2 Mn   UNK     2       0.000   0.000   0.457  1.00  1.23          MN
+HETATM    3 O-H4 UNK     3      -0.775  -1.256   4.535  1.00  1.43           O
+HETATM    4 Ca   UNK     4       1.107  -1.963   3.083  1.00  1.47          CA
+HETATM    5 O-H5 UNK     5      -0.750  -1.298   1.553  1.00  2.08           O
+HETATM    6 O-H4 UNK     6       1.475  -0.043   4.535  1.00  1.43           O
+HETATM    7 Ca   UNK     7       1.146   1.940   3.083  1.00  1.47          CA
+HETATM    8 O-H5 UNK     8       1.499  -0.001   1.553  1.00  2.08           O
+HETATM    9 O-H4 UNK     9      -0.700   1.299   4.535  1.00  1.43           O
+HETATM   10 Mn   UNK    10       0.000   0.000   5.707  1.00  1.23          MN
+HETATM   11 O-H4 UNK    11       0.700  -1.299  -0.715  1.00  1.43           O
+HETATM   12 O-H4 UNK    12       0.775   1.256  -0.715  1.00  1.43           O
+HETATM   13 O-H4 UNK    13      -1.475   0.043  -0.715  1.00  1.43           O
+HETATM   14  S   UNK    14       5.530   3.193   0.362  1.00  1.03           S
+HETATM   15  O1  UNK    15       5.530   3.193  -1.190  1.00  7.13           O
+HETATM   16  O3  UNK    16       5.627   1.855   0.791  1.00  3.88           O
+HETATM   17  O3  UNK    17       6.640   3.945   0.791  1.00  3.88           O
+HETATM   18  O3  UNK    18       4.323   3.778   0.791  1.00  3.88           O
+HETATM   19  C   UNK    19       0.000   6.385   0.000  1.00  4.45           C
+HETATM   20  O2  UNK    20       0.967   5.435   0.000  1.00  2.25           O
+HETATM   21  O2  UNK    21       0.340   7.698   0.000  1.00  2.25           O
+HETATM   22  O2  UNK    22      -1.307   6.024   0.000  1.00  2.25           O
+HETATM   23 Wat6 UNK    23       2.008   3.135   5.076  1.00  2.62           O
+HETATM   24 Wat7 UNK    24       1.762   3.322   1.205  1.00  1.78           O
+HETATM   25 Wat8 UNK    25       3.632   1.442   2.949  1.00  2.51           O
+HETATM   26 Wat9 UNK    26      -0.445   3.819   3.042  1.00  2.79           O
+END

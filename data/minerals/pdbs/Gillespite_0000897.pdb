@@ -1,0 +1,44 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Gillespite_0000897.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Ba   UNK     0       5.637   1.879   0.000  1.00  1.02          BA
+HETATM    1 Si   UNK     1       4.244   3.905   2.490  1.00  0.72          SI
+HETATM    2  O1  UNK     2       3.953   3.563   4.019  1.00  2.76           O
+HETATM    3  O2  UNK     3       3.784   5.433   2.210  1.00  1.49           O
+HETATM    4  O3  UNK     4       3.559   2.935   1.450  1.00  1.62           O
+HETATM    5 Si   UNK     5       3.611   3.272   5.548  1.00  0.72          SI
+HETATM    6  O2  UNK     6       2.083   3.732   5.828  1.00  1.49           O
+HETATM    7  O3  UNK     7       4.581   3.957   6.588  1.00  1.62           O
+HETATM    8 Fe   UNK     8       1.879   1.879   1.477  1.00  0.84          FE
+HETATM    9 Si   UNK     9       7.031  -0.147   2.490  1.00  0.72          SI
+HETATM   10  O1  UNK    10       7.321   0.195   4.019  1.00  2.76           O
+HETATM   11  O2  UNK    11       7.490  -1.675   2.210  1.00  1.49           O
+HETATM   12  O3  UNK    12       7.715   0.823   1.450  1.00  1.62           O
+HETATM   13 Si   UNK    13       7.663   0.486   5.548  1.00  0.72          SI
+HETATM   14  O2  UNK    14       9.191   0.026   5.828  1.00  1.49           O
+HETATM   15  O3  UNK    15       6.693  -0.199   6.588  1.00  1.62           O
+HETATM   16 Ba   UNK    16       9.395  -1.879   8.038  1.00  1.02          BA
+HETATM   17 Ba   UNK    17       1.879   5.637   8.038  1.00  1.02          BA
+HETATM   18 Ba   UNK    18       5.637   1.879   8.038  1.00  1.02          BA
+HETATM   19 Ba   UNK    19       9.395  -1.879   0.000  1.00  1.02          BA
+HETATM   20 Ba   UNK    20       1.879   5.637   0.000  1.00  1.02          BA
+HETATM   21 Si   UNK    21       7.369  -3.272   2.490  1.00  0.72          SI
+HETATM   22 Si   UNK    22       0.486   3.611   5.548  1.00  0.72          SI
+HETATM   23 Si   UNK    23       3.905   7.031   2.490  1.00  0.72          SI
+HETATM   24 Si   UNK    24      10.789   0.147   5.548  1.00  0.72          SI
+HETATM   25  O2  UNK    25       5.841   3.784   2.210  1.00  1.49           O
+HETATM   26  O2  UNK    26       7.542   2.083   5.828  1.00  1.49           O
+HETATM   27  O2  UNK    27       7.542   1.675  -2.210  1.00  1.49           O
+HETATM   28  O2  UNK    28       5.433  -0.026   2.210  1.00  1.49           O
+HETATM   29  O2  UNK    29       3.732   1.675   5.828  1.00  1.49           O
+HETATM   30  O2  UNK    30       3.732   2.083  -2.210  1.00  1.49           O
+HETATM   31  O3  UNK    31       6.693   3.957  -1.450  1.00  1.62           O
+HETATM   32  O3  UNK    32       0.823   3.559   1.450  1.00  1.62           O
+HETATM   33  O3  UNK    33       0.199   0.823   1.450  1.00  1.62           O
+HETATM   34  O3  UNK    34       4.581  -0.199  -1.450  1.00  1.62           O
+HETATM   35  O3  UNK    35       2.935   0.199   1.450  1.00  1.62           O
+HETATM   36 Fe   UNK    36       9.395   1.879   1.477  1.00  0.84          FE
+HETATM   37 Fe   UNK    37       5.637  -1.879   6.561  1.00  0.84          FE
+HETATM   38 Fe   UNK    38       5.637   5.637   6.561  1.00  0.84          FE
+END

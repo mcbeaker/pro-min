@@ -1,0 +1,18 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Cobaltite_0005243.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 As   UNK     0       2.128   0.730   0.651  1.00 44.07          AS
+HETATM    1  S   UNK     1       3.447   2.061  -0.670  1.00 39.37           S
+HETATM    2 Co   UNK     2       2.819   1.448   2.791  1.00 29.77          CO
+HETATM    3 As   UNK     3       0.664   0.730   3.442  1.00 44.07          AS
+HETATM    4 As   UNK     4       3.455  -0.730   3.442  1.00 44.07          AS
+HETATM    5  S   UNK     5       3.447   2.061   4.911  1.00 39.37           S
+HETATM    6  S   UNK     6       4.928   2.061   2.121  1.00 39.37           S
+HETATM    7  S   UNK     7       2.137   3.528   2.121  1.00 39.37           S
+HETATM    8 Co   UNK     8       2.819   1.448  -2.791  1.00 29.77          CO
+HETATM    9 Co   UNK     9       5.556   1.448   0.000  1.00 29.77          CO
+HETATM   10 Co   UNK    10      -0.028   1.448   0.000  1.00 29.77          CO
+HETATM   11 Co   UNK    11       2.764   4.141   0.000  1.00 29.77          CO
+HETATM   12 Co   UNK    12       2.764  -1.448   0.000  1.00 29.77          CO
+END

@@ -1,0 +1,15 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Belloite_0011830.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       1.284   4.118   0.177  1.00  0.00          CU
+HETATM    1  O-H UNK     1       2.233   5.666  -0.682  1.00  0.00           O
+HETATM    2 Cl   UNK     2       0.185   6.071   1.734  1.00  0.00          CL
+HETATM    3 Cu   UNK     3       4.061   5.888   0.177  1.00  0.00          CU
+HETATM    4 Cu   UNK     4      -1.494   5.888   0.177  1.00  0.00          CU
+HETATM    5 Cu   UNK     5       1.494   7.454  -0.177  1.00  0.00          CU
+HETATM    6  O-H UNK     6      -0.544   4.341  -0.682  1.00  0.00           O
+HETATM    7  O-H UNK     7       0.544   2.330   0.682  1.00  0.00           O
+HETATM    8 Cl   UNK     8       2.962   3.935   1.734  1.00  0.00          CL
+HETATM    9 Cl   UNK     9       2.593   2.736  -1.734  1.00  0.00          CL
+END

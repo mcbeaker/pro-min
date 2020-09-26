@@ -1,0 +1,18 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Alloclasite_00005134.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Co   UNK     0       1.154   0.000   0.835  1.00  1.02          CO
+HETATM    1 As   UNK     1       0.219   2.081   0.871  1.00  1.32          AS
+HETATM    2  S   UNK     2       2.053   3.486   0.827  1.00  1.45           S
+HETATM    3 Co   UNK     3       1.154   5.602   0.835  1.00  1.02          CO
+HETATM    4 Co   UNK     4      -1.154   2.801  -0.835  1.00  1.02          CO
+HETATM    5 Co   UNK     5      -1.166   2.801   2.576  1.00  1.02          CO
+HETATM    6 Co   UNK     6       3.507   2.801  -0.835  1.00  1.02          CO
+HETATM    7 Co   UNK     7       3.495   2.801   2.576  1.00  1.02          CO
+HETATM    8 As   UNK     8      -0.219  -0.720  -0.871  1.00  1.32          AS
+HETATM    9 As   UNK     9      -0.231  -0.720   2.540  1.00  1.32          AS
+HETATM   10  S   UNK    10       2.053  -2.116   0.827  1.00  1.45           S
+HETATM   11  S   UNK    11       2.608   0.685  -0.827  1.00  1.45           S
+HETATM   12  S   UNK    12       2.596   0.685   2.584  1.00  1.45           S
+END

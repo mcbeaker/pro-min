@@ -1,0 +1,47 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Saltonseaite_0019751.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  K   UNK     0       2.275   3.043   5.815  1.00  2.12           K
+HETATM    1 Na   UNK     1       0.000   0.000   3.489  1.00  2.28          NA
+HETATM    2 Mn   UNK     2       0.000   0.000   6.978  1.00  1.30          MN
+HETATM    3 Cl   UNK     3      -0.770   1.902   5.458  1.00  1.83          CL
+HETATM    4  K   UNK     4       1.498   3.492   1.163  1.00  2.12           K
+HETATM    5 Cl   UNK     5       2.032   0.284   1.519  1.00  1.83          CL
+HETATM    6  K   UNK     6       2.275  -3.043   1.163  1.00  2.12           K
+HETATM    7 Cl   UNK     7      -0.770  -1.902   1.519  1.00  1.83          CL
+HETATM    8 Cl   UNK     8      -1.262   1.618   1.519  1.00  1.83          CL
+HETATM    9 Cl   UNK     9      -1.262  -1.618   5.458  1.00  1.83          CL
+HETATM   10 Cl   UNK    10       2.032  -0.284   5.458  1.00  1.83          CL
+HETATM   11  K   UNK    11      -3.773  -0.449   1.163  1.00  2.12           K
+HETATM   12  K   UNK    12      -2.275   3.043  -1.163  1.00  2.12           K
+HETATM   13  K   UNK    13       3.773  -0.449   8.141  1.00  2.12           K
+HETATM   14  K   UNK    14      -2.275  -3.940   3.489  1.00  2.12           K
+HETATM   15  K   UNK    15       1.498  -3.492   5.815  1.00  2.12           K
+HETATM   16  K   UNK    16       3.773   0.448  -1.163  1.00  2.12           K
+HETATM   17  K   UNK    17      -2.275  -3.044   8.141  1.00  2.12           K
+HETATM   18  K   UNK    18      -2.275   3.940   3.489  1.00  2.12           K
+HETATM   19  K   UNK    19      -3.773   0.449   5.815  1.00  2.12           K
+HETATM   20  K   UNK    20      -1.498  -3.492  -1.163  1.00  2.12           K
+HETATM   21  K   UNK    21      -1.498   3.492   8.141  1.00  2.12           K
+HETATM   22  K   UNK    22       4.550   0.000   3.489  1.00  2.12           K
+HETATM   23 Mn   UNK    23       0.000   0.000   0.000  1.00  1.30          MN
+HETATM   24 Cl   UNK    24       5.278  -1.590   0.806  1.00  1.83          CL
+HETATM   25 Cl   UNK    25       0.770   1.902  -1.519  1.00  1.83          CL
+HETATM   26 Cl   UNK    26       0.770  -5.082   3.132  1.00  1.83          CL
+HETATM   27 Cl   UNK    27       1.262  -1.618  -1.519  1.00  1.83          CL
+HETATM   28 Cl   UNK    28       1.262   5.366   7.784  1.00  1.83          CL
+HETATM   29 Cl   UNK    29       5.278   1.590   6.171  1.00  1.83          CL
+HETATM   30 Cl   UNK    30       4.016   3.208   3.132  1.00  1.83          CL
+HETATM   31 Cl   UNK    31       4.786   5.110   6.171  1.00  1.83          CL
+HETATM   32 Cl   UNK    32      -2.032   0.284   8.497  1.00  1.83          CL
+HETATM   33 Cl   UNK    33       4.016  -3.208   3.845  1.00  1.83          CL
+HETATM   34 Cl   UNK    34       4.016   3.776  -0.806  1.00  1.83          CL
+HETATM   35 Cl   UNK    35       4.786  -5.110   0.806  1.00  1.83          CL
+HETATM   36 Cl   UNK    36      -1.262   5.366   0.806  1.00  1.83          CL
+HETATM   37 Cl   UNK    37       0.770  -1.902   8.497  1.00  1.83          CL
+HETATM   38 Cl   UNK    38       0.770   5.082   3.845  1.00  1.83          CL
+HETATM   39 Cl   UNK    39       2.032   6.700   0.806  1.00  1.83          CL
+HETATM   40 Cl   UNK    40       1.262   1.618   8.497  1.00  1.83          CL
+HETATM   41 Cl   UNK    41       1.262  -5.366  -0.806  1.00  1.83          CL
+END

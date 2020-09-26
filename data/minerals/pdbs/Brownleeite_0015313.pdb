@@ -1,0 +1,22 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Brownleeite_0015313.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Mn   UNK     0       0.636   0.636   0.636  1.00  0.04          MN
+HETATM    1 Si   UNK     1      -0.695  -0.695  -0.695  1.00  1.18          SI
+HETATM    2 Mn   UNK     2      -2.913  -0.636  -1.642  1.00  0.04          MN
+HETATM    3 Mn   UNK     3       1.642  -0.636  -1.642  1.00  0.04          MN
+HETATM    4 Mn   UNK     4       1.642  -0.636   2.913  1.00  0.04          MN
+HETATM    5 Mn   UNK     5      -0.636  -1.642  -2.913  1.00  0.04          MN
+HETATM    6 Mn   UNK     6      -0.636  -1.642   1.642  1.00  0.04          MN
+HETATM    7 Mn   UNK     7      -0.636   2.913   1.642  1.00  0.04          MN
+HETATM    8 Mn   UNK     8      -1.642  -2.913  -0.636  1.00  0.04          MN
+HETATM    9 Mn   UNK     9      -1.642   1.642  -0.636  1.00  0.04          MN
+HETATM   10 Mn   UNK    10       2.913   1.642  -0.636  1.00  0.04          MN
+HETATM   11 Si   UNK    11      -1.583   0.695   1.583  1.00  1.18          SI
+HETATM   12 Si   UNK    12       2.973   0.695   1.583  1.00  1.18          SI
+HETATM   13 Si   UNK    13       0.695   1.583  -1.583  1.00  1.18          SI
+HETATM   14 Si   UNK    14       0.695   1.583   2.973  1.00  1.18          SI
+HETATM   15 Si   UNK    15       1.583  -1.583   0.695  1.00  1.18          SI
+HETATM   16 Si   UNK    16       1.583   2.973   0.695  1.00  1.18          SI
+END

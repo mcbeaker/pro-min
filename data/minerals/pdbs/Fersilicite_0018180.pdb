@@ -1,0 +1,22 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Fersilicite_0018180.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Fe   UNK     0       0.599   0.599   0.599  1.00  0.00          FE
+HETATM    1 Si   UNK     1      -0.695  -0.695  -0.695  1.00  0.00          SI
+HETATM    2 Fe   UNK     2      -2.832  -0.599  -1.635  1.00  0.00          FE
+HETATM    3 Fe   UNK     3       1.635  -0.599  -1.635  1.00  0.00          FE
+HETATM    4 Fe   UNK     4       1.635  -0.599   2.832  1.00  0.00          FE
+HETATM    5 Fe   UNK     5      -0.599  -1.635  -2.832  1.00  0.00          FE
+HETATM    6 Fe   UNK     6      -0.599  -1.635   1.635  1.00  0.00          FE
+HETATM    7 Fe   UNK     7      -0.599   2.832   1.635  1.00  0.00          FE
+HETATM    8 Fe   UNK     8      -1.635  -2.832  -0.599  1.00  0.00          FE
+HETATM    9 Fe   UNK     9      -1.635   1.635  -0.599  1.00  0.00          FE
+HETATM   10 Fe   UNK    10       2.832   1.635  -0.599  1.00  0.00          FE
+HETATM   11 Si   UNK    11      -1.539   0.695   1.539  1.00  0.00          SI
+HETATM   12 Si   UNK    12       2.928   0.695   1.539  1.00  0.00          SI
+HETATM   13 Si   UNK    13       0.695   1.539  -1.539  1.00  0.00          SI
+HETATM   14 Si   UNK    14       0.695   1.539   2.928  1.00  0.00          SI
+HETATM   15 Si   UNK    15       1.539  -1.539   0.695  1.00  0.00          SI
+HETATM   16 Si   UNK    16       1.539   2.928   0.695  1.00  0.00          SI
+END

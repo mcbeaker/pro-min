@@ -1,0 +1,18 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Hauerite_0010545.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  S   UNK     0       0.602   3.651  -0.602  1.00  0.00           S
+HETATM    1  S   UNK     1      -0.602   2.446   0.602  1.00  0.00           S
+HETATM    2 Mn   UNK     2       3.049   3.049   0.000  1.00  0.00          MN
+HETATM    3  S   UNK     3       2.446   0.602  -0.602  1.00  0.00           S
+HETATM    4  S   UNK     4       3.651   3.651  -2.446  1.00  0.00           S
+HETATM    5  S   UNK     5       5.495   2.446   0.602  1.00  0.00           S
+HETATM    6  S   UNK     6       2.446   2.446   2.446  1.00  0.00           S
+HETATM    7  S   UNK     7       3.651   5.495   0.602  1.00  0.00           S
+HETATM    8 Mn   UNK     8      -3.049   3.049   0.000  1.00  0.00          MN
+HETATM    9 Mn   UNK     9       0.000   3.049  -3.049  1.00  0.00          MN
+HETATM   10 Mn   UNK    10       0.000   3.049   3.049  1.00  0.00          MN
+HETATM   11 Mn   UNK    11       0.000   6.097   0.000  1.00  0.00          MN
+HETATM   12 Mn   UNK    12       0.000   0.000   0.000  1.00  0.00          MN
+END

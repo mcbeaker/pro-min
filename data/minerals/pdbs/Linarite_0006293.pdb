@@ -1,0 +1,28 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Linarite_0006293.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Pb   UNK     0       5.357   4.234   4.513  1.00  1.46          PB
+HETATM    1  S   UNK     1       2.752   4.234   2.029  1.00  0.70           S
+HETATM    2  O1  UNK     2       4.174   4.234   1.873  1.00  1.50           O
+HETATM    3  O2  UNK     3       2.482   4.234   3.500  1.00  1.95           O
+HETATM    4  O3  UNK     4       2.128   3.033   1.420  1.00  1.38           O
+HETATM    5  O3  UNK     5       2.128   5.436   1.420  1.00  1.38           O
+HETATM    6  O5  UNK     6       7.549   4.234   5.362  1.00  0.83           O
+HETATM    7  H5  UNK     7       7.713   4.235   6.374  1.00  1.66           H
+HETATM    8 Cu   UNK     8       0.000   2.823   0.000  1.00  0.83          CU
+HETATM    9  O4  UNK     9       0.587   4.234  -1.154  1.00  0.83           O
+HETATM   10  H4  UNK    10       1.539   4.234  -1.170  1.00  2.17           H
+HETATM   11 Pb   UNK    11       3.299   1.411   0.056  1.00  1.46          PB
+HETATM   12 Pb   UNK    12       3.299   7.058   0.056  1.00  1.46          PB
+HETATM   13  O3  UNK    13       6.528   5.856   3.150  1.00  1.38           O
+HETATM   14  O3  UNK    14       6.528   2.613   3.150  1.00  1.38           O
+HETATM   15  O3  UNK    15      -2.128   2.613  -1.420  1.00  1.38           O
+HETATM   16  O5  UNK    16      -1.107   4.234   0.793  1.00  0.83           O
+HETATM   17  O5  UNK    17       1.107   1.411  -0.793  1.00  0.83           O
+HETATM   18 Cu   UNK    18       8.656   2.823   4.569  1.00  0.83          CU
+HETATM   19 Cu   UNK    19       8.656   5.646   4.569  1.00  0.83          CU
+HETATM   20 Cu   UNK    20       0.000   0.000   0.000  1.00  0.83          CU
+HETATM   21 Cu   UNK    21       0.000   5.646   0.000  1.00  0.83          CU
+HETATM   22  O4  UNK    22      -0.587   1.411   1.154  1.00  0.83           O
+END

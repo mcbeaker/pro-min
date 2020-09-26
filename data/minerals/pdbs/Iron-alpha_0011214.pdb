@@ -1,0 +1,60 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Iron-alpha_0011214.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Fe   UNK     0       0.000   2.866   0.000  1.00  0.00          FE
+HETATM    1 Fe   UNK     1       0.000   0.000   0.000  1.00  0.00          FE
+HETATM    2 Fe   UNK     2       0.000   0.000   2.866  1.00  0.00          FE
+HETATM    3 Fe   UNK     3       0.000   2.866  -2.866  1.00  0.00          FE
+HETATM    4 Fe   UNK     4       2.866   0.000   2.866  1.00  0.00          FE
+HETATM    5 Fe   UNK     5      -2.866   0.000   0.000  1.00  0.00          FE
+HETATM    6 Fe   UNK     6       2.866  -2.866   2.866  1.00  0.00          FE
+HETATM    7 Fe   UNK     7       0.000  -2.866   2.866  1.00  0.00          FE
+HETATM    8 Fe   UNK     8      -0.000  -2.866   0.000  1.00  0.00          FE
+HETATM    9 Fe   UNK     9      -2.866  -2.866   0.000  1.00  0.00          FE
+HETATM   10 Fe   UNK    10       2.867   0.000   5.733  1.00  0.00          FE
+HETATM   11 Fe   UNK    11       0.000   0.000   5.733  1.00  0.00          FE
+HETATM   12 Fe   UNK    12       5.733   0.000   2.866  1.00  0.00          FE
+HETATM   13 Fe   UNK    13      -2.866   0.000   2.866  1.00  0.00          FE
+HETATM   14 Fe   UNK    14       2.866   0.000   0.000  1.00  0.00          FE
+HETATM   15 Fe   UNK    15      -5.733   0.000   0.000  1.00  0.00          FE
+HETATM   16 Fe   UNK    16      -0.000  -0.000  -2.866  1.00  0.00          FE
+HETATM   17 Fe   UNK    17      -2.866  -0.000  -2.866  1.00  0.00          FE
+HETATM   18 Fe   UNK    18       2.866   2.866   2.866  1.00  0.00          FE
+HETATM   19 Fe   UNK    19       0.000   2.866   2.866  1.00  0.00          FE
+HETATM   20 Fe   UNK    20       2.866   2.866   0.000  1.00  0.00          FE
+HETATM   21 Fe   UNK    21      -2.866   2.866   0.000  1.00  0.00          FE
+HETATM   22 Fe   UNK    22       2.866   2.866  -2.866  1.00  0.00          FE
+HETATM   23 Fe   UNK    23      -2.866   2.866  -2.866  1.00  0.00          FE
+HETATM   24 Fe   UNK    24      -0.000   2.866  -5.733  1.00  0.00          FE
+HETATM   25 Fe   UNK    25       0.000   5.733   0.000  1.00  0.00          FE
+HETATM   26 Fe   UNK    26       0.000   5.733  -2.866  1.00  0.00          FE
+HETATM   27 Fe   UNK    27       4.300  -1.433   4.300  1.00  0.00          FE
+HETATM   28 Fe   UNK    28       1.433  -1.433   4.300  1.00  0.00          FE
+HETATM   29 Fe   UNK    29      -1.433  -1.433   4.300  1.00  0.00          FE
+HETATM   30 Fe   UNK    30       4.300  -1.433   1.433  1.00  0.00          FE
+HETATM   31 Fe   UNK    31       1.433  -1.433   1.433  1.00  0.00          FE
+HETATM   32 Fe   UNK    32      -1.433  -1.433   1.433  1.00  0.00          FE
+HETATM   33 Fe   UNK    33      -4.300  -1.433   1.433  1.00  0.00          FE
+HETATM   34 Fe   UNK    34       1.433  -1.433  -1.433  1.00  0.00          FE
+HETATM   35 Fe   UNK    35      -1.433  -1.433  -1.433  1.00  0.00          FE
+HETATM   36 Fe   UNK    36      -4.300  -1.433  -1.433  1.00  0.00          FE
+HETATM   37 Fe   UNK    37       4.300   1.433   4.300  1.00  0.00          FE
+HETATM   38 Fe   UNK    38       1.433   1.433   4.300  1.00  0.00          FE
+HETATM   39 Fe   UNK    39      -1.433   1.433   4.300  1.00  0.00          FE
+HETATM   40 Fe   UNK    40       4.300   1.433   1.433  1.00  0.00          FE
+HETATM   41 Fe   UNK    41       1.433   1.433   1.433  1.00  0.00          FE
+HETATM   42 Fe   UNK    42      -1.433   1.433   1.433  1.00  0.00          FE
+HETATM   43 Fe   UNK    43      -4.300   1.433   1.433  1.00  0.00          FE
+HETATM   44 Fe   UNK    44       1.433   1.433  -1.433  1.00  0.00          FE
+HETATM   45 Fe   UNK    45      -1.433   1.433  -1.433  1.00  0.00          FE
+HETATM   46 Fe   UNK    46      -4.300   1.433  -1.433  1.00  0.00          FE
+HETATM   47 Fe   UNK    47       1.433   1.433  -4.300  1.00  0.00          FE
+HETATM   48 Fe   UNK    48      -1.433   1.433  -4.300  1.00  0.00          FE
+HETATM   49 Fe   UNK    49       1.433   4.300   1.433  1.00  0.00          FE
+HETATM   50 Fe   UNK    50      -1.433   4.300   1.433  1.00  0.00          FE
+HETATM   51 Fe   UNK    51       1.433   4.300  -1.433  1.00  0.00          FE
+HETATM   52 Fe   UNK    52      -1.433   4.300  -1.433  1.00  0.00          FE
+HETATM   53 Fe   UNK    53       1.433   4.300  -4.300  1.00  0.00          FE
+HETATM   54 Fe   UNK    54      -1.433   4.300  -4.300  1.00  0.00          FE
+END

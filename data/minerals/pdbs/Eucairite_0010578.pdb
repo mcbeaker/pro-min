@@ -1,0 +1,22 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Eucairite_0010578.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       1.026  -1.018   0.663  1.00  0.00          CU
+HETATM    1 Ag   UNK     1       1.026   1.018   2.833  1.00  0.00          AG
+HETATM    2 Se   UNK     2       1.026   1.018   5.509  1.00  0.00          SE
+HETATM    3 Cu   UNK     3       1.026   3.053   0.663  1.00  0.00          CU
+HETATM    4 Cu   UNK     4       1.026   3.053   6.973  1.00  0.00          CU
+HETATM    5 Cu   UNK     5       1.026  -1.017   6.973  1.00  0.00          CU
+HETATM    6 Cu   UNK     6      -1.026   1.018   5.647  1.00  0.00          CU
+HETATM    7 Cu   UNK     7       3.079   1.018   5.647  1.00  0.00          CU
+HETATM    8 Ag   UNK     8       1.026  -3.053   2.833  1.00  0.00          AG
+HETATM    9 Ag   UNK     9      -1.026   3.053   3.477  1.00  0.00          AG
+HETATM   10 Ag   UNK    10      -1.026  -1.017   3.477  1.00  0.00          AG
+HETATM   11 Ag   UNK    11       3.079   3.053   3.477  1.00  0.00          AG
+HETATM   12 Ag   UNK    12       3.079  -1.017   3.477  1.00  0.00          AG
+HETATM   13 Se   UNK    13       1.026   1.018  -0.801  1.00  0.00          SE
+HETATM   14 Se   UNK    14       1.026  -3.053  -0.801  1.00  0.00          SE
+HETATM   15 Se   UNK    15      -1.026  -1.018   0.801  1.00  0.00          SE
+HETATM   16 Se   UNK    16       3.079  -1.018   0.801  1.00  0.00          SE
+END

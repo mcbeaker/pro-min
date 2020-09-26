@@ -1,0 +1,33 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Nissonite_0001329.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       4.882   0.773   3.799  1.00  7.56          CU
+HETATM    1  P   UNK     1       7.344   0.887   2.345  1.00  6.58           P
+HETATM    2 Mg   UNK     2       1.941   0.776   4.840  1.00  5.72          MG
+HETATM    3  O1  UNK     3       7.528   0.517   3.835  1.00 11.36           O
+HETATM    4  O2  UNK     4       5.859   1.484   2.238  1.00  7.40           O
+HETATM    5  O3  UNK     5       8.341   1.946   1.899  1.00  9.12           O
+HETATM    6  O4  UNK     6       7.415  -0.361   1.499  1.00 10.42           O
+HETATM    7  O-h UNK     7       3.896   0.276   5.398  1.00  0.55           O
+HETATM    8  OW1 UNK     8       0.934  -0.692   5.997  1.00 12.04           O
+HETATM    9  OW2 UNK     9       0.083   1.444   4.280  1.00 18.56           O
+HETATM   10  H   UNK    10       4.503   0.000   5.987  1.00  1.18           H
+HETATM   11 Cu   UNK    11       5.502  -1.735   1.380  1.00  7.56          CU
+HETATM   12 Cu   UNK    12       5.502   3.280   1.380  1.00  7.56          CU
+HETATM   13 Cu   UNK    13       4.624   1.735   6.559  1.00  7.56          CU
+HETATM   14 Mg   UNK    14       8.443  -1.732   0.339  1.00  5.72          MG
+HETATM   15 Mg   UNK    15       8.443   3.283   0.339  1.00  5.72          MG
+HETATM   16 Mg   UNK    16       7.565   1.732   5.518  1.00  5.72          MG
+HETATM   17  O1  UNK    17       1.978   1.991   6.524  1.00 11.36           O
+HETATM   18  O2  UNK    18       4.524  -1.023   2.941  1.00  7.40           O
+HETATM   19  O3  UNK    19       2.043  -0.562   3.280  1.00  9.12           O
+HETATM   20  O4  UNK    20       2.969   2.146   3.680  1.00 10.42           O
+HETATM   21  O-h UNK    21       5.610   2.232   4.961  1.00  0.55           O
+HETATM   22  OW3 UNK    22      10.823   1.008   2.590  1.00 21.84           O
+HETATM   23 HW1a UNK    23       8.191   2.508   4.164  1.00  1.18          XX
+HETATM   24 HW1b UNK    24       9.344   2.432   3.739  1.00  1.18          XX
+HETATM   25 HW2a UNK    25      -0.105   2.177   3.677  1.00  1.18          XX
+HETATM   26 HW2b UNK    26      -0.729   1.189   4.299  1.00  1.18          XX
+HETATM   27 HW3  UNK    27       9.962   1.344   2.351  1.00  1.18          XX
+END

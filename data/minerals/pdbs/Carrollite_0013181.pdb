@@ -1,0 +1,26 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Carrollite_0013181.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       1.185   1.185   1.185  1.00  0.40          CU
+HETATM    1  S   UNK     1       2.493   2.493   2.493  1.00  0.40           S
+HETATM    2 Co   UNK     2       2.370   4.739   2.369  1.00  0.40          CO
+HETATM    3 Co   UNK     3       4.739   2.369   2.369  1.00  0.40          CO
+HETATM    4  S   UNK     4       4.616   2.493   4.616  1.00  0.40           S
+HETATM    5  S   UNK     5       4.616   4.616   2.493  1.00  0.40           S
+HETATM    6  S   UNK     6       2.493   4.616   4.616  1.00  0.40           S
+HETATM    7 Cu   UNK     7       1.185   5.924   5.924  1.00  0.40          CU
+HETATM    8 Cu   UNK     8       5.924   1.185   5.924  1.00  0.40          CU
+HETATM    9 Cu   UNK     9       5.924   5.924   1.185  1.00  0.40          CU
+HETATM   10  S   UNK    10       4.862   2.246   0.123  1.00  0.40           S
+HETATM   11  S   UNK    11      -0.123   2.493  -0.123  1.00  0.40           S
+HETATM   12  S   UNK    12       2.493  -0.123  -0.123  1.00  0.40           S
+HETATM   13  S   UNK    13       2.246   4.862   0.123  1.00  0.40           S
+HETATM   14  S   UNK    14       6.985   2.246   2.246  1.00  0.40           S
+HETATM   15  S   UNK    15       2.246   6.985   2.246  1.00  0.40           S
+HETATM   16  S   UNK    16       0.123   4.862   2.246  1.00  0.40           S
+HETATM   17  S   UNK    17       4.862   0.123   2.246  1.00  0.40           S
+HETATM   18  S   UNK    18      -0.123  -0.123   2.493  1.00  0.40           S
+HETATM   19 Co   UNK    19       2.370   2.370   4.739  1.00  0.40          CO
+HETATM   20 Co   UNK    20       4.739   4.739   4.739  1.00  0.40          CO
+END

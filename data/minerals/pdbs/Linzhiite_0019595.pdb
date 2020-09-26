@@ -1,0 +1,54 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Linzhiite_0019595.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Fe   UNK     0       1.348   1.348   0.000  1.00  0.55          FE
+HETATM    1 Si   UNK     1       5.392   2.696   1.398  1.00  0.24          SI
+HETATM    2 Si   UNK     2       5.392   2.696   3.749  1.00  0.24          SI
+HETATM    3 Si   UNK     3       5.392   0.000   3.749  1.00  0.24          SI
+HETATM    4 Si   UNK     4       2.696   2.696   1.398  1.00  0.24          SI
+HETATM    5 Si   UNK     5       5.392   0.000   1.398  1.00  0.24          SI
+HETATM    6 Si   UNK     6       2.696   2.696   3.749  1.00  0.24          SI
+HETATM    7 Si   UNK     7       2.696   0.000   1.398  1.00  0.24          SI
+HETATM    8 Si   UNK     8       2.696   0.000   3.749  1.00  0.24          SI
+HETATM    9 Si   UNK     9      -0.000  -2.696   1.398  1.00  0.24          SI
+HETATM   10 Si   UNK    10       0.000  -2.696   3.749  1.00  0.24          SI
+HETATM   11 Si   UNK    11       2.696  -2.696   3.749  1.00  0.24          SI
+HETATM   12 Si   UNK    12       0.000   0.000   1.398  1.00  0.24          SI
+HETATM   13 Si   UNK    13       2.696  -2.696   1.398  1.00  0.24          SI
+HETATM   14 Si   UNK    14       0.000   0.000   3.749  1.00  0.24          SI
+HETATM   15 Si   UNK    15       2.696   5.392   3.749  1.00  0.24          SI
+HETATM   16 Si   UNK    16       2.696   5.392   1.398  1.00  0.24          SI
+HETATM   17 Si   UNK    17       0.000   5.392   1.398  1.00  0.24          SI
+HETATM   18 Si   UNK    18       0.000   5.392   3.749  1.00  0.24          SI
+HETATM   19 Si   UNK    19       0.000   2.696   3.749  1.00  0.24          SI
+HETATM   20 Si   UNK    20       0.000   2.696   1.398  1.00  0.24          SI
+HETATM   21 Si   UNK    21      -2.696   2.696   3.749  1.00  0.24          SI
+HETATM   22 Si   UNK    22      -2.696   2.696   1.398  1.00  0.24          SI
+HETATM   23 Si   UNK    23      -2.696   0.000   1.398  1.00  0.24          SI
+HETATM   24 Si   UNK    24      -2.696   0.000   3.749  1.00  0.24          SI
+HETATM   25 Si   UNK    25      -5.392   0.000   1.398  1.00  0.24          SI
+HETATM   26 Si   UNK    26      -5.392   2.696   1.398  1.00  0.24          SI
+HETATM   27 Si   UNK    27      -2.696  -2.696   1.398  1.00  0.24          SI
+HETATM   28 Si   UNK    28      -2.696   5.392   1.398  1.00  0.24          SI
+HETATM   29 Si   UNK    29      -0.000  -5.392   1.398  1.00  0.24          SI
+HETATM   30 Si   UNK    30       0.000   8.088   1.398  1.00  0.24          SI
+HETATM   31 Si   UNK    31       2.696  -5.392   1.398  1.00  0.24          SI
+HETATM   32 Si   UNK    32       2.696   8.088   1.398  1.00  0.24          SI
+HETATM   33 Si   UNK    33       5.392  -2.696   1.398  1.00  0.24          SI
+HETATM   34 Si   UNK    34       5.392   5.392   1.398  1.00  0.24          SI
+HETATM   35 Si   UNK    35       8.088   0.000   1.398  1.00  0.24          SI
+HETATM   36 Si   UNK    36       8.088   2.696   1.398  1.00  0.24          SI
+HETATM   37 Si   UNK    37      -5.392   0.000   3.749  1.00  0.24          SI
+HETATM   38 Si   UNK    38      -5.392   2.696   3.749  1.00  0.24          SI
+HETATM   39 Si   UNK    39      -2.696  -2.696   3.749  1.00  0.24          SI
+HETATM   40 Si   UNK    40      -2.696   5.392   3.749  1.00  0.24          SI
+HETATM   41 Si   UNK    41      -0.000  -5.392   3.749  1.00  0.24          SI
+HETATM   42 Si   UNK    42       0.000   8.088   3.749  1.00  0.24          SI
+HETATM   43 Si   UNK    43       2.696  -5.392   3.749  1.00  0.24          SI
+HETATM   44 Si   UNK    44       2.696   8.088   3.749  1.00  0.24          SI
+HETATM   45 Si   UNK    45       5.392  -2.696   3.749  1.00  0.24          SI
+HETATM   46 Si   UNK    46       5.392   5.392   3.749  1.00  0.24          SI
+HETATM   47 Si   UNK    47       8.088   0.000   3.749  1.00  0.24          SI
+HETATM   48 Si   UNK    48       8.088   2.696   3.749  1.00  0.24          SI
+END

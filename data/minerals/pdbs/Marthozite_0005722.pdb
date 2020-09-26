@@ -1,0 +1,49 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Marthozite_0005722.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 U(1) UNK     0       1.437   4.579   8.611  1.00  1.08           U
+HETATM    1 U(2) UNK     1       1.413   3.430   1.807  1.00  0.95           U
+HETATM    2 U(3) UNK     2       1.468   3.852  15.384  1.00  1.10           U
+HETATM    3 Se(1 UNK     3       1.342   4.734   5.148  1.00  1.26          SE
+HETATM    4 Se(2 UNK     4       1.340   5.329  11.997  1.00  1.18          SE
+HETATM    5 Cu   UNK     5       1.381   7.605   2.027  1.00  1.82          CU
+HETATM    6 O(1) UNK     6       1.625   3.353   4.204  1.00  1.37           O
+HETATM    7 O(2) UNK     7       0.347   4.057   6.403  1.00  1.34           O
+HETATM    8 O(3) UNK     8       2.698   4.869   6.131  1.00  2.32           O
+HETATM    9 O(4) UNK     9       1.732   4.005  13.022  1.00  1.56           O
+HETATM   10 O(5) UNK    10       0.320   4.607  10.862  1.00  1.23           O
+HETATM   11 O(6) UNK    11       2.619   5.338  10.906  1.00  1.49           O
+HETATM   12 O(7) UNK    12       1.167   6.345   8.419  1.00  1.18           O
+HETATM   13 O(8) UNK    13       1.754   2.812   8.816  1.00  1.49           O
+HETATM   14 O(9) UNK    14       1.742   1.642   1.712  1.00  1.32           O
+HETATM   15  O(1 UNK    15       1.069   5.180   2.086  1.00  0.91           O
+HETATM   16  O(1 UNK    16       1.826   2.118  15.237  1.00  1.55           O
+HETATM   17  O(1 UNK    17       1.152   5.588  15.413  1.00  2.13           O
+HETATM   18  O(1 UNK    18       2.672   4.048   0.052  1.00  0.92           O
+HETATM   19  O(1 UNK    19       3.602   4.851   8.553  1.00  0.99           O
+HETATM   20 U(1) UNK    20       4.931   3.648   0.000  1.00  1.08           U
+HETATM   21 U(2) UNK    21      -2.081   4.797  10.419  1.00  0.95           U
+HETATM   22 U(2) UNK    22       4.907   4.797  10.419  1.00  0.95           U
+HETATM   23 U(3) UNK    23       1.468   3.852  -1.839  1.00  1.10           U
+HETATM   24 U(3) UNK    24      -2.026   4.374   6.772  1.00  1.10           U
+HETATM   25 U(3) UNK    25       4.962   4.374   6.772  1.00  1.10           U
+HETATM   26 Cu   UNK    26       2.113  -0.622   2.027  1.00  1.82          CU
+HETATM   27 O(2) UNK    27       3.841   4.169  15.015  1.00  1.34           O
+HETATM   28 O(3) UNK    28      -0.796   3.358  14.743  1.00  2.32           O
+HETATM   29 O(5) UNK    29       3.814   3.620   2.251  1.00  1.23           O
+HETATM   30 O(6) UNK    30      -0.875   2.889   2.294  1.00  1.49           O
+HETATM   31 O(9) UNK    31       1.752   9.869   1.712  1.00  1.32           O
+HETATM   32  O(1 UNK    32       2.672   4.048  17.275  1.00  0.92           O
+HETATM   33  O(1 UNK    33      -0.822   4.179   8.663  1.00  0.92           O
+HETATM   34  O(1 UNK    34       0.108   3.376  -0.059  1.00  0.99           O
+HETATM   35  O(1 UNK    35       0.108   3.376  17.164  1.00  0.99           O
+HETATM   36 Wat( UNK    36       3.483   0.558   9.133  1.00  1.78           O
+HETATM   37 Wat( UNK    37       2.600   7.406   3.551  1.00  2.42           O
+HETATM   38 Wat( UNK    38       0.036   8.335  11.886  1.00  1.97           O
+HETATM   39 Wat( UNK    39       6.284   1.247   9.397  1.00  2.94           O
+HETATM   40 Wat( UNK    40       1.429   1.793  11.503  1.00  2.70           O
+HETATM   41 Wat( UNK    41       0.201   8.377   5.969  1.00  3.72           O
+HETATM   42 Wat( UNK    42       0.036   1.246   4.976  1.00  3.04           O
+HETATM   43 Wat( UNK    43       3.383   8.008   7.365  1.00  3.25           O
+END

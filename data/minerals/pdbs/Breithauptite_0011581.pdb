@@ -1,0 +1,26 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Breithauptite_0011581.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Ni   UNK     0       0.000   0.000   0.000  1.00  0.00          NI
+HETATM    1 Sb   UNK     1       0.000   2.275   1.285  1.00  0.00          SB
+HETATM    2 Sb   UNK     2       1.970  -1.137   1.285  1.00  0.00          SB
+HETATM    3 Sb   UNK     3      -1.970  -1.137   1.285  1.00  0.00          SB
+HETATM    4 Ni   UNK     4       1.970  -3.412   0.000  1.00  0.00          NI
+HETATM    5 Ni   UNK     5       3.940   0.000   0.000  1.00  0.00          NI
+HETATM    6 Ni   UNK     6      -1.970  -3.412   0.000  1.00  0.00          NI
+HETATM    7 Ni   UNK     7       1.970   3.412   0.000  1.00  0.00          NI
+HETATM    8 Ni   UNK     8      -3.940   0.000   0.000  1.00  0.00          NI
+HETATM    9 Ni   UNK     9      -1.970   3.412   0.000  1.00  0.00          NI
+HETATM   10 Ni   UNK    10       1.970  -3.412   2.570  1.00  0.00          NI
+HETATM   11 Ni   UNK    11       3.940   0.000   2.570  1.00  0.00          NI
+HETATM   12 Ni   UNK    12      -1.970  -3.412   2.570  1.00  0.00          NI
+HETATM   13 Ni   UNK    13      -0.000  -0.000  -2.570  1.00  0.00          NI
+HETATM   14 Ni   UNK    14       0.000   0.000   2.570  1.00  0.00          NI
+HETATM   15 Ni   UNK    15       1.970   3.412   2.570  1.00  0.00          NI
+HETATM   16 Ni   UNK    16      -3.940   0.000   2.570  1.00  0.00          NI
+HETATM   17 Ni   UNK    17      -1.970   3.412   2.570  1.00  0.00          NI
+HETATM   18 Sb   UNK    18      -0.000  -2.275  -1.285  1.00  0.00          SB
+HETATM   19 Sb   UNK    19       1.970   1.137  -1.285  1.00  0.00          SB
+HETATM   20 Sb   UNK    20      -1.970   1.137  -1.285  1.00  0.00          SB
+END

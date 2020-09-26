@@ -1,0 +1,23 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Dreyerite_0014769.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  V   UNK     0       0.000   1.826   2.469  1.00  0.40           V
+HETATM    1  O   UNK     1       0.000   0.526   1.369  1.00  1.00           O
+HETATM    2 Bi   UNK     2       0.000   1.826  -0.823  1.00  1.30          BI
+HETATM    3  O   UNK     3      -1.300   1.826  -3.015  1.00  1.00           O
+HETATM    4  O   UNK     4       0.000   3.126   1.369  1.00  1.00           O
+HETATM    5  O   UNK     5       1.300   1.826  -3.015  1.00  1.00           O
+HETATM    6  V   UNK     6      -0.000   1.826  -4.115  1.00  0.40           V
+HETATM    7  O   UNK     7      -2.352   1.826  -0.277  1.00  1.00           O
+HETATM    8  O   UNK     8      -1.300   1.826   3.569  1.00  1.00           O
+HETATM    9  O   UNK     9       0.000   4.177  -1.369  1.00  1.00           O
+HETATM   10  O   UNK    10       2.352   1.826  -0.277  1.00  1.00           O
+HETATM   11  O   UNK    11       1.300   1.826   3.569  1.00  1.00           O
+HETATM   12  O   UNK    12      -0.000  -0.526  -1.369  1.00  1.00           O
+HETATM   13 Bi   UNK    13       0.000   1.826   5.761  1.00  1.30          BI
+HETATM   14 Bi   UNK    14      -0.000  -1.826   0.823  1.00  1.30          BI
+HETATM   15 Bi   UNK    15       0.000   5.477   0.823  1.00  1.30          BI
+HETATM   16 Bi   UNK    16      -3.651   1.826  -2.469  1.00  1.30          BI
+HETATM   17 Bi   UNK    17       3.651   1.826  -2.469  1.00  1.30          BI
+END

@@ -1,0 +1,35 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Nealite_0014634.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Pb1  UNK     0       0.708   4.439   1.361  1.00  1.87          PB
+HETATM    1 Pb2  UNK     1      -0.664   8.156   1.578  1.00  5.50          PB
+HETATM    2 As   UNK     2       1.094   6.476   4.383  1.00  1.94          AS
+HETATM    3  O1  UNK     3       0.008   6.114   2.960  1.00  2.13           O
+HETATM    4  O2  UNK     4      -0.043   5.900   5.771  1.00  2.45           O
+HETATM    5  O3  UNK     5       0.665   8.184   4.643  1.00  3.79           O
+HETATM    6 Cl1  UNK     6       1.828   3.299   4.016  1.00  2.37          CL
+HETATM    7 Fe   UNK     7       1.941   9.547   5.554  1.00  1.89          FE
+HETATM    8 Cl2  UNK     8      -0.173  10.743   6.504  1.00  2.68          CL
+HETATM    9 Pb1  UNK     9      -2.042   5.108   4.193  1.00  1.87          PB
+HETATM   10 Pb2  UNK    10      -0.670   1.391   3.976  1.00  5.50          PB
+HETATM   11 As   UNK    11      -2.427   3.071   1.171  1.00  1.94          AS
+HETATM   12  O1  UNK    12      -1.342   3.433   2.594  1.00  2.13           O
+HETATM   13  O2  UNK    13      -1.290   3.647  -0.217  1.00  2.45           O
+HETATM   14  O3  UNK    14      -1.998   1.363   0.911  1.00  3.79           O
+HETATM   15 Cl1  UNK    15      -3.161   6.248   1.539  1.00  2.37          CL
+HETATM   16 Cl2  UNK    16       4.054   8.351   4.604  1.00  2.68          CL
+HETATM   17 Pb1  UNK    17       0.747   3.836   6.915  1.00  1.87          PB
+HETATM   18 Pb1  UNK    18      -2.081   5.711  -1.361  1.00  1.87          PB
+HETATM   19 Pb2  UNK    19      -0.625   7.552   7.133  1.00  5.50          PB
+HETATM   20 Pb2  UNK    20      -0.709   1.995  -1.578  1.00  5.50          PB
+HETATM   21  O2  UNK    21      -0.082   6.503   0.217  1.00  2.45           O
+HETATM   22  O2  UNK    22      -1.251   3.044   5.338  1.00  2.45           O
+HETATM   23  O3  UNK    23       0.626   8.788  -0.911  1.00  3.79           O
+HETATM   24  O3  UNK    24      -1.959   0.759   6.465  1.00  3.79           O
+HETATM   25  O3  UNK    25       3.216  10.910   6.465  1.00  3.79           O
+HETATM   26 Cl1  UNK    26       1.789   3.903  -1.539  1.00  2.37          CL
+HETATM   27 Cl1  UNK    27      -3.122   5.644   7.093  1.00  2.37          CL
+HETATM   28 Fe   UNK    28      -3.274   0.000   0.000  1.00  1.89          FE
+HETATM   29 Wat4 UNK    29       1.786   8.966   1.744  1.00  3.40           O
+END

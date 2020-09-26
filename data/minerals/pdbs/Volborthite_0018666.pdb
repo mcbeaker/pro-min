@@ -1,0 +1,36 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Volborthite_0018666.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu1  UNK     0       0.000   0.000   0.000  1.00  1.40          CU
+HETATM    1 Cu2  UNK     1       2.650   1.465   0.000  1.00  1.40          CU
+HETATM    2  V   UNK     2       5.094   0.000   1.839  1.00  1.40           V
+HETATM    3  O2  UNK     3       0.745   1.465   1.278  1.00  1.40           O
+HETATM    4  O3  UNK     4       3.562   0.000   1.070  1.00  1.40           O
+HETATM    5  O1  UNK     5       4.981   0.000   3.591  1.00  1.40           O
+HETATM    6  O-H UNK     6       1.729  -0.000  -1.092  1.00  1.40           O
+HETATM    7 Cu2  UNK     7       2.650  -1.465   0.000  1.00  1.40          CU
+HETATM    8  O2  UNK     8       0.745  -1.465   1.278  1.00  1.40           O
+HETATM    9  O2  UNK     9      -0.745   1.465  -1.278  1.00  1.40           O
+HETATM   10  O-H UNK    10      -1.729   0.000   1.092  1.00  1.40           O
+HETATM   11  O2  UNK    11      -0.745  -1.465  -1.278  1.00  1.40           O
+HETATM   12  V   UNK    12       0.206   2.930  -1.839  1.00  1.40           V
+HETATM   13  O3  UNK    13       1.738   2.930  -1.070  1.00  1.40           O
+HETATM   14 Cu2  UNK    14      -2.650  -1.465   0.000  1.00  1.40          CU
+HETATM   15 Cu2  UNK    15       2.650   4.395   0.000  1.00  1.40          CU
+HETATM   16 Cu2  UNK    16      -2.650   1.465   0.000  1.00  1.40          CU
+HETATM   17  V   UNK    17      -0.206  -2.930   1.839  1.00  1.40           V
+HETATM   18  V   UNK    18      -0.206   2.930   1.839  1.00  1.40           V
+HETATM   19  V   UNK    19       4.867   0.000   5.343  1.00  1.40           V
+HETATM   20  V   UNK    20       0.206  -2.930  -1.839  1.00  1.40           V
+HETATM   21  O2  UNK    21       6.045  -1.465   1.278  1.00  1.40           O
+HETATM   22  O2  UNK    22       6.045   1.465   1.278  1.00  1.40           O
+HETATM   23  O2  UNK    23       4.555  -1.465  -1.278  1.00  1.40           O
+HETATM   24  O2  UNK    24      -0.745   4.395  -1.278  1.00  1.40           O
+HETATM   25  O2  UNK    25       4.555   1.465  -1.278  1.00  1.40           O
+HETATM   26  O3  UNK    26       1.738  -2.930  -1.070  1.00  1.40           O
+HETATM   27  O1  UNK    27       0.319   2.930  -3.591  1.00  1.40           O
+HETATM   28  O-H UNK    28       3.571  -2.930   1.092  1.00  1.40           O
+HETATM   29  O-H UNK    29       3.571   2.930   1.092  1.00  1.40           O
+HETATM   30 Wat  UNK    30       1.409   0.000   3.232  1.00  1.40           O
+END

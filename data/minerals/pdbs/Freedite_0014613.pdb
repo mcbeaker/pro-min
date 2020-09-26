@@ -1,0 +1,59 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Freedite_0014613.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 As   UNK     0       3.630   2.251   3.016  1.00  0.99          AS
+HETATM    1  O1  UNK     1       3.010   3.911   2.861  1.00  2.37           O
+HETATM    2  O2  UNK     2       2.311   1.841   4.137  1.00  2.29           O
+HETATM    3  O3  UNK     3       3.119   1.652   1.425  1.00  2.37           O
+HETATM    4 Pb1  UNK     4       0.854   0.000   4.063  1.00  1.03          PB
+HETATM    5  O5  UNK     5       1.472   0.000   6.315  1.00  0.71           O
+HETATM    6 Pb5  UNK     6       1.810   4.056   0.491  1.00  1.35          PB
+HETATM    7  O4  UNK     7       3.074   6.120   0.975  1.00  0.39           O
+HETATM    8 Pb2  UNK     8       1.784   0.000   0.479  1.00  1.39          PB
+HETATM    9 Pb3  UNK     9       3.118   1.958   6.585  1.00  1.93          PB
+HETATM   10 Pb4  UNK    10       3.908   5.955   3.013  1.00  1.04          PB
+HETATM   11 Cu   UNK    11       5.777   1.570   3.593  1.00  1.81          CU
+HETATM   12 Cl3  UNK    12      -0.152   1.944   1.837  1.00  1.26          CL
+HETATM   13 Cl2  UNK    13       0.631   5.891  -1.885  1.00  3.16          CL
+HETATM   14 Cl1  UNK    14       5.130   0.000   5.337  1.00  0.24          CL
+HETATM   15 As   UNK    15       3.630  -2.251   3.016  1.00  0.99          AS
+HETATM   16  O1  UNK    16       3.010  -3.911   2.861  1.00  2.37           O
+HETATM   17  O2  UNK    17       2.311  -1.841   4.137  1.00  2.29           O
+HETATM   18  O3  UNK    18       3.119  -1.652   1.425  1.00  2.37           O
+HETATM   19 Pb5  UNK    19       1.810  -4.056   0.491  1.00  1.35          PB
+HETATM   20  O4  UNK    20       3.074  -6.120   0.975  1.00  0.39           O
+HETATM   21 Pb3  UNK    21       3.118  -1.958   6.585  1.00  1.93          PB
+HETATM   22 Pb4  UNK    22       3.908  -5.955   3.013  1.00  1.04          PB
+HETATM   23 Cl3  UNK    23      -0.152  -1.944   1.837  1.00  1.26          CL
+HETATM   24 Cl2  UNK    24       0.631  -5.891  -1.885  1.00  3.16          CL
+HETATM   25 As   UNK    25       7.924   2.251   4.169  1.00  0.99          AS
+HETATM   26  O1  UNK    26       1.755  -6.138   4.325  1.00  2.37           O
+HETATM   27  O1  UNK    27       1.755   6.138   4.325  1.00  2.37           O
+HETATM   28  O2  UNK    28       2.455  -8.208   3.048  1.00  2.29           O
+HETATM   29  O2  UNK    29       2.455   8.208   3.048  1.00  2.29           O
+HETATM   30  O3  UNK    30       1.096   1.652   8.610  1.00  2.37           O
+HETATM   31  O3  UNK    31       1.096  -1.652   8.610  1.00  2.37           O
+HETATM   32  O5  UNK    32       3.496  -0.000  -0.870  1.00  0.71           O
+HETATM   33 Pb5  UNK    33       4.979  -5.994  -0.491  1.00  1.35          PB
+HETATM   34 Pb5  UNK    34       4.979   5.994  -0.491  1.00  1.35          PB
+HETATM   35  O4  UNK    35       3.715  -3.929  -0.975  1.00  0.39           O
+HETATM   36  O4  UNK    36       1.691  -3.929   6.210  1.00  0.39           O
+HETATM   37  O4  UNK    37       3.715   3.929  -0.975  1.00  0.39           O
+HETATM   38  O4  UNK    38       1.691   3.929   6.210  1.00  0.39           O
+HETATM   39 Pb2  UNK    39      -0.240   0.000   7.664  1.00  1.39          PB
+HETATM   40 Pb3  UNK    40       5.141   1.958  -0.601  1.00  1.93          PB
+HETATM   41 Pb3  UNK    41       5.141  -1.958  -0.601  1.00  1.93          PB
+HETATM   42 Pb3  UNK    42       6.413   1.958   7.786  1.00  1.93          PB
+HETATM   43 Pb3  UNK    43       1.648  -8.092   0.601  1.00  1.93          PB
+HETATM   44 Pb3  UNK    44       6.413  -1.958   7.786  1.00  1.93          PB
+HETATM   45 Pb3  UNK    45       1.648   8.092   0.601  1.00  1.93          PB
+HETATM   46 Pb4  UNK    46       2.881  -4.094  -3.013  1.00  1.04          PB
+HETATM   47 Pb4  UNK    47       0.857  -4.094   4.173  1.00  1.04          PB
+HETATM   48 Pb4  UNK    48       2.881   4.094  -3.013  1.00  1.04          PB
+HETATM   49 Pb4  UNK    49       0.857   4.094   4.173  1.00  1.04          PB
+HETATM   50 Cu   UNK    50       5.777  -1.570   3.593  1.00  1.81          CU
+HETATM   51 Cl2  UNK    51       6.158  -4.158   1.885  1.00  3.16          CL
+HETATM   52 Cl2  UNK    52       6.158   4.158   1.885  1.00  3.16          CL
+HETATM   53 Cl1  UNK    53       6.425   0.000   1.848  1.00  0.24          CL
+END

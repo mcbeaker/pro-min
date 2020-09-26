@@ -1,0 +1,47 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Leningradite_0006144.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Pb   UNK     0       4.503   0.000   2.337  1.00  1.66          PB
+HETATM    1 Cu1  UNK     1       0.000   0.000   4.675  1.00  1.12          CU
+HETATM    2 Cu2  UNK     2       2.260   3.627   4.675  1.00  1.01          CU
+HETATM    3  V   UNK     3       4.503  -3.264   2.337  1.00  0.58           V
+HETATM    4  O1  UNK     4       0.883  -1.223   3.409  1.00  1.01           O
+HETATM    5  O2  UNK     5       3.486  -2.226   3.211  1.00  1.13           O
+HETATM    6 Cl   UNK     6       2.806   0.921   4.675  1.00  1.66          CL
+HETATM    7  O2  UNK     7       5.519  -2.226   1.463  1.00  1.13           O
+HETATM    8  V   UNK     8       4.503   3.264   2.337  1.00  0.58           V
+HETATM    9  O2  UNK     9       3.486   2.226   1.463  1.00  1.13           O
+HETATM   10 Cu2  UNK    10       6.745  -3.627   4.675  1.00  1.01          CU
+HETATM   11  O2  UNK    11       5.519   2.226   3.211  1.00  1.13           O
+HETATM   12 Cl   UNK    12       6.199  -0.921   4.675  1.00  1.66          CL
+HETATM   13  O1  UNK    13      -0.883   1.223   5.940  1.00  1.01           O
+HETATM   14  O1  UNK    14       0.883  -1.223   5.940  1.00  1.01           O
+HETATM   15  O1  UNK    15      -0.883   1.223   3.409  1.00  1.01           O
+HETATM   16 Pb   UNK    16       4.503   0.000   7.012  1.00  1.66          PB
+HETATM   17 Cu1  UNK    17       9.005   0.000   4.675  1.00  1.12          CU
+HETATM   18 Cu2  UNK    18       6.762  -1.896   0.000  1.00  1.01          CU
+HETATM   19 Cu2  UNK    19      -2.243   1.896   4.675  1.00  1.01          CU
+HETATM   20 Cu2  UNK    20       6.762   1.896   4.675  1.00  1.01          CU
+HETATM   21 Cu2  UNK    21       2.243  -1.896   4.675  1.00  1.01          CU
+HETATM   22 Cu2  UNK    22       2.243   1.896   0.000  1.00  1.01          CU
+HETATM   23  V   UNK    23       0.000   2.259   7.012  1.00  0.58           V
+HETATM   24  V   UNK    24       0.000  -2.259   2.337  1.00  0.58           V
+HETATM   25  V   UNK    25       0.000   2.259   2.337  1.00  0.58           V
+HETATM   26  V   UNK    26       0.000  -2.259   7.012  1.00  0.58           V
+HETATM   27  O1  UNK    27       5.386  -4.300   3.409  1.00  1.01           O
+HETATM   28  O1  UNK    28       3.619   4.300   5.940  1.00  1.01           O
+HETATM   29  O1  UNK    29       3.619   4.300   3.409  1.00  1.01           O
+HETATM   30  O1  UNK    30       5.386  -4.300   5.940  1.00  1.01           O
+HETATM   31  O1  UNK    31       5.386   4.300   1.266  1.00  1.01           O
+HETATM   32  O1  UNK    32       3.619  -4.300   1.266  1.00  1.01           O
+HETATM   33  O2  UNK    33       7.988  -3.297   3.211  1.00  1.13           O
+HETATM   34  O2  UNK    34       1.017   3.297   6.138  1.00  1.13           O
+HETATM   35  O2  UNK    35       1.017   3.297   3.211  1.00  1.13           O
+HETATM   36  O2  UNK    36       7.988  -3.297   6.138  1.00  1.13           O
+HETATM   37 Cl   UNK    37       2.806  -0.921   0.000  1.00  1.66          CL
+HETATM   38 Cl   UNK    38       7.308  -6.444   4.675  1.00  1.66          CL
+HETATM   39 Cl   UNK    39       6.199   0.921   0.000  1.00  1.66          CL
+HETATM   40 Cl   UNK    40       1.697   6.444   4.675  1.00  1.66          CL
+HETATM   41 Cl   UNK    41      -2.806  -0.921   4.675  1.00  1.66          CL
+END

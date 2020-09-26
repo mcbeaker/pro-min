@@ -1,0 +1,56 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Chenite_0015326.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Pb1  UNK     0       1.264   0.411   3.510  1.00  1.17          PB
+HETATM    1 Pb2  UNK     1       2.807   1.971   0.340  1.00  1.14          PB
+HETATM    2 Cu   UNK     2       0.000   0.000   0.000  1.00  0.97          CU
+HETATM    3  O1  UNK     3       0.696   1.218   1.352  1.00  1.02           O
+HETATM    4  H1  UNK     4       0.171   1.882   1.428  1.00  1.18           H
+HETATM    5  O2  UNK     5       1.797   0.038  -0.854  1.00  1.09           O
+HETATM    6  H2  UNK     6       1.743   0.173  -1.692  1.00  1.34           H
+HETATM    7  O3  UNK     7       0.401   2.443   4.319  1.00  1.22           O
+HETATM    8  H3  UNK     8      -0.372   2.602   4.005  1.00  1.50           H
+HETATM    9  S   UNK     9      -1.504  -0.304   5.225  1.00  1.07           S
+HETATM   10  O4  UNK    10      -0.177  -0.159   5.838  1.00  1.75           O
+HETATM   11  O5  UNK    11      -2.413   0.759   5.667  1.00  2.13           O
+HETATM   12  O6  UNK    12      -1.360  -0.245   3.754  1.00  1.76           O
+HETATM   13  O7  UNK    13      -2.088  -1.601   5.626  1.00  1.58           O
+HETATM   14 Pb1  UNK    14      -1.264  -0.411  -3.510  1.00  1.17          PB
+HETATM   15 Pb2  UNK    15      -2.807  -1.971  -0.340  1.00  1.14          PB
+HETATM   16  O1  UNK    16      -0.696  -1.218  -1.352  1.00  1.02           O
+HETATM   17  H1  UNK    17      -0.171  -1.882  -1.428  1.00  1.18           H
+HETATM   18  O2  UNK    18      -1.797  -0.038   0.854  1.00  1.09           O
+HETATM   19  H2  UNK    19      -1.743  -0.173   1.692  1.00  1.34           H
+HETATM   20  O3  UNK    20      -0.401  -2.443  -4.319  1.00  1.22           O
+HETATM   21  H3  UNK    21       0.372  -2.602  -4.005  1.00  1.50           H
+HETATM   22  S   UNK    22       1.504   0.304  -5.225  1.00  1.07           S
+HETATM   23  O4  UNK    23       0.177   0.159  -5.838  1.00  1.75           O
+HETATM   24  O5  UNK    24       2.413  -0.759  -5.667  1.00  2.13           O
+HETATM   25  O6  UNK    25       1.360   0.245  -3.754  1.00  1.76           O
+HETATM   26  O7  UNK    26       2.088   1.601  -5.626  1.00  1.58           O
+HETATM   27 Pb1  UNK    27      -2.015  -4.167  -3.707  1.00  1.17          PB
+HETATM   28 Pb1  UNK    28       2.342   3.649  -3.707  1.00  1.17          PB
+HETATM   29 Pb1  UNK    29      -2.342  -3.649   3.707  1.00  1.17          PB
+HETATM   30 Pb1  UNK    30       2.015   4.167   3.707  1.00  1.17          PB
+HETATM   31 Pb2  UNK    31      -0.472  -2.607  -6.877  1.00  1.14          PB
+HETATM   32 Pb2  UNK    32      -2.989   1.971   0.340  1.00  1.14          PB
+HETATM   33 Pb2  UNK    33      -4.067  -1.268   7.557  1.00  1.14          PB
+HETATM   34 Pb2  UNK    34       1.729  -1.268   7.557  1.00  1.14          PB
+HETATM   35 Pb2  UNK    35      -1.729   1.268  -7.557  1.00  1.14          PB
+HETATM   36 Pb2  UNK    36       4.067   1.268  -7.557  1.00  1.14          PB
+HETATM   37 Pb2  UNK    37       2.989  -1.971  -0.340  1.00  1.14          PB
+HETATM   38 Pb2  UNK    38       0.472   2.607   6.877  1.00  1.14          PB
+HETATM   39 Cu   UNK    39       1.079   3.239  -7.217  1.00  0.97          CU
+HETATM   40 Cu   UNK    40      -1.079  -3.239   7.217  1.00  0.97          CU
+HETATM   41  O2  UNK    41      -3.999   0.038  -0.854  1.00  1.09           O
+HETATM   42  O2  UNK    42       3.999  -0.038   0.854  1.00  1.09           O
+HETATM   43  O3  UNK    43      -2.879  -2.134  -2.898  1.00  1.22           O
+HETATM   44  O3  UNK    44       2.879   2.134   2.898  1.00  1.22           O
+HETATM   45  O4  UNK    45       0.902   3.079  -1.379  1.00  1.75           O
+HETATM   46  O4  UNK    46      -0.902  -3.079   1.379  1.00  1.75           O
+HETATM   47  O7  UNK    47      -1.010   1.638  -1.591  1.00  1.58           O
+HETATM   48  O7  UNK    48       4.786   1.638  -1.591  1.00  1.58           O
+HETATM   49  O7  UNK    49      -4.786  -1.638   1.591  1.00  1.58           O
+HETATM   50  O7  UNK    50       1.010  -1.638   1.591  1.00  1.58           O
+END

@@ -1,0 +1,16 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Amakinite_0011783.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Fe   UNK     0       0.000   0.000   0.000  1.00  0.00          FE
+HETATM    1  O-H UNK     1       1.629   0.941  -1.151  1.00  0.00           O
+HETATM    2  O-H UNK     2      -1.629   0.941  -1.151  1.00  0.00           O
+HETATM    3 Fe   UNK     3      -3.258   0.000   0.000  1.00  0.00          FE
+HETATM    4 Fe   UNK     4      -1.629   2.822   0.000  1.00  0.00          FE
+HETATM    5 Fe   UNK     5       1.629   2.822   0.000  1.00  0.00          FE
+HETATM    6 Fe   UNK     6       3.258   0.000   0.000  1.00  0.00          FE
+HETATM    7  O-H UNK     7      -0.000  -1.881  -1.151  1.00  0.00           O
+HETATM    8  O-H UNK     8      -1.629  -0.940   1.151  1.00  0.00           O
+HETATM    9  O-H UNK     9       0.000   1.881   1.151  1.00  0.00           O
+HETATM   10  O-H UNK    10       1.629  -0.940   1.151  1.00  0.00           O
+END

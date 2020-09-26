@@ -1,0 +1,30 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Khaidarkanite_0019201.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       7.321   1.454   7.277  1.00  0.12          CU
+HETATM    1 O-H1 UNK     1       6.662   1.454   4.902  1.00  0.12           O
+HETATM    2 Al1  UNK     2       5.460   0.000   5.135  1.00  0.09          AL
+HETATM    3 O-H2 UNK     3       5.981   0.000   6.995  1.00  0.11           O
+HETATM    4 O-H3 UNK     4       8.584   0.000   7.351  1.00  0.14           O
+HETATM    5 Cu   UNK     5       3.599   1.454   2.994  1.00  0.12          CU
+HETATM    6 O-H1 UNK     6       4.259   1.454   5.368  1.00  0.12           O
+HETATM    7 O-H2 UNK     7       4.939   0.000   3.275  1.00  0.11           O
+HETATM    8 O-H3 UNK     8       2.337   0.000   2.920  1.00  0.14           O
+HETATM    9 Cu   UNK     9       7.321  -1.453   7.277  1.00  0.12          CU
+HETATM   10 Cu   UNK    10       3.599  -1.453   2.994  1.00  0.12          CU
+HETATM   11 O-H1 UNK    11       6.662  -1.453   4.902  1.00  0.12           O
+HETATM   12 O-H1 UNK    12       4.259  -1.453   5.368  1.00  0.12           O
+HETATM   13 Al1  UNK    13       5.460   2.907   5.135  1.00  0.09          AL
+HETATM   14 O-H2 UNK    14       5.981   2.907   6.995  1.00  0.11           O
+HETATM   15 O-H2 UNK    15       4.939   2.907   3.275  1.00  0.11           O
+HETATM   16 O-H3 UNK    16       8.584   2.907   7.351  1.00  0.14           O
+HETATM   17 O-H3 UNK    17       2.337   2.907   2.920  1.00  0.14           O
+HETATM   18 Al2  UNK    18       6.173   1.454   0.000  1.00  0.30          AL
+HETATM   19  F   UNK    19       6.562   0.000   1.138  1.00  0.50           F
+HETATM   20  F   UNK    20       5.784  -0.000  -1.138  1.00  0.50           F
+HETATM   21 Al2  UNK    21       6.173  -1.454   0.000  1.00  0.30          AL
+HETATM   22  F   UNK    22       6.562   2.907   1.138  1.00  0.50           F
+HETATM   23  F   UNK    23       5.784   2.907  -1.138  1.00  0.50           F
+HETATM   24 Wat  UNK    24       6.715   1.454   9.678  1.00  0.44           O
+END

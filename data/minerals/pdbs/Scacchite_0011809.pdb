@@ -1,0 +1,15 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Scacchite_0011809.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Mn   UNK     0       1.843   1.064   5.823  1.00  0.00          MN
+HETATM    1 Cl   UNK     1      -0.000   0.000   4.367  1.00  0.00          CL
+HETATM    2 Cl   UNK     2       0.000   2.128   7.279  1.00  0.00          CL
+HETATM    3 Mn   UNK     3      -1.843   1.064   5.823  1.00  0.00          MN
+HETATM    4 Mn   UNK     4      -0.000  -2.128   5.823  1.00  0.00          MN
+HETATM    5 Mn   UNK     5       0.000   4.256   5.823  1.00  0.00          MN
+HETATM    6 Cl   UNK     6       1.843   3.192   4.367  1.00  0.00          CL
+HETATM    7 Cl   UNK     7       3.686   0.000   4.367  1.00  0.00          CL
+HETATM    8 Cl   UNK     8       1.843  -1.064   7.279  1.00  0.00          CL
+HETATM    9 Cl   UNK     9       3.686   2.128   7.279  1.00  0.00          CL
+END

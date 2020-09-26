@@ -1,0 +1,43 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Birchite_0004585.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cd   UNK     0       6.212   2.146   0.271  1.00  1.87          CD
+HETATM    1  S   UNK     1       5.796   5.223   1.600  1.00  1.89           S
+HETATM    2  O1  UNK     2       5.364   5.223   2.991  1.00  2.66           O
+HETATM    3  O2  UNK     3       7.265   5.223   1.535  1.00  1.89           O
+HETATM    4  O3  UNK     4       5.239   4.024   0.919  1.00  3.05           O
+HETATM    5  O3  UNK     5       5.239   6.423   0.919  1.00  3.05           O
+HETATM    6 Cu   UNK     6       4.101   1.322  -2.338  1.00  1.52          CU
+HETATM    7  P   UNK     7       3.421   0.906   0.822  1.00  1.29           P
+HETATM    8  O4  UNK     8       2.213   1.807   0.970  1.00  1.61           O
+HETATM    9  O5  UNK     9       4.438   1.022   1.957  1.00  1.53           O
+HETATM   10  O6  UNK    10       2.953  -0.566   0.677  1.00  1.50           O
+HETATM   11  O7  UNK    11       4.269   1.289  -0.433  1.00  1.53           O
+HETATM   12 Cd   UNK    12       6.212   8.301   0.271  1.00  1.87          CD
+HETATM   13 Cu   UNK    13       4.101   9.125  -2.338  1.00  1.52          CU
+HETATM   14  P   UNK    14       3.421   9.541   0.822  1.00  1.29           P
+HETATM   15  O4  UNK    15       2.213   8.640   0.970  1.00  1.61           O
+HETATM   16  O5  UNK    16       4.438   9.425   1.957  1.00  1.53           O
+HETATM   17  O6  UNK    17       2.953  11.013   0.677  1.00  1.50           O
+HETATM   18  O7  UNK    18       4.269   9.158  -0.433  1.00  1.53           O
+HETATM   19 Cd   UNK    19       4.265  12.593  -0.271  1.00  1.87          CD
+HETATM   20 Cd   UNK    20       0.973   8.301   2.811  1.00  1.87          CD
+HETATM   21 Cd   UNK    21       0.973   2.146   2.811  1.00  1.87          CD
+HETATM   22 Cd   UNK    22       4.265  -2.146  -0.271  1.00  1.87          CD
+HETATM   23 Cu   UNK    23       4.101   1.322   3.826  1.00  1.52          CU
+HETATM   24 Cu   UNK    24       4.101   9.125   3.826  1.00  1.52          CU
+HETATM   25 Cu   UNK    25       1.137  11.769   0.744  1.00  1.52          CU
+HETATM   26 Cu   UNK    26       1.137  -1.322   0.744  1.00  1.52          CU
+HETATM   27  O4  UNK    27       7.451   8.640   2.112  1.00  1.61           O
+HETATM   28  O4  UNK    28       7.451   1.807   2.112  1.00  1.61           O
+HETATM   29  O5  UNK    29       4.438   1.022  -4.207  1.00  1.53           O
+HETATM   30  O5  UNK    30       4.438   9.425  -4.207  1.00  1.53           O
+HETATM   31  O6  UNK    31       7.523   9.881  -0.677  1.00  1.50           O
+HETATM   32  O6  UNK    32       2.285   9.881  -2.405  1.00  1.50           O
+HETATM   33  O6  UNK    33       2.285   0.566  -2.405  1.00  1.50           O
+HETATM   34  O6  UNK    34       7.523   0.566  -0.677  1.00  1.50           O
+HETATM   35 Wat1 UNK    35       5.759   2.530   3.956  1.00  1.71           O
+HETATM   36 Wat2 UNK    36       2.921   3.328   3.448  1.00  1.66           O
+HETATM   37 Wat3 UNK    37       3.199   5.223   5.310  1.00  2.40           O
+END

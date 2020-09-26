@@ -1,0 +1,25 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Scheelite_0013201.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  W   UNK     0       0.000   1.311   1.422  1.00  0.46           W
+HETATM    1  O   UNK     1       1.266   2.101   0.448  1.00  0.77           O
+HETATM    2 Ca   UNK     2       2.621   3.932   1.422  1.00  0.56          CA
+HETATM    3  O   UNK     3       0.790   0.045   2.395  1.00  0.77           O
+HETATM    4  O   UNK     4      -1.266   0.521   0.448  1.00  0.77           O
+HETATM    5  O   UNK     5      -0.790   2.576   2.395  1.00  0.77           O
+HETATM    6  O   UNK     6       0.790   5.288   2.395  1.00  0.77           O
+HETATM    7  O   UNK     7       1.831   2.576   3.292  1.00  0.77           O
+HETATM    8  O   UNK     8       1.266   4.722  -0.448  1.00  0.77           O
+HETATM    9  O   UNK     9       3.977   5.764   0.448  1.00  0.77           O
+HETATM   10  O   UNK    10       4.453   2.576   2.395  1.00  0.77           O
+HETATM   11  O   UNK    11       3.412   5.288   3.292  1.00  0.77           O
+HETATM   12  O   UNK    12       3.977   3.142  -0.448  1.00  0.77           O
+HETATM   13 Ca   UNK    13       2.621  -1.311   1.422  1.00  0.56          CA
+HETATM   14 Ca   UNK    14      -2.621  -1.311   1.422  1.00  0.56          CA
+HETATM   15 Ca   UNK    15      -2.621   3.932   1.422  1.00  0.56          CA
+HETATM   16 Ca   UNK    16       2.621   1.311  -1.422  1.00  0.56          CA
+HETATM   17 Ca   UNK    17      -2.621   1.311  -1.422  1.00  0.56          CA
+HETATM   18 Ca   UNK    18       0.000  -1.311   4.265  1.00  0.56          CA
+HETATM   19 Ca   UNK    19       0.000   3.932   4.265  1.00  0.56          CA
+END

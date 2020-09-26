@@ -1,0 +1,30 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Briartite_0014274.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Fe   UNK     0       0.000   0.000   0.000  1.00  0.88          FE
+HETATM    1  S   UNK     1      -1.379   1.379   1.308  1.00  0.73           S
+HETATM    2 Cu   UNK     2       0.000   2.663   2.627  1.00  1.22          CU
+HETATM    3 Ge   UNK     3      -2.663   2.663   0.000  1.00  0.42          GE
+HETATM    4  S   UNK     4       1.379  -1.379   1.308  1.00  0.73           S
+HETATM    5 Cu   UNK     5       2.663   0.000   2.627  1.00  1.22          CU
+HETATM    6  S   UNK     6       1.379   1.379  -1.308  1.00  0.73           S
+HETATM    7  S   UNK     7      -1.379  -1.379  -1.308  1.00  0.73           S
+HETATM    8  S   UNK     8       3.946   1.379   1.308  1.00  0.73           S
+HETATM    9  S   UNK     9       1.379   3.946   1.308  1.00  0.73           S
+HETATM   10  S   UNK    10      -3.946   3.946   1.308  1.00  0.73           S
+HETATM   11  S   UNK    11      -3.946   1.379  -1.308  1.00  0.73           S
+HETATM   12  S   UNK    12       4.042  -1.283   3.947  1.00  0.73           S
+HETATM   13  S   UNK    13      -1.283   4.042   3.947  1.00  0.73           S
+HETATM   14  S   UNK    14      -1.379   3.946  -1.308  1.00  0.73           S
+HETATM   15  S   UNK    15       1.283   1.283   3.947  1.00  0.73           S
+HETATM   16 Cu   UNK    16      -0.000  -2.663   2.627  1.00  1.22          CU
+HETATM   17 Cu   UNK    17       2.663  -0.000  -2.627  1.00  1.22          CU
+HETATM   18 Cu   UNK    18      -2.663  -0.000  -2.627  1.00  1.22          CU
+HETATM   19 Cu   UNK    19      -2.663   0.000   2.627  1.00  1.22          CU
+HETATM   20 Cu   UNK    20      -0.000  -2.663  -2.627  1.00  1.22          CU
+HETATM   21 Cu   UNK    21       0.000   2.663  -2.627  1.00  1.22          CU
+HETATM   22 Ge   UNK    22       2.663  -2.663   0.000  1.00  0.42          GE
+HETATM   23 Ge   UNK    23      -2.663  -2.663   0.000  1.00  0.42          GE
+HETATM   24 Ge   UNK    24       2.663   2.663   0.000  1.00  0.42          GE
+END

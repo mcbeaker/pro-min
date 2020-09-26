@@ -1,0 +1,23 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Garavellite_0014648.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Fe   UNK     0       3.615   4.743   0.940  1.00  1.44          FE
+HETATM    1 Bi   UNK     1       0.443   5.786  -0.940  1.00  1.44          BI
+HETATM    2  S1  UNK     2       2.227   3.840  -0.940  1.00  1.47           S
+HETATM    3  S2  UNK     3       4.821   2.605   0.940  1.00  1.24           S
+HETATM    4  S3  UNK     4       2.549   7.014   0.940  1.00  1.26           S
+HETATM    5  S4  UNK     5       5.150   5.735  -0.940  1.00  1.26           S
+HETATM    6 Sb   UNK     6       4.056   7.847   2.819  1.00  1.44          SB
+HETATM    7 Fe   UNK     7       3.615   4.743  -2.819  1.00  1.44          FE
+HETATM    8 Bi   UNK     8       0.443   5.786   2.819  1.00  1.44          BI
+HETATM    9 Bi   UNK     9       6.149   1.296   2.819  1.00  1.44          BI
+HETATM   10 Bi   UNK    10       6.149   1.296  -0.940  1.00  1.44          BI
+HETATM   11  S1  UNK    11       2.227   3.840   2.819  1.00  1.47           S
+HETATM   12  S2  UNK    12      -0.886   4.477   0.940  1.00  1.24           S
+HETATM   13  S2  UNK    13      -0.886   4.477  -2.819  1.00  1.24           S
+HETATM   14  S3  UNK    14       2.549   7.014   4.699  1.00  1.26           S
+HETATM   15  S3  UNK    15       2.549   7.014  -2.819  1.00  1.26           S
+HETATM   16  S4  UNK    16       5.150   5.735   2.819  1.00  1.26           S
+HETATM   17 Sb   UNK    17       4.056   7.847  -0.940  1.00  1.44          SB
+END

@@ -1,0 +1,24 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Haggite_0000094.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  V   UNK     0       7.487   1.495   1.896  1.00  4.16           V
+HETATM    1  O1  UNK     1       5.738   1.495   2.390  1.00  5.87           O
+HETATM    2  O3  UNK     2       9.528   1.495   1.654  1.00  5.14           O
+HETATM    3  O2  UNK     3       7.324   0.000   0.636  1.00  4.90           O
+HETATM    4  V   UNK     4       3.990   1.495   2.884  1.00  4.16           V
+HETATM    5  O3  UNK     5       1.949   1.495   3.126  1.00  5.14           O
+HETATM    6  O2  UNK     6       4.153   0.000   4.144  1.00  4.90           O
+HETATM    7  V   UNK     7       7.487  -1.495   1.896  1.00  4.16           V
+HETATM    8  V   UNK     8       1.402   0.000   1.896  1.00  4.16           V
+HETATM    9  V   UNK     9       1.402   2.990   1.896  1.00  4.16           V
+HETATM   10  V   UNK    10       3.990  -1.495   2.884  1.00  4.16           V
+HETATM   11  V   UNK    11      10.075   0.000   2.884  1.00  4.16           V
+HETATM   12  V   UNK    12      10.075   2.990   2.884  1.00  4.16           V
+HETATM   13  O3  UNK    13       3.443   0.000   1.654  1.00  5.14           O
+HETATM   14  O3  UNK    14       3.443   2.990   1.654  1.00  5.14           O
+HETATM   15  O3  UNK    15       8.034   0.000   3.126  1.00  5.14           O
+HETATM   16  O3  UNK    16       8.034   2.990   3.126  1.00  5.14           O
+HETATM   17  O2  UNK    17       7.324   2.990   0.636  1.00  4.90           O
+HETATM   18  O2  UNK    18       4.153   2.990   4.144  1.00  4.90           O
+END

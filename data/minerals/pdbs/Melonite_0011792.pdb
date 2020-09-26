@@ -1,0 +1,16 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Melonite_0011792.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Ni   UNK     0       0.000   0.000   0.000  1.00  0.00          NI
+HETATM    1 Te   UNK     1       1.931   1.115  -1.324  1.00  0.00          TE
+HETATM    2 Te   UNK     2      -1.930   1.115  -1.324  1.00  0.00          TE
+HETATM    3 Ni   UNK     3      -3.861   0.000   0.000  1.00  0.00          NI
+HETATM    4 Ni   UNK     4      -1.930   3.344   0.000  1.00  0.00          NI
+HETATM    5 Ni   UNK     5       1.931   3.344   0.000  1.00  0.00          NI
+HETATM    6 Ni   UNK     6       3.861   0.000   0.000  1.00  0.00          NI
+HETATM    7 Te   UNK     7      -0.000  -2.229  -1.324  1.00  0.00          TE
+HETATM    8 Te   UNK     8      -1.930  -1.115   1.324  1.00  0.00          TE
+HETATM    9 Te   UNK     9       0.000   2.229   1.324  1.00  0.00          TE
+HETATM   10 Te   UNK    10       1.931  -1.115   1.324  1.00  0.00          TE
+END

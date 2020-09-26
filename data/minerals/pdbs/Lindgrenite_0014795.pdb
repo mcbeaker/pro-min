@@ -1,0 +1,40 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Lindgrenite_0014795.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu2  UNK     0       0.309  -1.317   2.845  1.00  0.83          CU
+HETATM    1 Mo   UNK     1       2.833  -2.167   0.681  1.00  0.68          MO
+HETATM    2  O1  UNK     2      -0.360  -3.133   3.129  1.00  1.50           O
+HETATM    3  O2  UNK     3       1.140  -1.287   4.987  1.00  1.44           O
+HETATM    4  O3  UNK     4       2.073  -1.822   2.253  1.00  1.16           O
+HETATM    5  O4  UNK     5       4.508  -1.585   0.704  1.00  1.10           O
+HETATM    6 Cu1  UNK     6      -0.829   0.000   5.546  1.00  0.78          CU
+HETATM    7  O5  UNK     7      -1.259  -0.429   3.658  1.00  0.82           O
+HETATM    8  H5  UNK     8      -1.995  -0.673   3.605  1.00  1.00           H
+HETATM    9 Cu2  UNK     9       4.256   1.317   2.701  1.00  0.83          CU
+HETATM   10 Mo   UNK    10       1.732   2.167   4.865  1.00  0.68          MO
+HETATM   11  O1  UNK    11       4.925   3.133   2.417  1.00  1.50           O
+HETATM   12  O2  UNK    12       3.425   1.287   0.560  1.00  1.44           O
+HETATM   13  O3  UNK    13       2.492   1.822   3.293  1.00  1.16           O
+HETATM   14  O4  UNK    14       0.057   1.585   4.842  1.00  1.10           O
+HETATM   15  O5  UNK    15       5.824   0.429   1.889  1.00  0.82           O
+HETATM   16  H5  UNK    16       6.560   0.673   1.941  1.00  1.00           H
+HETATM   17 Cu2  UNK    17       5.703  -1.317   2.845  1.00  0.83          CU
+HETATM   18 Cu2  UNK    18      -1.138   1.317   2.701  1.00  0.83          CU
+HETATM   19 Mo   UNK    19       2.004  -2.167   6.228  1.00  0.68          MO
+HETATM   20 Mo   UNK    20      -0.279  -4.844   3.455  1.00  0.68          MO
+HETATM   21 Mo   UNK    21       4.844   4.844   2.092  1.00  0.68          MO
+HETATM   22 Mo   UNK    22       2.561   2.167  -0.681  1.00  0.68          MO
+HETATM   23  O1  UNK    23       2.751  -3.879   0.356  1.00  1.50           O
+HETATM   24  O1  UNK    24       1.814   3.879   5.190  1.00  1.50           O
+HETATM   25  O2  UNK    25       1.969  -1.287  -0.560  1.00  1.44           O
+HETATM   26  O2  UNK    26       2.596   1.287   6.106  1.00  1.44           O
+HETATM   27  O2  UNK    27      -2.798   1.287   6.106  1.00  1.44           O
+HETATM   28  O4  UNK    28      -1.715  -1.585   6.251  1.00  1.10           O
+HETATM   29  O4  UNK    29      -0.886  -1.585   0.704  1.00  1.10           O
+HETATM   30  O4  UNK    30       5.451   1.585   4.842  1.00  1.10           O
+HETATM   31 Cu1  UNK    31       5.394   0.000   0.000  1.00  0.78          CU
+HETATM   32  O5  UNK    32       4.135  -0.429   3.658  1.00  0.82           O
+HETATM   33  O5  UNK    33      -0.399   0.429   7.435  1.00  0.82           O
+HETATM   34  O5  UNK    34       0.430   0.429   1.889  1.00  0.82           O
+END

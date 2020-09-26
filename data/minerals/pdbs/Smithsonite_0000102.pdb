@@ -1,0 +1,20 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Smithsonite_0000102.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  C   UNK     0       0.000   0.000   3.756  1.00  0.00           C
+HETATM    1  O   UNK     1      -0.643   1.114   3.756  1.00  0.00           O
+HETATM    2  O   UNK     2       1.286   0.000   3.756  1.00  0.00           O
+HETATM    3  O   UNK     3      -0.643  -1.114   3.756  1.00  0.00           O
+HETATM    4 Zn   UNK     4       0.000   2.686   2.504  1.00  0.00          ZN
+HETATM    5  O   UNK     5      -1.683   2.457   1.252  1.00  0.00           O
+HETATM    6  O   UNK     6      -1.040   4.029   3.756  1.00  0.00           O
+HETATM    7  O   UNK     7       0.643   4.259   1.252  1.00  0.00           O
+HETATM    8  O   UNK     8       1.683   2.916   3.756  1.00  0.00           O
+HETATM    9  O   UNK     9       1.040   1.343   1.252  1.00  0.00           O
+HETATM   10 Zn   UNK    10      -2.326  -1.343   2.504  1.00  0.00          ZN
+HETATM   11 Zn   UNK    11       2.326  -1.343   2.504  1.00  0.00          ZN
+HETATM   12 Zn   UNK    12      -0.000  -2.686   5.008  1.00  0.00          ZN
+HETATM   13 Zn   UNK    13      -2.326   1.343   5.008  1.00  0.00          ZN
+HETATM   14 Zn   UNK    14       2.326   1.343   5.008  1.00  0.00          ZN
+END

@@ -1,0 +1,32 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Chlormanganokalite_0019234.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Mn   UNK     0       2.152   2.134   2.117  1.00  0.00          MN
+HETATM    1 Cl   UNK     1       2.131  -0.406   2.117  1.00  0.00          CL
+HETATM    2  K1  UNK     2       0.000   0.000   0.000  1.00  0.00           K
+HETATM    3  K2  UNK     3       4.234   0.000   0.000  1.00  0.00           K
+HETATM    4 Cl   UNK     4       2.173   2.155   4.657  1.00  0.00          CL
+HETATM    5 Cl   UNK     5       2.131   2.113  -0.423  1.00  0.00          CL
+HETATM    6  K2  UNK     6       0.035   4.234   0.000  1.00  0.00           K
+HETATM    7 Cl   UNK     7       4.692   2.134   2.117  1.00  0.00          CL
+HETATM    8 Cl   UNK     8      -0.389   2.134   2.117  1.00  0.00          CL
+HETATM    9  K2  UNK     9       0.035   0.034   4.234  1.00  0.00           K
+HETATM   10 Cl   UNK    10       2.173   4.674   2.117  1.00  0.00          CL
+HETATM   11 Cl   UNK    11       0.458  -2.065   6.351  1.00  0.00          CL
+HETATM   12 Cl   UNK    12       0.458   6.334  -2.117  1.00  0.00          CL
+HETATM   13 Cl   UNK    13       0.389  -2.134  -2.117  1.00  0.00          CL
+HETATM   14 Cl   UNK    14      -2.103   3.793  -2.117  1.00  0.00          CL
+HETATM   15 Cl   UNK    15       6.337   0.406  -2.117  1.00  0.00          CL
+HETATM   16 Cl   UNK    16      -2.061   0.475   6.351  1.00  0.00          CL
+HETATM   17 Cl   UNK    17      -2.131   0.406  -2.117  1.00  0.00          CL
+HETATM   18 Cl   UNK    18      -2.103  -2.086   3.810  1.00  0.00          CL
+HETATM   19 Cl   UNK    19       6.337  -2.113   0.423  1.00  0.00          CL
+HETATM   20 Cl   UNK    20      -2.061   6.354   0.423  1.00  0.00          CL
+HETATM   21 Cl   UNK    21      -2.131  -2.113   0.423  1.00  0.00          CL
+HETATM   22 Cl   UNK    22       3.776  -2.134  -2.117  1.00  0.00          CL
+HETATM   23  K1  UNK    23       4.303   4.268   4.234  1.00  0.00           K
+HETATM   24  K2  UNK    24       0.069   4.268   4.234  1.00  0.00           K
+HETATM   25  K2  UNK    25       4.269   4.234   0.000  1.00  0.00           K
+HETATM   26  K2  UNK    26       4.269   0.034   4.234  1.00  0.00           K
+END

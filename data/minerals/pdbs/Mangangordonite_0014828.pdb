@@ -1,0 +1,40 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Mangangordonite_0014828.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Mn   UNK     0       0.000   0.000   0.000  1.00  1.31          MN
+HETATM    1  Ow7 UNK     1       0.389  -0.330   2.080  1.00  2.85           O
+HETATM    2  H76 UNK     2       0.138   0.283   2.470  1.00  7.19           H
+HETATM    3  H79 UNK     3      -0.046  -1.025   2.406  1.00  7.50           H
+HETATM    4  Ow8 UNK     4       1.586   1.224  -0.419  1.00  2.43           O
+HETATM    5  H81 UNK     5       1.210   2.026  -0.443  1.00  2.05           H
+HETATM    6  H83 UNK     6       2.161   1.206   0.063  1.00  5.13           H
+HETATM    7  Ow7 UNK     7      -0.389   0.330  -2.080  1.00  2.85           O
+HETATM    8  H76 UNK     8      -0.138  -0.283  -2.470  1.00  7.19           H
+HETATM    9  H79 UNK     9       0.046   1.025  -2.406  1.00  7.50           H
+HETATM   10  Ow8 UNK    10      -1.586  -1.224   0.419  1.00  2.43           O
+HETATM   11  H81 UNK    11      -1.210  -2.026   0.443  1.00  2.05           H
+HETATM   12  H83 UNK    12      -2.161  -1.206  -0.063  1.00  5.13           H
+HETATM   13 Al1  UNK    13      -1.742   3.721   6.333  1.00  0.46          AL
+HETATM   14 Al2  UNK    14      -0.363   4.401   3.166  1.00  0.55          AL
+HETATM   15 O-h5 UNK    15      -1.687   4.083   4.493  1.00  0.87           O
+HETATM   16  Ow6 UNK    16      -1.087   6.287   2.904  1.00  1.19           O
+HETATM   17  H52 UNK    17      -2.494   4.272   4.243  1.00  2.53           H
+HETATM   18  H64 UNK    18      -1.148   6.624   2.280  1.00 14.13           H
+HETATM   19  H69 UNK    19      -1.899   6.461   3.040  1.00  2.37           H
+HETATM   20 O-h5 UNK    20      -1.798   3.360   8.172  1.00  0.87           O
+HETATM   21  H52 UNK    21      -0.991   3.171   8.422  1.00  2.53           H
+HETATM   22  Ow6 UNK    22       0.361   2.516   3.429  1.00  1.19           O
+HETATM   23  H64 UNK    23       0.421   2.178   4.053  1.00 14.13           H
+HETATM   24  H69 UNK    24       1.173   2.342   3.293  1.00  2.37           H
+HETATM   25 Al2  UNK    25      -3.122   3.041   9.499  1.00  0.55          AL
+HETATM   26 O-h5 UNK    26       0.961   4.719   1.840  1.00  0.87           O
+HETATM   27  P   UNK    27       3.910   3.300   0.481  1.00  0.75           P
+HETATM   28 Op1  UNK    28       2.073   6.517   0.280  1.00  0.84          XX
+HETATM   29 Op2  UNK    29       3.754   3.910   1.880  1.00  1.07          XX
+HETATM   30 Op3  UNK    30       3.946   1.776   0.574  1.00  1.13          XX
+HETATM   31 Op4  UNK    31       0.037   2.554   5.759  1.00  0.85          XX
+HETATM   32  Ow9 UNK    32       2.887   1.339   3.133  1.00  2.11           O
+HETATM   33  H93 UNK    33       3.268   1.224   2.343  1.00  3.55           H
+HETATM   34  H96 UNK    34       3.684   1.447   3.673  1.00 10.03           H
+END

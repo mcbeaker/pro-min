@@ -1,0 +1,24 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Wulfenite_0014900.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Pb   UNK     0       0.000   1.359   1.513  1.00  0.79          PB
+HETATM    1  O   UNK     1      -0.739  -0.084   3.561  1.00  1.30           O
+HETATM    2 Mo   UNK     2       0.000  -1.358   4.540  1.00  0.41          MO
+HETATM    3  O   UNK     3       1.275  -0.619   5.520  1.00  1.30           O
+HETATM    4  O   UNK     4       0.739   2.801   3.561  1.00  1.30           O
+HETATM    5  O   UNK     5       1.442   0.619  -0.534  1.00  1.30           O
+HETATM    6 Pb   UNK     6       2.717  -1.358   7.567  1.00  0.79          PB
+HETATM    7 Pb   UNK     7      -2.717   1.359   4.540  1.00  0.79          PB
+HETATM    8 Pb   UNK     8       2.717   1.359   4.540  1.00  0.79          PB
+HETATM    9 Pb   UNK     9      -0.000  -1.359  -1.513  1.00  0.79          PB
+HETATM   10  O   UNK    10      -1.442   2.098  -0.534  1.00  1.30           O
+HETATM   11  O   UNK    11       1.442   3.336   0.534  1.00  1.30           O
+HETATM   12  O   UNK    12       1.978  -0.084   2.493  1.00  1.30           O
+HETATM   13  O   UNK    13       0.739  -2.633   3.561  1.00  1.30           O
+HETATM   14  O   UNK    14      -1.275  -2.098   5.520  1.00  1.30           O
+HETATM   15  O   UNK    15      -1.442  -0.619   0.534  1.00  1.30           O
+HETATM   16  O   UNK    16      -1.978   2.801   2.493  1.00  1.30           O
+HETATM   17 Mo   UNK    17       0.000   4.075   4.540  1.00  0.41          MO
+HETATM   18 Mo   UNK    18       2.717   1.359  -1.513  1.00  0.41          MO
+END

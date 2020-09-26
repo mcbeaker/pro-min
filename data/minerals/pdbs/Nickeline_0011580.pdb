@@ -1,0 +1,18 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Nickeline_0011580.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Ni   UNK     0       0.000   0.000   0.000  1.00  0.00          NI
+HETATM    1 As   UNK     1       0.000   2.080   1.252  1.00  0.00          AS
+HETATM    2 Ni   UNK     2       1.801   3.119   0.000  1.00  0.00          NI
+HETATM    3 Ni   UNK     3      -1.801   3.119   0.000  1.00  0.00          NI
+HETATM    4 Ni   UNK     4      -0.000  -0.000  -2.505  1.00  0.00          NI
+HETATM    5 Ni   UNK     5       0.000   0.000   2.505  1.00  0.00          NI
+HETATM    6 Ni   UNK     6       1.801   3.119   2.505  1.00  0.00          NI
+HETATM    7 Ni   UNK     7      -1.801   3.119   2.505  1.00  0.00          NI
+HETATM    8 As   UNK     8       1.801  -1.040   1.252  1.00  0.00          AS
+HETATM    9 As   UNK     9      -1.801  -1.040   1.252  1.00  0.00          AS
+HETATM   10 As   UNK    10      -0.000  -2.080  -1.252  1.00  0.00          AS
+HETATM   11 As   UNK    11       1.801   1.040  -1.252  1.00  0.00          AS
+HETATM   12 As   UNK    12      -1.801   1.040  -1.252  1.00  0.00          AS
+END

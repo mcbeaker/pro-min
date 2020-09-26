@@ -1,0 +1,29 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Paganoite_0006855.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Ni   UNK     0       0.219   3.108   4.034  1.00  1.06          NI
+HETATM    1 Bi   UNK     1      -1.004   5.392   1.988  1.00  1.00          BI
+HETATM    2 As   UNK     2       0.218   2.170   0.766  1.00  0.86          AS
+HETATM    3  O2  UNK     3      -0.223   3.213   2.020  1.00  0.93           O
+HETATM    4  O3  UNK     4       0.602   2.951  -0.660  1.00  1.32           O
+HETATM    5  O4  UNK     5      -1.097   1.128   0.408  1.00  1.14           O
+HETATM    6  O5  UNK     6       1.519   1.245   1.301  1.00  1.29           O
+HETATM    7  O1  UNK     7       0.395   5.232   3.739  1.00  0.93           O
+HETATM    8 Ni   UNK     8       0.712   4.998  -0.822  1.00  1.06          NI
+HETATM    9 Ni   UNK     9      -3.177   1.371   0.822  1.00  1.06          NI
+HETATM   10 Ni   UNK    10       3.535   1.371   0.822  1.00  1.06          NI
+HETATM   11 Ni   UNK    11       1.070   7.740   0.822  1.00  1.06          NI
+HETATM   12 Ni   UNK    12       0.577   5.849   5.678  1.00  1.06          NI
+HETATM   13 Bi   UNK    13       1.461  -0.977   1.988  1.00  1.00          BI
+HETATM   14 Bi   UNK    14      -1.497   3.501   6.845  1.00  1.00          BI
+HETATM   15 Bi   UNK    15      -1.461   0.977  -1.988  1.00  1.00          BI
+HETATM   16 Bi   UNK    16       2.293   5.456   2.868  1.00  1.00          BI
+HETATM   17  O3  UNK    17       0.108   1.061   4.196  1.00  1.32           O
+HETATM   18  O4  UNK    18      -1.368   5.241  -0.408  1.00  1.14           O
+HETATM   19  O4  UNK    19      -1.862   3.351   4.448  1.00  1.14           O
+HETATM   20  O5  UNK    20      -0.946   7.614   1.301  1.00  1.29           O
+HETATM   21  O5  UNK    21       2.235   3.234   3.555  1.00  1.29           O
+HETATM   22  O1  UNK    22       0.894   5.616   1.117  1.00  0.93           O
+HETATM   23  O1  UNK    23       0.401   3.725   5.973  1.00  0.93           O
+END

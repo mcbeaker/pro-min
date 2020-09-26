@@ -1,0 +1,25 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Wustite_0011314.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Fe   UNK     0       0.000   0.000   0.000  1.00  0.00          FE
+HETATM    1  O   UNK     1       0.000   2.155   0.000  1.00  0.00           O
+HETATM    2 Fe   UNK     2       0.000   4.311   0.000  1.00  0.00          FE
+HETATM    3 Fe   UNK     3      -2.155  -0.000  -2.155  1.00  0.00          FE
+HETATM    4 Fe   UNK     4       2.155  -0.000  -2.155  1.00  0.00          FE
+HETATM    5 Fe   UNK     5      -2.155   0.000   2.155  1.00  0.00          FE
+HETATM    6 Fe   UNK     6       2.155   0.000   2.155  1.00  0.00          FE
+HETATM    7 Fe   UNK     7      -2.155   2.155   0.000  1.00  0.00          FE
+HETATM    8 Fe   UNK     8       2.155   2.155   0.000  1.00  0.00          FE
+HETATM    9 Fe   UNK     9      -2.155  -2.155   0.000  1.00  0.00          FE
+HETATM   10 Fe   UNK    10       2.155  -2.155   0.000  1.00  0.00          FE
+HETATM   11 Fe   UNK    11       0.000   2.155  -2.155  1.00  0.00          FE
+HETATM   12 Fe   UNK    12       0.000   2.155   2.155  1.00  0.00          FE
+HETATM   13 Fe   UNK    13      -0.000  -2.155  -2.155  1.00  0.00          FE
+HETATM   14 Fe   UNK    14       0.000  -2.155   2.155  1.00  0.00          FE
+HETATM   15  O   UNK    15      -0.000  -2.155   0.000  1.00  0.00           O
+HETATM   16  O   UNK    16      -2.155   0.000   0.000  1.00  0.00           O
+HETATM   17  O   UNK    17       2.155   0.000   0.000  1.00  0.00           O
+HETATM   18  O   UNK    18      -0.000  -0.000  -2.155  1.00  0.00           O
+HETATM   19  O   UNK    19       0.000   0.000   2.155  1.00  0.00           O
+END

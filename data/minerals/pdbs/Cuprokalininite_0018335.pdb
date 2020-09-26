@@ -1,0 +1,28 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Cuprokalininite_0018335.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       2.455   2.455   2.455  1.00  0.00          CU
+HETATM    1  S   UNK     1       1.129   1.129   3.781  1.00  0.00           S
+HETATM    2 Cr   UNK     2      -1.227   1.228   3.683  1.00  0.00          CR
+HETATM    3  S   UNK     3      -1.129  -1.129   3.781  1.00  0.00           S
+HETATM    4  S   UNK     4      -1.129   1.129   6.039  1.00  0.00           S
+HETATM    5 Cr   UNK     5       1.228  -1.227   3.683  1.00  0.00          CR
+HETATM    6  S   UNK     6       1.129   3.781   1.129  1.00  0.00           S
+HETATM    7 Cu   UNK     7      -2.455  -2.455   2.455  1.00  0.00          CU
+HETATM    8 Cu   UNK     8      -2.455   2.455   7.365  1.00  0.00          CU
+HETATM    9  S   UNK     9      -1.326   1.326   1.326  1.00  0.00           S
+HETATM   10  S   UNK    10       3.781   3.781   3.781  1.00  0.00           S
+HETATM   11  S   UNK    11       1.326  -1.326   1.326  1.00  0.00           S
+HETATM   12  S   UNK    12       3.781   1.129   1.129  1.00  0.00           S
+HETATM   13  S   UNK    13      -1.326   3.584   3.584  1.00  0.00           S
+HETATM   14  S   UNK    14       3.584  -1.326   3.584  1.00  0.00           S
+HETATM   15  S   UNK    15       1.129  -1.129   6.039  1.00  0.00           S
+HETATM   16  S   UNK    16       1.326  -3.584   3.584  1.00  0.00           S
+HETATM   17  S   UNK    17      -3.584   1.326   3.584  1.00  0.00           S
+HETATM   18 Cr   UNK    18      -1.227   3.683   1.228  1.00  0.00          CR
+HETATM   19 Cr   UNK    19      -1.227  -1.227   6.138  1.00  0.00          CR
+HETATM   20 Cr   UNK    20       1.228   3.683  -1.228  1.00  0.00          CR
+HETATM   21 Cr   UNK    21       1.228   6.138   1.228  1.00  0.00          CR
+HETATM   22 Cr   UNK    22       1.228   1.228   6.138  1.00  0.00          CR
+END

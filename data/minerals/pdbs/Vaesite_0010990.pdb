@@ -1,0 +1,18 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Vaesite_0010990.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  S   UNK     0       0.598   3.441  -0.598  1.00  0.39           S
+HETATM    1  S   UNK     1      -0.598   2.245   0.598  1.00  0.39           S
+HETATM    2 Ni   UNK     2       2.843   2.843   0.000  1.00  0.45          NI
+HETATM    3  S   UNK     3       2.245   0.598  -0.598  1.00  0.39           S
+HETATM    4  S   UNK     4       3.441   3.441  -2.245  1.00  0.39           S
+HETATM    5  S   UNK     5       5.088   2.245   0.598  1.00  0.39           S
+HETATM    6  S   UNK     6       2.245   2.245   2.245  1.00  0.39           S
+HETATM    7  S   UNK     7       3.441   5.088   0.598  1.00  0.39           S
+HETATM    8 Ni   UNK     8      -2.843   2.843   0.000  1.00  0.45          NI
+HETATM    9 Ni   UNK     9       0.000   2.843  -2.843  1.00  0.45          NI
+HETATM   10 Ni   UNK    10       0.000   2.843   2.843  1.00  0.45          NI
+HETATM   11 Ni   UNK    11       0.000   5.686   0.000  1.00  0.45          NI
+HETATM   12 Ni   UNK    12       0.000   0.000   0.000  1.00  0.45          NI
+END

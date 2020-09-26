@@ -1,0 +1,18 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Frohbergite_0015753.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Fe   UNK     0       1.925   2.670   3.130  1.00  0.00          FE
+HETATM    1 Te   UNK     1       1.925   3.845   0.876  1.00  0.00          TE
+HETATM    2 Te   UNK     2       1.925   1.495  -0.876  1.00  0.00          TE
+HETATM    3 Fe   UNK     3       1.925   2.670  -3.130  1.00  0.00          FE
+HETATM    4 Fe   UNK     4       0.000   0.000   0.000  1.00  0.00          FE
+HETATM    5 Fe   UNK     5       0.000   5.340   0.000  1.00  0.00          FE
+HETATM    6 Fe   UNK     6       3.849   0.000   0.000  1.00  0.00          FE
+HETATM    7 Fe   UNK     7       3.849   5.340   0.000  1.00  0.00          FE
+HETATM    8 Te   UNK     8       0.000   1.175   2.254  1.00  0.00          TE
+HETATM    9 Te   UNK     9       3.849   1.175   2.254  1.00  0.00          TE
+HETATM   10 Te   UNK    10       0.000   4.165   4.006  1.00  0.00          TE
+HETATM   11 Te   UNK    11       3.849   4.165   4.006  1.00  0.00          TE
+HETATM   12 Te   UNK    12       1.925   1.495   5.384  1.00  0.00          TE
+END

@@ -1,0 +1,14 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Erdite_0000785.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Na   UNK     0      -0.052   3.528   1.376  1.00  2.49          NA
+HETATM    1  S   UNK     1       1.156   1.240   2.796  1.00  1.36           S
+HETATM    2 Fe   UNK     2      -0.052  -0.009   1.376  1.00  1.02          FE
+HETATM    3  S   UNK     3      -1.260   1.240  -0.044  1.00  1.36           S
+HETATM    4  S   UNK     4       1.260  -1.240   0.044  1.00  1.36           S
+HETATM    5  S   UNK     5      -1.364  -1.240   2.708  1.00  1.36           S
+HETATM    6 Fe   UNK     6       0.052   0.009  -1.376  1.00  1.02          FE
+HETATM    7 Fe   UNK     7      -0.156   0.009   4.127  1.00  1.02          FE
+HETATM    8 Wat  UNK     8       3.938   0.766   0.473  1.00  2.53           O
+END

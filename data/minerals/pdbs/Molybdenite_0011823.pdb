@@ -1,0 +1,18 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Molybdenite_0011823.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Mo   UNK     0       0.000   1.825   3.074  1.00  0.00          MO
+HETATM    1  S   UNK     1      -1.580   0.912   4.561  1.00  0.00           S
+HETATM    2  S   UNK     2      -1.580   0.912   1.586  1.00  0.00           S
+HETATM    3 Mo   UNK     3      -3.160   1.825   3.074  1.00  0.00          MO
+HETATM    4 Mo   UNK     4      -1.580  -0.912   3.074  1.00  0.00          MO
+HETATM    5 Mo   UNK     5      -1.580   4.562   3.074  1.00  0.00          MO
+HETATM    6 Mo   UNK     6       1.580  -0.912   3.074  1.00  0.00          MO
+HETATM    7 Mo   UNK     7       1.580   4.562   3.074  1.00  0.00          MO
+HETATM    8 Mo   UNK     8       3.160   1.825   3.074  1.00  0.00          MO
+HETATM    9  S   UNK     9       0.000   3.649   4.561  1.00  0.00           S
+HETATM   10  S   UNK    10       1.580   0.912   4.561  1.00  0.00           S
+HETATM   11  S   UNK    11       0.000   3.649   1.586  1.00  0.00           S
+HETATM   12  S   UNK    12       1.580   0.912   1.586  1.00  0.00           S
+END

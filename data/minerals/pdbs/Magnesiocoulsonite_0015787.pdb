@@ -1,0 +1,28 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Magnesiocoulsonite_0015787.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Mg   UNK     0       2.105   2.105   2.105  1.00  0.00          MG
+HETATM    1  O   UNK     1       0.977   0.977   3.233  1.00  0.00           O
+HETATM    2  V   UNK     2      -1.052   1.053   3.157  1.00  0.00           V
+HETATM    3  O   UNK     3      -0.977  -0.977   3.233  1.00  0.00           O
+HETATM    4  O   UNK     4      -0.977   0.977   5.187  1.00  0.00           O
+HETATM    5  V   UNK     5       1.053  -1.052   3.157  1.00  0.00           V
+HETATM    6  O   UNK     6       0.977   3.233   0.977  1.00  0.00           O
+HETATM    7 Mg   UNK     7      -2.105  -2.105   2.105  1.00  0.00          MG
+HETATM    8 Mg   UNK     8      -2.105   2.105   6.315  1.00  0.00          MG
+HETATM    9  O   UNK     9      -1.128   1.128   1.128  1.00  0.00           O
+HETATM   10  O   UNK    10       3.233   3.233   3.233  1.00  0.00           O
+HETATM   11  O   UNK    11       1.128  -1.128   1.128  1.00  0.00           O
+HETATM   12  O   UNK    12       3.233   0.977   0.977  1.00  0.00           O
+HETATM   13  O   UNK    13      -1.128   3.082   3.082  1.00  0.00           O
+HETATM   14  O   UNK    14       3.082  -1.128   3.082  1.00  0.00           O
+HETATM   15  O   UNK    15       0.977  -0.977   5.187  1.00  0.00           O
+HETATM   16  O   UNK    16       1.128  -3.082   3.082  1.00  0.00           O
+HETATM   17  O   UNK    17      -3.082   1.128   3.082  1.00  0.00           O
+HETATM   18  V   UNK    18      -1.052   3.157   1.052  1.00  0.00           V
+HETATM   19  V   UNK    19      -1.052  -1.052   5.263  1.00  0.00           V
+HETATM   20  V   UNK    20       1.053   3.157  -1.052  1.00  0.00           V
+HETATM   21  V   UNK    21       1.053   5.263   1.052  1.00  0.00           V
+HETATM   22  V   UNK    22       1.053   1.053   5.263  1.00  0.00           V
+END

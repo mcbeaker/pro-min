@@ -1,0 +1,22 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Emplectite_0003674.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       4.605  -0.978   2.504  1.00  2.54          CU
+HETATM    1 Bi   UNK     1       1.420   0.978   0.916  1.00  2.14          BI
+HETATM    2  S1  UNK     2       3.897   0.978   1.420  1.00  2.14           S
+HETATM    3  S2  UNK     3       0.773  -0.978   2.581  1.00  2.07           S
+HETATM    4 Cu   UNK     4      -1.529  -0.978   2.504  1.00  2.54          CU
+HETATM    5 Cu   UNK     5       4.605   2.933   2.504  1.00  2.54          CU
+HETATM    6 Cu   UNK     6       1.529   0.978  -2.504  1.00  2.54          CU
+HETATM    7 Cu   UNK     7       1.538  -0.978   4.770  1.00  2.54          CU
+HETATM    8 Bi   UNK     8       1.420  -2.933   0.916  1.00  2.14          BI
+HETATM    9 Bi   UNK     9       4.714   2.933  -0.916  1.00  2.14          BI
+HETATM   10 Bi   UNK    10       4.714  -0.978  -0.916  1.00  2.14          BI
+HETATM   11  S1  UNK    11       3.897  -2.933   1.420  1.00  2.14           S
+HETATM   12  S1  UNK    12       2.237   2.933  -1.420  1.00  2.14           S
+HETATM   13  S1  UNK    13       2.237  -0.978  -1.420  1.00  2.14           S
+HETATM   14  S2  UNK    14       0.773   2.933   2.581  1.00  2.07           S
+HETATM   15  S2  UNK    15       6.907  -0.978   2.581  1.00  2.07           S
+HETATM   16  S2  UNK    16       3.840  -0.978   4.693  1.00  2.07           S
+END

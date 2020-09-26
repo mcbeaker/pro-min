@@ -1,0 +1,19 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Leiteite_0001093.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 As1  UNK     0       4.405   1.438   7.137  1.00  0.99          AS
+HETATM    1 As2  UNK     1       2.121   3.640   7.179  1.00  0.95          AS
+HETATM    2  O1  UNK     2       2.658   1.913   7.233  1.00  1.45           O
+HETATM    3  O2  UNK     3       4.922   3.164   7.307  1.00  1.05           O
+HETATM    4  O3  UNK     4       4.497   1.318   5.405  1.00  1.77           O
+HETATM    5  O4  UNK     5       2.235   3.825   5.469  1.00  1.59           O
+HETATM    6 Zn   UNK     6       5.636   0.066   4.418  1.00  1.10          ZN
+HETATM    7 As2  UNK     7       6.663   3.640   7.179  1.00  0.95          AS
+HETATM    8  O2  UNK     8       0.380   3.164   7.307  1.00  1.05           O
+HETATM    9  O3  UNK     9       4.462  -1.193   3.392  1.00  1.77           O
+HETATM   10  O4  UNK    10       6.777  -1.197   5.469  1.00  1.59           O
+HETATM   11  O4  UNK    11       6.725   1.314   3.329  1.00  1.59           O
+HETATM   12 Zn   UNK    12       1.094   5.088   4.418  1.00  1.10          ZN
+HETATM   13 Zn   UNK    13       3.323   2.577   4.379  1.00  1.10          ZN
+END

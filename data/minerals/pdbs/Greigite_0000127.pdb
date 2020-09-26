@@ -1,0 +1,26 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Greigite_0000127.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Fe   UNK     0       1.234   1.234   1.234  1.00  3.20          FE
+HETATM    1  S   UNK     1       2.474   2.474   2.474  1.00  3.20           S
+HETATM    2 Fe   UNK     2       2.469   4.938   2.469  1.00  3.20          FE
+HETATM    3 Fe   UNK     3       4.938   2.469   2.469  1.00  3.20          FE
+HETATM    4  S   UNK     4       4.933   2.474   4.933  1.00  3.20           S
+HETATM    5  S   UNK     5       4.933   4.933   2.474  1.00  3.20           S
+HETATM    6  S   UNK     6       2.474   4.933   4.933  1.00  3.20           S
+HETATM    7 Fe   UNK     7       1.235   6.172   6.172  1.00  3.20          FE
+HETATM    8 Fe   UNK     8       6.172   1.235   6.172  1.00  3.20          FE
+HETATM    9 Fe   UNK     9       6.172   6.172   1.234  1.00  3.20          FE
+HETATM   10  S   UNK    10       4.943   2.464   0.005  1.00  3.20           S
+HETATM   11  S   UNK    11      -0.005   2.474  -0.005  1.00  3.20           S
+HETATM   12  S   UNK    12       2.474  -0.005  -0.005  1.00  3.20           S
+HETATM   13  S   UNK    13       2.464   4.943   0.005  1.00  3.20           S
+HETATM   14  S   UNK    14       7.402   2.464   2.464  1.00  3.20           S
+HETATM   15  S   UNK    15       2.464   7.402   2.464  1.00  3.20           S
+HETATM   16  S   UNK    16       0.005   4.943   2.464  1.00  3.20           S
+HETATM   17  S   UNK    17       4.943   0.005   2.464  1.00  3.20           S
+HETATM   18  S   UNK    18      -0.005  -0.005   2.474  1.00  3.20           S
+HETATM   19 Fe   UNK    19       2.469   2.469   4.938  1.00  3.20          FE
+HETATM   20 Fe   UNK    20       4.938   4.938   4.938  1.00  3.20          FE
+END

@@ -1,0 +1,23 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Vandenbrandeite_0012336.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0      -0.323   1.796   5.092  1.00  0.92          CU
+HETATM    1  U   UNK     1       1.812   0.758   2.038  1.00  0.77           U
+HETATM    2 O-H1 UNK     2       2.788   2.176   1.602  1.00  1.36           O
+HETATM    3 O-H3 UNK     3       0.537   0.139   5.629  1.00  0.92           O
+HETATM    4 O-H4 UNK     4      -0.071   1.703   0.822  1.00  0.92           O
+HETATM    5 O-H6 UNK     5       0.740   2.109   3.568  1.00  1.19           O
+HETATM    6  O2  UNK     6      -2.038   0.534   3.598  1.00  1.15           O
+HETATM    7  O5  UNK     7       3.672  -0.591   1.811  1.00  1.27           O
+HETATM    8 Cu   UNK     8       0.932   1.932  -0.865  1.00  0.92          CU
+HETATM    9 Cu   UNK     9      -0.856   3.517   0.865  1.00  0.92          CU
+HETATM   10  U   UNK    10       0.557   0.623   7.995  1.00  0.77           U
+HETATM   11  U   UNK    11      -3.068  -0.894   3.918  1.00  0.77           U
+HETATM   12  U   UNK    12       4.787  -0.894   3.918  1.00  0.77           U
+HETATM   13 O-H3 UNK    13       1.793   0.274  -0.328  1.00  0.92           O
+HETATM   14 O-H4 UNK    14      -1.326   1.568   6.779  1.00  0.92           O
+HETATM   15 O-H4 UNK    15      -1.109   3.610   5.135  1.00  0.92           O
+HETATM   16  O2  UNK    16       0.782  -0.669   2.359  1.00  1.15           O
+HETATM   17  O5  UNK    17       2.928   0.456   4.146  1.00  1.27           O
+END

@@ -1,0 +1,30 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Jacquesdietrichite_0007064.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  B   UNK     0       0.142   1.466   1.491  1.00  0.32           B
+HETATM    1  O1  UNK     1       0.848   0.313   1.544  1.00  0.71           O
+HETATM    2  O4  UNK     2      -1.223   1.466   1.299  1.00  0.87           O
+HETATM    3  H1  UNK     3       0.170  -0.199   1.630  1.00  3.95           H
+HETATM    4  O1  UNK     4       0.848   2.620   1.544  1.00  0.71           O
+HETATM    5  H1  UNK     5       0.170   3.132   1.630  1.00  3.95           H
+HETATM    6 Cu   UNK     6       2.353   0.011  -0.651  1.00  0.89          CU
+HETATM    7  O2  UNK     7       3.431   1.466   0.038  1.00  0.71           O
+HETATM    8  H2  UNK     8       4.047   1.466   0.624  1.00  3.95           H
+HETATM    9  O3  UNK     9       3.275  -1.466   0.192  1.00  0.55           O
+HETATM   10  H3  UNK    10       4.113  -1.466   0.035  1.00  3.95           H
+HETATM   11  O5  UNK    11       1.271   1.466  -1.470  1.00  0.39           O
+HETATM   12  H5  UNK    12       1.097   1.466  -2.297  1.00  3.95           H
+HETATM   13 Cu   UNK    13       2.353  -2.944  -0.651  1.00  0.89          CU
+HETATM   14  O1  UNK    14       0.848  -3.246   1.544  1.00  0.71           O
+HETATM   15  O1  UNK    15       3.879  -2.620  -2.790  1.00  0.71           O
+HETATM   16  O1  UNK    16       3.879  -0.313  -2.790  1.00  0.71           O
+HETATM   17  O4  UNK    17       1.223  -1.466  -1.299  1.00  0.87           O
+HETATM   18 Cu   UNK    18       2.353   2.922  -0.651  1.00  0.89          CU
+HETATM   19 Cu   UNK    19      -2.353   2.944   0.651  1.00  0.89          CU
+HETATM   20 Cu   UNK    20       2.374   2.944   3.683  1.00  0.89          CU
+HETATM   21 Cu   UNK    21       2.374  -0.011   3.683  1.00  0.89          CU
+HETATM   22 Cu   UNK    22      -2.353  -0.011   0.651  1.00  0.89          CU
+HETATM   23  O2  UNK    23       3.431  -4.399   0.038  1.00  0.71           O
+HETATM   24  O5  UNK    24       1.271  -4.399  -1.470  1.00  0.39           O
+END

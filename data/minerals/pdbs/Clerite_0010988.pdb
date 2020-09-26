@@ -1,0 +1,21 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Clerite_0010988.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Mn   UNK     0       3.621   4.779   0.956  1.00  1.23          MN
+HETATM    1 Sb2  UNK     1       0.471   5.538  -0.956  1.00  1.21          SB
+HETATM    2  S1  UNK     2       2.177   3.826  -0.956  1.00  1.26           S
+HETATM    3  S2  UNK     3       4.832   2.550   0.956  1.00  1.21           S
+HETATM    4  S3  UNK     4       2.552   7.097   0.956  1.00  1.04           S
+HETATM    5  S4  UNK     5       5.212   5.809  -0.956  1.00  0.96           S
+HETATM    6 Sb1  UNK     6       4.081   8.022   2.867  1.00  1.44          SB
+HETATM    7 Mn   UNK     7       3.621   4.779  -2.867  1.00  1.23          MN
+HETATM    8 Sb2  UNK     8       6.200   1.637   2.867  1.00  1.21          SB
+HETATM    9 Sb2  UNK     9       6.200   1.637  -0.956  1.00  1.21          SB
+HETATM   10  S1  UNK    10       2.177   3.826   2.867  1.00  1.26           S
+HETATM   11  S2  UNK    11      -0.897   4.625   0.956  1.00  1.21           S
+HETATM   12  S2  UNK    12      -0.897   4.625  -2.867  1.00  1.21           S
+HETATM   13  S3  UNK    13       2.552   7.097   4.779  1.00  1.04           S
+HETATM   14  S4  UNK    14       5.212   5.809   2.867  1.00  0.96           S
+HETATM   15 Sb1  UNK    15       4.081   8.022  -0.956  1.00  1.44          SB
+END

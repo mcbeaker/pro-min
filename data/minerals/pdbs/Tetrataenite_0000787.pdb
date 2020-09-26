@@ -1,0 +1,56 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Tetrataenite_0000787.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Fe   UNK     0       0.000   0.000   0.000  1.00  0.00          FE
+HETATM    1 Ni   UNK     1       1.266   1.266   1.791  1.00  0.00          NI
+HETATM    2 Ni   UNK     2      -1.266  -1.266   1.791  1.00  0.00          NI
+HETATM    3 Ni   UNK     3       1.266   1.266  -1.791  1.00  0.00          NI
+HETATM    4 Ni   UNK     4       1.266  -1.266  -1.791  1.00  0.00          NI
+HETATM    5 Ni   UNK     5      -1.266   1.266   1.791  1.00  0.00          NI
+HETATM    6 Ni   UNK     6       1.266  -1.266   1.791  1.00  0.00          NI
+HETATM    7 Ni   UNK     7      -1.266   1.266  -1.791  1.00  0.00          NI
+HETATM    8 Ni   UNK     8      -1.266  -1.266  -1.791  1.00  0.00          NI
+HETATM    9 Fe   UNK     9      -2.533  -2.533  -3.582  1.00  0.00          FE
+HETATM   10 Fe   UNK    10      -2.533  -2.533   0.000  1.00  0.00          FE
+HETATM   11 Fe   UNK    11      -2.533  -2.533   3.582  1.00  0.00          FE
+HETATM   12 Fe   UNK    12      -2.533  -0.000  -3.582  1.00  0.00          FE
+HETATM   13 Fe   UNK    13      -2.533   0.000   0.000  1.00  0.00          FE
+HETATM   14 Fe   UNK    14      -2.533   0.000   3.582  1.00  0.00          FE
+HETATM   15 Fe   UNK    15      -2.533   2.533  -3.582  1.00  0.00          FE
+HETATM   16 Fe   UNK    16      -2.533   2.533   0.000  1.00  0.00          FE
+HETATM   17 Fe   UNK    17      -2.533   2.533   3.582  1.00  0.00          FE
+HETATM   18 Fe   UNK    18      -0.000  -2.533  -3.582  1.00  0.00          FE
+HETATM   19 Fe   UNK    19      -0.000  -2.533   0.000  1.00  0.00          FE
+HETATM   20 Fe   UNK    20       0.000  -2.533   3.582  1.00  0.00          FE
+HETATM   21 Fe   UNK    21      -0.000  -0.000  -3.582  1.00  0.00          FE
+HETATM   22 Fe   UNK    22       0.000   0.000   3.582  1.00  0.00          FE
+HETATM   23 Fe   UNK    23      -0.000   2.533  -3.582  1.00  0.00          FE
+HETATM   24 Fe   UNK    24       0.000   2.533   0.000  1.00  0.00          FE
+HETATM   25 Fe   UNK    25       0.000   2.533   3.582  1.00  0.00          FE
+HETATM   26 Fe   UNK    26       2.533  -2.533  -3.582  1.00  0.00          FE
+HETATM   27 Fe   UNK    27       2.533  -2.533   0.000  1.00  0.00          FE
+HETATM   28 Fe   UNK    28       2.533  -2.533   3.582  1.00  0.00          FE
+HETATM   29 Fe   UNK    29       2.533  -0.000  -3.582  1.00  0.00          FE
+HETATM   30 Fe   UNK    30       2.533   0.000   0.000  1.00  0.00          FE
+HETATM   31 Fe   UNK    31       2.533   0.000   3.582  1.00  0.00          FE
+HETATM   32 Fe   UNK    32       2.533   2.533  -3.582  1.00  0.00          FE
+HETATM   33 Fe   UNK    33       2.533   2.533   0.000  1.00  0.00          FE
+HETATM   34 Fe   UNK    34       2.533   2.533   3.582  1.00  0.00          FE
+HETATM   35 Ni   UNK    35      -3.800  -1.266  -1.791  1.00  0.00          NI
+HETATM   36 Ni   UNK    36      -3.800  -1.266   1.791  1.00  0.00          NI
+HETATM   37 Ni   UNK    37      -3.800   1.266  -1.791  1.00  0.00          NI
+HETATM   38 Ni   UNK    38      -3.800   1.266   1.791  1.00  0.00          NI
+HETATM   39 Ni   UNK    39      -1.267  -3.800  -1.791  1.00  0.00          NI
+HETATM   40 Ni   UNK    40      -1.267  -3.800   1.791  1.00  0.00          NI
+HETATM   41 Ni   UNK    41      -1.266   3.800  -1.791  1.00  0.00          NI
+HETATM   42 Ni   UNK    42      -1.266   3.800   1.791  1.00  0.00          NI
+HETATM   43 Ni   UNK    43       1.266  -3.800  -1.791  1.00  0.00          NI
+HETATM   44 Ni   UNK    44       1.266  -3.800   1.791  1.00  0.00          NI
+HETATM   45 Ni   UNK    45       1.267   3.800  -1.791  1.00  0.00          NI
+HETATM   46 Ni   UNK    46       1.267   3.800   1.791  1.00  0.00          NI
+HETATM   47 Ni   UNK    47       3.800  -1.266  -1.791  1.00  0.00          NI
+HETATM   48 Ni   UNK    48       3.800  -1.266   1.791  1.00  0.00          NI
+HETATM   49 Ni   UNK    49       3.800   1.266  -1.791  1.00  0.00          NI
+HETATM   50 Ni   UNK    50       3.800   1.266   1.791  1.00  0.00          NI
+END

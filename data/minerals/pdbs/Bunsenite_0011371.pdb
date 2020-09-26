@@ -1,0 +1,25 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Bunsenite_0011371.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Ni   UNK     0       0.000   0.000   0.000  1.00  0.00          NI
+HETATM    1  O   UNK     1       0.000   2.084   0.000  1.00  0.00           O
+HETATM    2 Ni   UNK     2       0.000   4.168   0.000  1.00  0.00          NI
+HETATM    3 Ni   UNK     3      -2.084  -0.000  -2.084  1.00  0.00          NI
+HETATM    4 Ni   UNK     4       2.084  -0.000  -2.084  1.00  0.00          NI
+HETATM    5 Ni   UNK     5      -2.084   0.000   2.084  1.00  0.00          NI
+HETATM    6 Ni   UNK     6       2.084   0.000   2.084  1.00  0.00          NI
+HETATM    7 Ni   UNK     7      -2.084   2.084   0.000  1.00  0.00          NI
+HETATM    8 Ni   UNK     8       2.084   2.084   0.000  1.00  0.00          NI
+HETATM    9 Ni   UNK     9      -2.084  -2.084   0.000  1.00  0.00          NI
+HETATM   10 Ni   UNK    10       2.084  -2.084   0.000  1.00  0.00          NI
+HETATM   11 Ni   UNK    11       0.000   2.084  -2.084  1.00  0.00          NI
+HETATM   12 Ni   UNK    12       0.000   2.084   2.084  1.00  0.00          NI
+HETATM   13 Ni   UNK    13      -0.000  -2.084  -2.084  1.00  0.00          NI
+HETATM   14 Ni   UNK    14       0.000  -2.084   2.084  1.00  0.00          NI
+HETATM   15  O   UNK    15      -0.000  -2.084   0.000  1.00  0.00           O
+HETATM   16  O   UNK    16      -2.084   0.000   0.000  1.00  0.00           O
+HETATM   17  O   UNK    17       2.084   0.000   0.000  1.00  0.00           O
+HETATM   18  O   UNK    18      -0.000  -0.000  -2.084  1.00  0.00           O
+HETATM   19  O   UNK    19       0.000   0.000   2.084  1.00  0.00           O
+END

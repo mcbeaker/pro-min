@@ -1,0 +1,35 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Magnetite_0007418.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Fe   UNK     0      -1.049   3.148   3.148  1.00  0.34          FE
+HETATM    1  O   UNK     1       0.041   2.058   4.239  1.00  0.49           O
+HETATM    2 Fe   UNK     2       2.099   2.099   4.197  1.00  0.46          FE
+HETATM    3  O   UNK     3       4.156   4.156   2.140  1.00  0.49           O
+HETATM    4 Fe   UNK     4       4.197   2.099   2.099  1.00  0.46          FE
+HETATM    5  O   UNK     5       0.041   4.239   2.058  1.00  0.49           O
+HETATM    6  O   UNK     6      -2.140   2.058   2.058  1.00  0.49           O
+HETATM    7 Fe   UNK     7       5.247   5.247   1.049  1.00  0.34          FE
+HETATM    8  O   UNK     8       4.239   2.058   0.041  1.00  0.49           O
+HETATM    9  O   UNK     9       4.239   0.041   2.058  1.00  0.49           O
+HETATM   10  O   UNK    10       2.058   0.041   4.239  1.00  0.49           O
+HETATM   11  O   UNK    11      -2.140   4.239   4.239  1.00  0.49           O
+HETATM   12  O   UNK    12       2.140   4.156   4.156  1.00  0.49           O
+HETATM   13  O   UNK    13       4.156   2.140   4.156  1.00  0.49           O
+HETATM   14  O   UNK    14       2.140   2.140   2.140  1.00  0.49           O
+HETATM   15  O   UNK    15       2.058   2.058   6.255  1.00  0.49           O
+HETATM   16  O   UNK    16       6.255   2.058   2.058  1.00  0.49           O
+HETATM   17 Fe   UNK    17      -2.099   2.099   0.000  1.00  0.46          FE
+HETATM   18 Fe   UNK    18       6.296   2.099   0.000  1.00  0.46          FE
+HETATM   19 Fe   UNK    19       0.000   6.296   2.099  1.00  0.46          FE
+HETATM   20 Fe   UNK    20      -4.197   2.099   2.099  1.00  0.46          FE
+HETATM   21 Fe   UNK    21       0.000   2.099   6.296  1.00  0.46          FE
+HETATM   22 Fe   UNK    22       4.197   4.197   4.197  1.00  0.46          FE
+HETATM   23 Fe   UNK    23       0.000   0.000   4.197  1.00  0.46          FE
+HETATM   24 Fe   UNK    24       4.197   0.000   0.000  1.00  0.46          FE
+HETATM   25 Fe   UNK    25       0.000   4.197   0.000  1.00  0.46          FE
+HETATM   26 Fe   UNK    26      -2.099   0.000   2.099  1.00  0.46          FE
+HETATM   27 Fe   UNK    27       6.296   0.000   2.099  1.00  0.46          FE
+HETATM   28 Fe   UNK    28       2.099   4.197   2.099  1.00  0.46          FE
+HETATM   29 Fe   UNK    29       2.099   0.000   6.296  1.00  0.46          FE
+END

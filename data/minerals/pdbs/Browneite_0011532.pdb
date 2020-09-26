@@ -1,0 +1,13 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Browneite_0011532.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Mn   UNK     0       0.000   0.000   0.000  1.00  0.00          MN
+HETATM    1  S   UNK     1       1.400   1.400   1.400  1.00  0.00           S
+HETATM    2 Mn   UNK     2       0.000   2.800   2.800  1.00  0.00          MN
+HETATM    3 Mn   UNK     3       2.800   0.000   2.800  1.00  0.00          MN
+HETATM    4 Mn   UNK     4       2.800   2.800   0.000  1.00  0.00          MN
+HETATM    5  S   UNK     5       1.400  -1.400  -1.400  1.00  0.00           S
+HETATM    6  S   UNK     6      -1.400   1.400  -1.400  1.00  0.00           S
+HETATM    7  S   UNK     7      -1.400  -1.400   1.400  1.00  0.00           S
+END

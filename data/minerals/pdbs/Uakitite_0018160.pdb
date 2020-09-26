@@ -1,0 +1,17 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Uakitite_0018160.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  V   UNK     0       0.000   0.000   0.000  1.00  0.00           V
+HETATM    1  N   UNK     1       0.000   2.140   0.000  1.00  0.00           N
+HETATM    2  V   UNK     2       0.000   4.280   0.000  1.00  0.00           V
+HETATM    3  V   UNK     3      -2.140   2.140   0.000  1.00  0.00           V
+HETATM    4  V   UNK     4       2.140   2.140   0.000  1.00  0.00           V
+HETATM    5  V   UNK     5       0.000   2.140  -2.140  1.00  0.00           V
+HETATM    6  V   UNK     6       0.000   2.140   2.140  1.00  0.00           V
+HETATM    7  N   UNK     7      -0.000  -2.140   0.000  1.00  0.00           N
+HETATM    8  N   UNK     8      -2.140   0.000   0.000  1.00  0.00           N
+HETATM    9  N   UNK     9       2.140   0.000   0.000  1.00  0.00           N
+HETATM   10  N   UNK    10      -0.000  -0.000  -2.140  1.00  0.00           N
+HETATM   11  N   UNK    11       0.000   0.000   2.140  1.00  0.00           N
+END

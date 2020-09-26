@@ -1,0 +1,25 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Manganosite_0008240.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Mn   UNK     0       0.000   0.000   0.000  1.00  0.00          MN
+HETATM    1  O   UNK     1       0.000   2.223   0.000  1.00  0.00           O
+HETATM    2 Mn   UNK     2       0.000   4.446   0.000  1.00  0.00          MN
+HETATM    3 Mn   UNK     3      -2.223  -0.000  -2.223  1.00  0.00          MN
+HETATM    4 Mn   UNK     4       2.223  -0.000  -2.223  1.00  0.00          MN
+HETATM    5 Mn   UNK     5      -2.223   0.000   2.223  1.00  0.00          MN
+HETATM    6 Mn   UNK     6       2.223   0.000   2.223  1.00  0.00          MN
+HETATM    7 Mn   UNK     7      -2.223   2.223   0.000  1.00  0.00          MN
+HETATM    8 Mn   UNK     8       2.223   2.223   0.000  1.00  0.00          MN
+HETATM    9 Mn   UNK     9      -2.223  -2.223   0.000  1.00  0.00          MN
+HETATM   10 Mn   UNK    10       2.223  -2.223   0.000  1.00  0.00          MN
+HETATM   11 Mn   UNK    11       0.000   2.223  -2.223  1.00  0.00          MN
+HETATM   12 Mn   UNK    12       0.000   2.223   2.223  1.00  0.00          MN
+HETATM   13 Mn   UNK    13      -0.000  -2.223  -2.223  1.00  0.00          MN
+HETATM   14 Mn   UNK    14       0.000  -2.223   2.223  1.00  0.00          MN
+HETATM   15  O   UNK    15      -0.000  -2.223   0.000  1.00  0.00           O
+HETATM   16  O   UNK    16      -2.223   0.000   0.000  1.00  0.00           O
+HETATM   17  O   UNK    17       2.223   0.000   0.000  1.00  0.00           O
+HETATM   18  O   UNK    18      -0.000  -0.000  -2.223  1.00  0.00           O
+HETATM   19  O   UNK    19       0.000   0.000   2.223  1.00  0.00           O
+END

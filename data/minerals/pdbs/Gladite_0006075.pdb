@@ -1,0 +1,23 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Gladite_0006075.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       1.001   8.800   2.532  1.00  0.00          CU
+HETATM    1  S21 UNK     1       1.001   9.797   0.436  1.00  0.00           S
+HETATM    2  S12 UNK     2       1.001  10.511   4.259  1.00  0.00           S
+HETATM    3  S33 UNK     3      -1.001   7.742   3.151  1.00  0.00           S
+HETATM    4 Cu   UNK     4      -3.003   8.800   2.532  1.00  0.00          CU
+HETATM    5  S33 UNK     5       3.003   7.742   3.151  1.00  0.00           S
+HETATM    6 PbM2 UNK     6       1.001   5.543   3.651  1.00  0.00          XX
+HETATM    7 BiM2 UNK     7       1.001  17.229   3.939  1.00  0.00          XX
+HETATM    8 BiM2 UNK     8       3.003  11.608   1.708  1.00  0.00          XX
+HETATM    9 BiM1 UNK     9       1.001  14.900   0.242  1.00  0.00          XX
+HETATM   10 BiM1 UNK    10       1.001  13.162   5.819  1.00  0.00          XX
+HETATM   11 BiM1 UNK    11       3.003   9.091   5.437  1.00  0.00          XX
+HETATM   12  S11 UNK    12       3.003  16.191   1.466  1.00  0.00           S
+HETATM   13  S13 UNK    13       3.003   4.983   1.241  1.00  0.00           S
+HETATM   14  S22 UNK    14       3.003  15.381   5.145  1.00  0.00           S
+HETATM   15  S23 UNK    15       3.003   3.999   5.149  1.00  0.00           S
+HETATM   16  S31 UNK    16       1.001  13.353   2.450  1.00  0.00           S
+HETATM   17  S32 UNK    17       1.001   2.244   2.397  1.00  0.00           S
+END

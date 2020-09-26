@@ -1,0 +1,20 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Siderite_0000101.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  C   UNK     0       0.000   0.000   3.843  1.00  0.00           C
+HETATM    1  O   UNK     1      -0.643   1.114   3.843  1.00  0.00           O
+HETATM    2  O   UNK     2       1.286   0.000   3.843  1.00  0.00           O
+HETATM    3  O   UNK     3      -0.643  -1.114   3.843  1.00  0.00           O
+HETATM    4 Fe   UNK     4       0.000   2.707   2.562  1.00  0.00          FE
+HETATM    5  O   UNK     5      -1.701   2.467   1.281  1.00  0.00           O
+HETATM    6  O   UNK     6      -1.058   4.061   3.843  1.00  0.00           O
+HETATM    7  O   UNK     7       0.643   4.300   1.281  1.00  0.00           O
+HETATM    8  O   UNK     8       1.701   2.947   3.843  1.00  0.00           O
+HETATM    9  O   UNK     9       1.058   1.354   1.281  1.00  0.00           O
+HETATM   10 Fe   UNK    10      -2.344  -1.354   2.562  1.00  0.00          FE
+HETATM   11 Fe   UNK    11       2.344  -1.354   2.562  1.00  0.00          FE
+HETATM   12 Fe   UNK    12      -0.000  -2.707   5.124  1.00  0.00          FE
+HETATM   13 Fe   UNK    13      -2.344   1.354   5.124  1.00  0.00          FE
+HETATM   14 Fe   UNK    14       2.344   1.354   5.124  1.00  0.00          FE
+END

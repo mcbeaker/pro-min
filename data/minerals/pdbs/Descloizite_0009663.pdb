@@ -1,0 +1,30 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Descloizite_0009663.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  V   UNK     0       2.788  -1.514   2.936  1.00  0.86           V
+HETATM    1  O1  UNK     1       2.825  -0.065   1.977  1.00  1.33           O
+HETATM    2  O3  UNK     2       1.431  -1.514   4.056  1.00  1.08           O
+HETATM    3 Zn   UNK     3       3.796   0.000   0.000  1.00  1.21          ZN
+HETATM    4  O-H UNK     4       2.690  -1.514  -0.612  1.00  1.64           O
+HETATM    5 Pb   UNK     5       4.774   1.514   3.052  1.00  1.31          PB
+HETATM    6  O2  UNK     6       4.123  -1.514   3.897  1.00  1.83           O
+HETATM    7  O1  UNK     7       2.825   3.094   1.977  1.00  1.33           O
+HETATM    8  V   UNK     8       2.788   4.543   2.936  1.00  0.86           V
+HETATM    9  O1  UNK     9       2.825  -2.963   1.977  1.00  1.33           O
+HETATM   10  O1  UNK    10       6.621   3.094   2.731  1.00  1.33           O
+HETATM   11  O1  UNK    11       6.621  -0.065   2.731  1.00  1.33           O
+HETATM   12  O1  UNK    12       4.768   0.065  -1.977  1.00  1.33           O
+HETATM   13  O3  UNK    13       6.162   1.514   5.360  1.00  1.08           O
+HETATM   14  O3  UNK    14       2.366   1.514  -0.652  1.00  1.08           O
+HETATM   15  O3  UNK    15       5.227  -1.514   0.652  1.00  1.08           O
+HETATM   16 Zn   UNK    16       3.796   3.029   0.000  1.00  1.21          ZN
+HETATM   17 Zn   UNK    17       3.796  -3.029   0.000  1.00  1.21          ZN
+HETATM   18 Zn   UNK    18       0.000  -3.028   4.708  1.00  1.21          ZN
+HETATM   19 Zn   UNK    19       0.000   0.000   4.708  1.00  1.21          ZN
+HETATM   20  O-H UNK    20       4.903   1.514   0.612  1.00  1.64           O
+HETATM   21 Pb   UNK    21       2.819  -1.514   6.364  1.00  1.31          PB
+HETATM   22 Pb   UNK    22       2.819  -1.514  -3.052  1.00  1.31          PB
+HETATM   23 Pb   UNK    23       0.978   1.514   1.656  1.00  1.31          PB
+HETATM   24  O2  UNK    24       3.470   1.514   5.519  1.00  1.83           O
+END

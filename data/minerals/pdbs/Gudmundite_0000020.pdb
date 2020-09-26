@@ -1,0 +1,20 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Gudmundite_0000020.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Fe   UNK     0       2.260   3.054   1.115  1.00  0.00          FE
+HETATM    1 Sb   UNK     1      -0.062   3.742   2.052  1.00  0.00          SB
+HETATM    2  S   UNK     2       1.764   3.825  -0.931  1.00  0.00           S
+HETATM    3 Fe   UNK     3       1.126   5.841  -1.673  1.00  0.00          FE
+HETATM    4 Fe   UNK     4      -1.126   6.019   1.673  1.00  0.00          FE
+HETATM    5 Fe   UNK     5       3.760   2.876  -1.115  1.00  0.00          FE
+HETATM    6 Fe   UNK     6       0.008   2.876   4.461  1.00  0.00          FE
+HETATM    7 Sb   UNK     7       1.071   5.153   4.840  1.00  0.00          SB
+HETATM    8 Sb   UNK     8      -1.196   5.153  -0.736  1.00  0.00          SB
+HETATM    9 Sb   UNK     9       1.196   0.777   0.736  1.00  0.00          SB
+HETATM   10 Sb   UNK    10       2.330   2.188   3.524  1.00  0.00          SB
+HETATM   11 Sb   UNK    11       0.062   2.188  -2.052  1.00  0.00          SB
+HETATM   12  S   UNK    12       2.898   5.070   1.857  1.00  0.00           S
+HETATM   13  S   UNK    13       4.256   2.105   0.931  1.00  0.00           S
+HETATM   14  S   UNK    14      -1.764   2.105   0.931  1.00  0.00           S
+END

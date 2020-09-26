@@ -1,0 +1,18 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Tungstenite_0013602.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  W   UNK     0       1.579   0.912   6.163  1.00  0.00           W
+HETATM    1  S1  UNK     1       0.000   0.000   4.617  1.00  0.00           S
+HETATM    2  S2  UNK     2       0.000   0.000   7.747  1.00  0.00           S
+HETATM    3  W   UNK     3      -0.000  -1.823   6.163  1.00  0.00           W
+HETATM    4  W   UNK     4      -1.579   0.912   6.163  1.00  0.00           W
+HETATM    5  W   UNK     5       3.158  -1.823   6.163  1.00  0.00           W
+HETATM    6  W   UNK     6       0.000   3.647   6.163  1.00  0.00           W
+HETATM    7  W   UNK     7       4.737   0.912   6.163  1.00  0.00           W
+HETATM    8  W   UNK     8       3.158   3.647   6.163  1.00  0.00           W
+HETATM    9  S1  UNK     9       3.158   0.000   4.617  1.00  0.00           S
+HETATM   10  S1  UNK    10       1.579   2.735   4.617  1.00  0.00           S
+HETATM   11  S2  UNK    11       3.158   0.000   7.747  1.00  0.00           S
+HETATM   12  S2  UNK    12       1.579   2.735   7.747  1.00  0.00           S
+END

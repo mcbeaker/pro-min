@@ -1,0 +1,36 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Scorzalite_0009234.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0  P   UNK     0       2.714   0.811  -1.579  1.00  0.65           P
+HETATM    1  O1  UNK     1       1.916  -0.000  -0.593  1.00  0.65           O
+HETATM    2  O2  UNK     2       3.597  -0.000  -2.565  1.00  0.65           O
+HETATM    3  O3  UNK     3       1.697   1.798  -2.316  1.00  0.65           O
+HETATM    4  O4  UNK     4       3.583   1.820  -0.836  1.00  0.65           O
+HETATM    5 Fe   UNK     5       0.000   0.000   0.000  1.00  0.65          FE
+HETATM    6 Al   UNK     6       1.931  -1.952  -0.025  1.00  0.65          AL
+HETATM    7 O-H5 UNK     7      -0.883   0.950  -1.579  1.00  0.65           O
+HETATM    8  P   UNK     8      -2.714  -0.811   1.579  1.00  0.65           P
+HETATM    9  O1  UNK     9      -1.916   0.000   0.593  1.00  0.65           O
+HETATM   10  O2  UNK    10      -3.597   0.000   2.565  1.00  0.65           O
+HETATM   11  O3  UNK    11      -1.697  -1.798   2.316  1.00  0.65           O
+HETATM   12  O4  UNK    12      -3.583  -1.820   0.836  1.00  0.65           O
+HETATM   13 Al   UNK    13      -1.931   1.952   0.025  1.00  0.65          AL
+HETATM   14 O-H5 UNK    14       0.883  -0.950   1.579  1.00  0.65           O
+HETATM   15  O2  UNK    15       1.752  -3.655   0.556  1.00  0.65           O
+HETATM   16  O2  UNK    16      -1.752   3.655  -0.556  1.00  0.65           O
+HETATM   17  O3  UNK    17      -0.147   1.857   0.805  1.00  0.65           O
+HETATM   18  O3  UNK    18       0.147  -1.857  -0.805  1.00  0.65           O
+HETATM   19  O4  UNK    19      -3.567   1.820  -0.836  1.00  0.65           O
+HETATM   20  O4  UNK    20       3.567  -1.820   0.836  1.00  0.65           O
+HETATM   21 Fe   UNK    21      -1.844  -3.655   3.121  1.00  0.65          FE
+HETATM   22 Fe   UNK    22       1.844   3.655  -3.121  1.00  0.65          FE
+HETATM   23 Al   UNK    23      -5.219  -1.952  -0.025  1.00  0.65          AL
+HETATM   24 Al   UNK    24       3.775  -1.703  -3.146  1.00  0.65          AL
+HETATM   25 Al   UNK    25       0.087  -1.703   3.096  1.00  0.65          AL
+HETATM   26 Al   UNK    26      -0.087   1.703  -3.096  1.00  0.65          AL
+HETATM   27 Al   UNK    27      -3.775   1.703   3.146  1.00  0.65          AL
+HETATM   28 Al   UNK    28       5.219   1.952   0.025  1.00  0.65          AL
+HETATM   29 O-H5 UNK    29      -2.727   2.705   1.542  1.00  0.65           O
+HETATM   30 O-H5 UNK    30       2.727  -2.705  -1.542  1.00  0.65           O
+END

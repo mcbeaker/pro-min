@@ -1,0 +1,29 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Garutiite_0011187.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Ni   UNK     0       0.000   1.530   1.083  1.00  0.00          NI
+HETATM    1 Ni   UNK     1      -1.325  -0.765   1.083  1.00  0.00          NI
+HETATM    2 Ni   UNK     2       1.325  -0.765   1.083  1.00  0.00          NI
+HETATM    3 Ni   UNK     3       2.650  -3.060   1.083  1.00  0.00          NI
+HETATM    4 Ni   UNK     4       3.975  -0.765   1.083  1.00  0.00          NI
+HETATM    5 Ni   UNK     5       0.000  -3.060   1.083  1.00  0.00          NI
+HETATM    6 Ni   UNK     6       2.650   1.530   1.083  1.00  0.00          NI
+HETATM    7 Ni   UNK     7      -2.650  -3.060   1.083  1.00  0.00          NI
+HETATM    8 Ni   UNK     8       1.325   3.825   1.083  1.00  0.00          NI
+HETATM    9 Ni   UNK     9      -3.975  -0.765   1.083  1.00  0.00          NI
+HETATM   10 Ni   UNK    10      -2.650   1.530   1.083  1.00  0.00          NI
+HETATM   11 Ni   UNK    11      -1.325   3.825   1.083  1.00  0.00          NI
+HETATM   12 Ni   UNK    12       2.650  -1.530   3.248  1.00  0.00          NI
+HETATM   13 Ni   UNK    13       2.650  -1.530  -1.083  1.00  0.00          NI
+HETATM   14 Ni   UNK    14      -0.000  -1.530   3.248  1.00  0.00          NI
+HETATM   15 Ni   UNK    15      -0.000  -1.530  -1.083  1.00  0.00          NI
+HETATM   16 Ni   UNK    16       1.325   0.765   3.248  1.00  0.00          NI
+HETATM   17 Ni   UNK    17       1.325   0.765  -1.083  1.00  0.00          NI
+HETATM   18 Ni   UNK    18      -2.650  -1.530   3.248  1.00  0.00          NI
+HETATM   19 Ni   UNK    19      -2.650  -1.530  -1.083  1.00  0.00          NI
+HETATM   20 Ni   UNK    20      -1.325   0.765   3.248  1.00  0.00          NI
+HETATM   21 Ni   UNK    21      -1.325   0.765  -1.083  1.00  0.00          NI
+HETATM   22 Ni   UNK    22       0.000   3.060   3.248  1.00  0.00          NI
+HETATM   23 Ni   UNK    23       0.000   3.060  -1.083  1.00  0.00          NI
+END

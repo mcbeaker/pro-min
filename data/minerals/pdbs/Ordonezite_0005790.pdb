@@ -1,0 +1,30 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Ordonezite_0005790.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Zn   UNK     0       0.000   0.000   0.000  1.00  0.57          ZN
+HETATM    1 Sb   UNK     1       0.000   0.000   3.077  1.00  0.29          SB
+HETATM    2  O1  UNK     2       1.469   1.469   0.000  1.00  0.40           O
+HETATM    3  O2  UNK     3       1.418   1.418   3.010  1.00  0.50           O
+HETATM    4  O1  UNK     4      -1.469  -1.469   0.000  1.00  0.40           O
+HETATM    5  O2  UNK     5      -1.418  -1.418   3.010  1.00  0.50           O
+HETATM    6 Sb   UNK     6      -0.000  -0.000  -3.077  1.00  0.29          SB
+HETATM    7  O2  UNK     7       1.418   1.418  -3.010  1.00  0.50           O
+HETATM    8  O2  UNK     8      -1.418  -1.418  -3.010  1.00  0.50           O
+HETATM    9 Zn   UNK     9      -2.332  -2.332  -4.631  1.00  0.57          ZN
+HETATM   10 Zn   UNK    10      -2.332  -2.332   4.631  1.00  0.57          ZN
+HETATM   11 Zn   UNK    11       2.332   2.332  -4.631  1.00  0.57          ZN
+HETATM   12 Zn   UNK    12       2.332   2.332   4.631  1.00  0.57          ZN
+HETATM   13 Sb   UNK    13      -2.332  -2.332   1.554  1.00  0.29          SB
+HETATM   14 Sb   UNK    14       2.332   2.332   1.554  1.00  0.29          SB
+HETATM   15 Sb   UNK    15      -2.332  -2.332  -1.554  1.00  0.29          SB
+HETATM   16 Sb   UNK    16       2.332   2.332  -1.554  1.00  0.29          SB
+HETATM   17  O1  UNK    17      -0.863   0.863  -4.631  1.00  0.40           O
+HETATM   18  O1  UNK    18      -0.863   0.863   4.631  1.00  0.40           O
+HETATM   19  O1  UNK    19       0.863  -0.863  -4.631  1.00  0.40           O
+HETATM   20  O1  UNK    20       0.863  -0.863   4.631  1.00  0.40           O
+HETATM   21  O2  UNK    21      -0.914   0.914   1.621  1.00  0.50           O
+HETATM   22  O2  UNK    22       0.914  -0.914  -1.621  1.00  0.50           O
+HETATM   23  O2  UNK    23      -0.914   0.914  -1.621  1.00  0.50           O
+HETATM   24  O2  UNK    24       0.914  -0.914   1.621  1.00  0.50           O
+END

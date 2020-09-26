@@ -1,0 +1,46 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Zlatogorite_0018698.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Cu   UNK     0       0.000   0.000   0.000  1.00  0.50          CU
+HETATM    1 Ni   UNK     1      -0.000  -0.000  -2.569  1.00  0.50          NI
+HETATM    2 Sb   UNK     2       2.026   1.169  -1.389  1.00  0.30          SB
+HETATM    3 Sb   UNK     3      -2.025   1.169  -1.389  1.00  0.30          SB
+HETATM    4 Ni   UNK     4       0.000   0.000   2.569  1.00  0.50          NI
+HETATM    5 Sb   UNK     5       2.026  -1.169   1.389  1.00  0.30          SB
+HETATM    6 Sb   UNK     6       0.000   2.339   1.389  1.00  0.30          SB
+HETATM    7 Sb   UNK     7       0.000  -2.339  -1.389  1.00  0.30          SB
+HETATM    8 Sb   UNK     8      -2.026  -1.169   1.389  1.00  0.30          SB
+HETATM    9 Cu   UNK     9      -4.051   0.000   0.000  1.00  0.50          CU
+HETATM   10 Cu   UNK    10      -2.025   3.508   0.000  1.00  0.50          CU
+HETATM   11 Cu   UNK    11      -2.026  -3.508   0.000  1.00  0.50          CU
+HETATM   12 Cu   UNK    12       0.000   0.000   5.138  1.00  0.50          CU
+HETATM   13 Cu   UNK    13      -0.000  -0.000  -5.138  1.00  0.50          CU
+HETATM   14 Cu   UNK    14       2.026   3.508   0.000  1.00  0.50          CU
+HETATM   15 Cu   UNK    15       2.025  -3.508   0.000  1.00  0.50          CU
+HETATM   16 Cu   UNK    16       4.051   0.000   0.000  1.00  0.50          CU
+HETATM   17 Ni   UNK    17      -4.051   0.000   2.569  1.00  0.50          NI
+HETATM   18 Ni   UNK    18      -4.051  -0.000  -2.569  1.00  0.50          NI
+HETATM   19 Ni   UNK    19      -2.025   3.508   2.569  1.00  0.50          NI
+HETATM   20 Ni   UNK    20      -2.025   3.508  -2.569  1.00  0.50          NI
+HETATM   21 Ni   UNK    21      -2.026  -3.508   2.569  1.00  0.50          NI
+HETATM   22 Ni   UNK    22      -2.026  -3.508  -2.569  1.00  0.50          NI
+HETATM   23 Ni   UNK    23       2.026   3.508   2.569  1.00  0.50          NI
+HETATM   24 Ni   UNK    24       2.026   3.508  -2.569  1.00  0.50          NI
+HETATM   25 Ni   UNK    25       2.025  -3.508   2.569  1.00  0.50          NI
+HETATM   26 Ni   UNK    26       2.025  -3.508  -2.569  1.00  0.50          NI
+HETATM   27 Ni   UNK    27       4.051   0.000   2.569  1.00  0.50          NI
+HETATM   28 Ni   UNK    28       4.051  -0.000  -2.569  1.00  0.50          NI
+HETATM   29 Sb   UNK    29      -4.051  -2.339   3.749  1.00  0.30          SB
+HETATM   30 Sb   UNK    30      -2.025   1.169   3.749  1.00  0.30          SB
+HETATM   31 Sb   UNK    31       0.000   4.678   3.749  1.00  0.30          SB
+HETATM   32 Sb   UNK    32      -0.000  -2.339   3.749  1.00  0.30          SB
+HETATM   33 Sb   UNK    33       2.026   1.169   3.749  1.00  0.30          SB
+HETATM   34 Sb   UNK    34       4.051  -2.339   3.749  1.00  0.30          SB
+HETATM   35 Sb   UNK    35      -4.051   2.339  -3.749  1.00  0.30          SB
+HETATM   36 Sb   UNK    36      -2.025  -1.169  -3.749  1.00  0.30          SB
+HETATM   37 Sb   UNK    37       0.000   2.339  -3.749  1.00  0.30          SB
+HETATM   38 Sb   UNK    38       0.000  -4.678  -3.749  1.00  0.30          SB
+HETATM   39 Sb   UNK    39       2.026  -1.169  -3.749  1.00  0.30          SB
+HETATM   40 Sb   UNK    40       4.051   2.339  -3.749  1.00  0.30          SB
+END

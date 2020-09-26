@@ -1,0 +1,53 @@
+HEADER p3d-modified/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/Natrojarosite_0020119.pdb
+REMARK p3d  V.0.4.2
+REMARK ---*--- please cite Fufezan & Specht 2009 BMC Bioinformatics 10:258 ---*---
+REMARK
+HETATM    0 Na   UNK     0       3.659   2.112   5.532  1.00  4.18          NA
+HETATM    1 Fe   UNK     1      -0.000  -2.112   2.766  1.00  0.84          FE
+HETATM    2  S   UNK     2       0.000  -0.000   5.187  1.00  0.95           S
+HETATM    3  O1  UNK     3       0.000  -0.000   6.659  1.00  0.95           O
+HETATM    4  O2  UNK     4      -0.000  -1.397   4.699  1.00  1.42           O
+HETATM    5 O-H3 UNK     5       2.267   2.916   3.323  1.00  1.26           O
+HETATM    6  O2  UNK     6      -1.210   0.699   4.699  1.00  1.42           O
+HETATM    7  O2  UNK     7       1.210   0.699   4.699  1.00  1.42           O
+HETATM    8 Fe   UNK     8      -1.829   1.056   2.766  1.00  0.84          FE
+HETATM    9 O-H3 UNK     9       3.658   0.505   3.323  1.00  1.26           O
+HETATM   10 Fe   UNK    10       0.000   6.337   8.298  1.00  0.84          FE
+HETATM   11  S   UNK    11       0.000   4.225   5.877  1.00  0.95           S
+HETATM   12  O1  UNK    12       0.000   4.225   4.405  1.00  0.95           O
+HETATM   13  O2  UNK    13       0.000   5.622   6.365  1.00  1.42           O
+HETATM   14 O-H3 UNK    14       2.267   1.309   7.741  1.00  1.26           O
+HETATM   15  O2  UNK    15      -1.210   3.526   6.365  1.00  1.42           O
+HETATM   16  O2  UNK    16       1.210   3.526   6.365  1.00  1.42           O
+HETATM   17 O-H3 UNK    17       3.659   3.719   7.741  1.00  1.26           O
+HETATM   18 O-H3 UNK    18       5.050   2.916   3.323  1.00  1.26           O
+HETATM   19 O-H3 UNK    19       5.050   1.309   7.741  1.00  1.26           O
+HETATM   20 Na   UNK    20       0.000   8.449   5.532  1.00  4.18          NA
+HETATM   21 Na   UNK    21      -0.000  -4.224   5.532  1.00  4.18          NA
+HETATM   22 Na   UNK    22      -3.658   2.112   5.532  1.00  4.18          NA
+HETATM   23 Fe   UNK    23       3.659   4.225   2.766  1.00  0.84          FE
+HETATM   24 Fe   UNK    24       3.659   0.000   8.298  1.00  0.84          FE
+HETATM   25 Fe   UNK    25       5.488   1.056   2.766  1.00  0.84          FE
+HETATM   26 Fe   UNK    26       1.829   3.168   8.298  1.00  0.84          FE
+HETATM   27 Fe   UNK    27       1.829   1.056   2.766  1.00  0.84          FE
+HETATM   28 Fe   UNK    28       5.488   3.168   8.298  1.00  0.84          FE
+HETATM   29 Fe   UNK    29      -1.829   3.168   8.298  1.00  0.84          FE
+HETATM   30  O2  UNK    30       3.659   4.940   4.699  1.00  1.42           O
+HETATM   31  O2  UNK    31       0.000   7.052  10.231  1.00  1.42           O
+HETATM   32  O2  UNK    32       6.107   0.699   4.699  1.00  1.42           O
+HETATM   33  O2  UNK    33       3.659  -0.715   6.365  1.00  1.42           O
+HETATM   34  O2  UNK    34      -0.000  -2.827   0.833  1.00  1.42           O
+HETATM   35  O2  UNK    35      -2.449   1.414   0.833  1.00  1.42           O
+HETATM   36  O2  UNK    36       6.107   3.526   6.365  1.00  1.42           O
+HETATM   37 O-H3 UNK    37      -1.392  -3.421   3.323  1.00  1.26           O
+HETATM   38 O-H3 UNK    38      -1.392   5.028   8.855  1.00  1.26           O
+HETATM   39 O-H3 UNK    39      -3.659   0.505   3.323  1.00  1.26           O
+HETATM   40 O-H3 UNK    40      -1.392   7.645   7.741  1.00  1.26           O
+HETATM   41 O-H3 UNK    41      -1.392  -0.803   2.209  1.00  1.26           O
+HETATM   42 O-H3 UNK    42       0.000   1.607   2.209  1.00  1.26           O
+HETATM   43 O-H3 UNK    43       1.392  -3.421   3.323  1.00  1.26           O
+HETATM   44 O-H3 UNK    44      -2.267   2.916   3.323  1.00  1.26           O
+HETATM   45 O-H3 UNK    45       1.392   5.028   8.855  1.00  1.26           O
+HETATM   46 O-H3 UNK    46       1.392   7.645   7.741  1.00  1.26           O
+HETATM   47 O-H3 UNK    47       1.392  -0.803   2.209  1.00  1.26           O
+END
