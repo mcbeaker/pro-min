@@ -11,12 +11,15 @@ import seaborn as sb
 import numpy as np
 import scipy
 
-rdir = '/home/kenneth/proj/proMin/results'
+# rdir = '/home/kenneth/proj/proMin/results'
+rdir = '/Volumes/proMin/results'
 
 #combine min and pro
 # dfAll = pd.read_csv(os.path.join(rdir,'ec_min_pro_fg_dictionaryValues.csv'),header=0,index_col=False)
 # dfAll = pd.read_csv(os.path.join(rdir,'nr_40','nr_40_pro_min.csv'),header=0,index_col=0)
 dfAll = pd.read_csv(os.path.join(rdir,'pdbs_0_1.5','min_pro_0_1.5_dictionaryValues.csv'),header=0,index_col=0)
+
+exit()
 
 # mdir = '/home/kenneth/proj/proMin/minerals/database/data'
 # dfMin = pd.read_csv(os.path.join(mdir,'RRUFF_AMCSD_Fe_Mineral_IDs_3-shaunna-retrieved.csv'),header=0,index_col=False)

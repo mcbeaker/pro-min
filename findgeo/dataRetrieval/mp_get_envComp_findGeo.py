@@ -21,10 +21,20 @@ from collections import Counter
 import glob
 import math
 # from elements import ELEMENTS
+import platform #check if Mac or Linux
 
 #global variables
 global pdbPaths
 pdbPaths = {}
+
+baseDir = ''
+
+if platform.system() == 'Darwin':
+    baseDir = '/Users/ken/Box/proj/proXtal'
+elif platform.system() == 'Linux':
+    baseDir = '/home/kenneth/proj/proMin/'
+else:
+    exit()
 
 pdbPathsLoc='/home/kenneth/proj/proMin/proteins/rcsb/pdbs_0_1.5/findgeo/combineFindGeoResults'
 # pdbPathsLoc='/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/pdb_reSeq_res_atom/combineFindGeoResults'
@@ -46,12 +56,6 @@ def get_pdb_STR(pdbPath):
     # print(DICT)
     return STR #,DICT
 
-def chunkDict(inputDict):
-    # print(inputDict)
-    items = list(inputDict.items())
-    chunksize = 24
-    chunks = [items[i:1+chunksize] for i in range(0,len(items),chunksize)]
-    return chunks
 
 def list_tuples_to_dict(lTuple):
     # print(lTuple)
@@ -70,34 +74,18 @@ def get_metalRow(listAtoms,metalName):
             return index
     return index
 
-def get_element(atomName):
-    elements = [e.symbol.upper() for e in ELEMENTS] 
 
-    elem1 = ["C","N","O","F","P","S","W","V"]
-    elem2 = ["FE","CO","MN","CU","NI","MO"]
-
-    elem = ""
-
-    if atomName[0:2] in elem2:
-        elem = atomName[0:2]
-    elif atomName[0:1] in elem1:
-        elem = atomName[0:1]
-    else:
-        # elem = atomName[0:2]
-        # print("Did not find element"+ str(atomName))
-        elem=elem
-    # print(elem)
-    return elem
 
 def get_atomDistances(structure,metalName):
     # print(metalName) 
     metals = ["FE", "CO", "MN", "CU", "NI", "MO","W", "V"]
+    atoms = list(structure.get_atoms())     #print(atoms)
 
-    metalRow = get_metalRow(list(structure.get_atoms()),metalName)
-    #print(atoms)
+    metalRow = get_metalRow(atoms,metalName)
+
     distances = {} # create a dictionary to hold the dij values of this structure
     elemLigand = "" # this will be used to store the terminal elements name
-    atoms = list(structure.get_atoms())
+    
     numAtoms = len(atoms)
 
     # get dij distances for the structure and store in dictionary. leaving out metal atom: metal atom distance
@@ -108,7 +96,9 @@ def get_atomDistances(structure,metalName):
             distance = atoms[metalRow] - atoms[idx]
             atomNames = metalName+"_"+atoms[idx].get_name().upper()
             # distance12[atomNames] = (get_element(metalName)+":"+get_element(atoms[idx].get_name().upper()),distance)
-            distance12[atomNames] = (atoms[metalRow].element+":"+atoms[idx].element,distance)
+            metOcc = atoms[metalRow].get_occupancy()
+            ligOcc = atoms[idx].get_occupancy() #use for valency calc
+            distance12[atomNames] = (atoms[metalRow].element+":"+atoms[idx].element,distance,metOcc,ligOcc)
     return distance12
 #
 def get_valParms(metElem,ligElem):
@@ -161,8 +151,8 @@ def calc_valency(dists):  # inpu
 	mElem = [value[0].split(":")[0] for value in dists.values()]
 	lElem = [value[0].split(":")[1] for value in dists.values()] 
 	
-	# key, metElem, ligElem, dist
-	minLigDist = [(key,value[0].split(":")[0],value[0].split(":")[1],value[1]) for key,value in zip(dists.keys(),dists.values())]
+	# key, metElem, ligElem, dist,ligOcc
+	minLigDist = [(key,value[0].split(":")[0],value[0].split(":")[1],value[1],value[3]) for key,value in zip(dists.keys(),dists.values())]
 	
     # #keep track of metal and ligand name to get distance values
 	dfParms = get_valParms(mElem,lElem)
@@ -177,7 +167,7 @@ def calc_valency(dists):  # inpu
 	oxInt = {}
 	#count the keys
 	count = 0
-	for key,metElem,ligElem, dist in minLigDist:
+	for key,metElem,ligElem,dist,ligOcc in minLigDist:
 
 		#get oxidative states
 		dfOxParm = dfParms[(dfParms.valence_param_atom_1 == metElem) & (dfParms.valence_param_atom_2 == ligElem)]
@@ -195,7 +185,7 @@ def calc_valency(dists):  # inpu
 			r0 = oxParm['valence_param_Ro']
 			Ox = oxParm['valence_param_atom_1_valence']
 			metVal[key]['Ox'].append(Ox)
-			metVal[key]['Valence'].append(get_valence(r0,dist,Ox))
+			metVal[key]['Valence'].append(get_valence(r0,dist,Ox)*ligOcc)
 		#first time through
 		if count == 0:
 			oxInt = set(metVal[key]['Ox'])
@@ -221,31 +211,32 @@ def calc_valency(dists):  # inpu
 			oxNum = ox
 			# print(valency,ox)
 			dif = abs(val-ox)
-	metalVal['valency'] = valency
+	
+	metVal['valency'] = valency
 
-	return metalVal
+	return metVal
 
 def calc_vecsum(valency,STR,metalName):
  
-	metalRow = get_metalRow(list(structure.get_atoms()),metalName)
+	metalRow = get_metalRow(list(STR.get_atoms()),metalName)
 	metals = ["FE", "CO", "MN", "CU", "NI", "MO","W", "V"]
 
     #print(atoms)
-    distances = {} # create a dictionary to hold the dij values of this structure
-    elemLigand = "" # this will be used to store the terminal elements name
-    atoms = list(structure.get_atoms())
-    numAtoms = len(atoms)
+	distances = {} # create a dictionary to hold the dij values of this structure
+	elemLigand = "" # this will be used to store the terminal elements name
+	atoms = list(STR.get_atoms())
+	numAtoms = len(atoms)
 
-    # get dij distances for the structure and store in dictionary. leaving out metal atom: metal atom distance
-    distance12 = {} # empty dictionary to hold information about dij's (the dij dictionaries will be made FROM this later)
-    
-    for idx in range(0,numAtoms):
-        if idx != metalRow:
-            distance = atoms[metalRow] - atoms[idx]
-            atomNames = metalName+"_"+atoms[idx].get_name().upper()
-            # distance12[atomNames] = (get_element(metalName)+":"+get_element(atoms[idx].get_name().upper()),distance)
-            distance12[atomNames] = (atoms[metalRow].element+":"+atoms[idx].element,distance)
-    return distance12
+	# get dij distances for the structure and store in dictionary. leaving out metal atom: metal atom distance
+	distance12 = {} # empty dictionary to hold information about dij's (the dij dictionaries will be made FROM this later)
+	
+	for idx in range(0,numAtoms):
+		if idx != metalRow:
+			distance = atoms[metalRow] - atoms[idx]
+			atomNames = metalName+"_"+atoms[idx].get_name().upper()
+			# distance12[atomNames] = (get_element(metalName)+":"+get_element(atoms[idx].get_name().upper()),distance)
+			distance12[atomNames] = (atoms[metalRow].element+":"+atoms[idx].element,distance)
+	return distance12
 
 def get_rmsd(pdbFileName):
 
@@ -366,7 +357,7 @@ def listener():
 	pdir = '/home/kenneth/proj/proMin/proteins/rcsb/pdbs_0_1.5/findgeo/combineFindGeoResults/analysis'
 	# pdir = '/home/kenneth/proj/proMin/proteins/hagai/pdbs/combineFindGeoResults/analysis'
 	# pdir = '/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/pdb_reSeq_res_atom/combineFindGeoResults/analysis'
-	outFile='pro_fg_dictionaryValues.csv'
+	outFile='pro_fg_dictionaryValues_ligOcc.csv'
 	outFile = os.path.join(pdir,outFile)
 	if os.path.exists(pdir) == False:
 		# print('exists ' + outFile)
