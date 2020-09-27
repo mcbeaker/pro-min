@@ -12,8 +12,8 @@ def load_mineral_oxidation():
     transMetals = ['Fe','Cu','Mn','Ni','Mo','Co','V','W']
     transMetals.sort()
     dic = {}
-    f = '/Users/ken/Box/proj/proXtal/justin_redoxPotential/data/mineralname_mineralcharge.csv'
-    # f = '/home/kenneth/proj/proMin/minerals/mineralname_mineralcharge.csv'
+    # f = '/Users/ken/Box/proj/proXtal/justin_redoxPotential/data/mineralname_mineralcharge.csv'
+    f = '/home/kenneth/proj/proMin/minerals/mineralname_mineralcharge.csv'
     df = pd.read_csv(f,header=0,index_col=False)
     for i,series in df.iterrows():
         # print(series.Mineral)

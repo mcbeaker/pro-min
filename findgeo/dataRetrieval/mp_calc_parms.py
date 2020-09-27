@@ -15,8 +15,8 @@ import tools
 
 #global variables
 global pdbPaths
-pdbPathsLoc='/home/kenneth/proj/proMin/proteins/rcsb/pdbs_0_1.5/findgeo/combineFindGeoResults'
-# pdbPathsLoc = '/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/pdb_reSeq_res_atom/combineFindGeoResults'
+# pdbPathsLoc='/home/kenneth/proj/proMin/proteins/rcsb/pdbs_0_1.5/findgeo/combineFindGeoResults'
+pdbPathsLoc = '/home/kenneth/proj/proMin/minerals/database/amcsd_pdb/pdb_reSeq_res_atom/combineFindGeoResults'
 # tools.get_pdbFilePaths(pdbPathsLoc,'pdbFileNames.csv')
 pdbPaths = pd.read_csv(os.path.join(pdbPathsLoc,'pdbFileNames.csv'),index_col=0)
 # print(pdbPaths)
