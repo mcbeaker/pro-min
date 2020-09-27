@@ -19,8 +19,8 @@ def load_mineral_oxidation():
         # print(series.Mineral)
         dic[series['Mineral']] = {}
         dic[series['Mineral']]['Formula'] = series['Formula']
-        if series['Formula'].find('Fe ') > -1:
-            print(series['Mineral'],series['Formula'])
+        # if series['Formula'].find('Fe ') > -1:
+            # print(series['Mineral'],series['Formula'])
         # print(dic)
         for metal in transMetals:
             # print(metal)
@@ -195,7 +195,7 @@ def calc_bvs(dists,oxStates):  # inpu
 		#get oxidative states
 		dfOxParm = dfParms[(dfParms.valence_param_atom_1 == metElem) & (dfParms.valence_param_atom_2 == ligElem)]
 		ox = oxStates[metElem]
-		print(ox)
+		print(metElem,oxStates)
 		# quit()
 		metVal[key] = {}
 		metVal[key]['mElem'] = metElem
