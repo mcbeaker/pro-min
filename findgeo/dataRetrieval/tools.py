@@ -8,7 +8,35 @@ import re
 import glob
 import numpy as np
 
+def load_mineral_oxidation():
+    transMetals = ['Fe','Cu','Mn','Ni','Mo','Co','V','W']
+    transMetals.sort()
+    dic = {}
+    # f = '/Users/ken/Box/proj/proXtal/justin_redoxPotential/data/mineralname_mineralcharge.csv'
+    f = '/home/kenneth/proj/proMin/minerals/mineralname_mineralcharge.csv'
+    df = pd.read_csv(f,header=0,index_col=False)
+    for i,series in df.iterrows():
+        # print(series.Mineral)
+        dic[series['Mineral']] = {}
+        # print(dic)
+        for metal in transMetals:
+            # print(metal)
+            if metal == 'Cu' and series[metal] == 'none':
+                dic[series['Mineral']][metal.upper()] = '1+'
+            else:
+                dic[series['Mineral']][metal.upper()] = series[metal]
+    return dic
 
+def get_mineral_pdb_names():
+    d = '/Users/ken/Box/proj/proXtal/data/proteins/code-pro-min/data/minerals'
+    import glob as glob
+    fList = [os.path.basename(pdbFile)for pdbFile in glob.iglob(d+'/*.pdb')]
+    return fList
+
+
+# mineral,Mn_30_30_A_irr,geoShort,ext = re.split('[.]',pdbFileName)
+	# metalName,resNum,atomNum,chain = re.split('[._]',Mn_30_30_A_irr)
+	
 def get_pdbFilePaths(pdbPathsLoc,pdbFileNames):
 	count = 0 
  

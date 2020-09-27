@@ -12,6 +12,7 @@ import numpy as np
 import scipy
 
 
+
 def load_findgeo_hagai2018():
     f = "/home/kenneth/proj/proMin/proteins/hagai/2018/pdbs/findgeo/envComp"
     fileName = os.path.join(f,os.path.join(f,"findgeoID.csv"))
