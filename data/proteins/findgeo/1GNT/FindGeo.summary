@@ -1,0 +1,8 @@
+FE1_1554_4269_A: tet - tetrahedron (regular)
+FE2_1554_4270_A: tet - tetrahedron (regular)
+FE5_1555_4277_A: irr - Irregular geometry
+FE3_1554_4271_A: tet - tetrahedron (regular)
+FE6_1555_4278_A: bva - trigonal bipyramid with a vacancy (axial) (distorted)
+FE4_1554_4272_A: tet - tetrahedron (regular)
+FE7_1555_4279_A: irr - Irregular geometry
+FE8_1555_4280_A: pvp - pentagonal bipyramid with a vacancy (equatorial) (distorted)

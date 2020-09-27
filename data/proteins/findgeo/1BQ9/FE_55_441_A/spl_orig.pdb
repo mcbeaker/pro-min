@@ -1,0 +1,11 @@
+ATOM      1  M   SPL     1       0.000   0.000   0.000
+ATOM      2  L   SPL     1       0.000   0.000   3.000
+ATOM      3  L   SPL     1       0.000   3.000   0.000
+ATOM      4  L   SPL     1       0.000  -3.000   0.000
+ATOM      5  L   SPL     1       0.000   0.000  -3.000
+TER
+ATOM    441 FE    FE A  55       0.000   0.000   0.000
+ATOM    339  SG  CYS A  42       1.254  -0.106   1.873
+ATOM     78  SG  CYS A   9      -1.244   1.876  -0.138
+ATOM     51  SG  CYS A   6      -1.254  -1.895   0.068
+ATOM    317  SG  CYS A  39       1.274   0.101  -1.903
