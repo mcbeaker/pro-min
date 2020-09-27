@@ -21,6 +21,8 @@ pdbPathsLoc='/home/kenneth/proj/proMin/proteins/rcsb/pdbs_0_1.5/findgeo/combineF
 pdbPaths = pd.read_csv(os.path.join(pdbPathsLoc,'pdbFileNames.csv'),index_col=0)
 # print(pdbPaths)
 # exit()
+global oxStates
+oxStates = tools.load_mineral_oxidation()
 
 def f_init(q):
 	process_queue.q = q
@@ -31,12 +33,13 @@ def process_queue(id):
 	pdbPath = pdbPaths.iloc[id]['pdbPath']
 	# print(pdbPath)
 	pdbFileName = os.path.basename(pdbPath)
-	pdb,metalName,resNum,atomNum,chain,geoShort,ext = re.split('[._]',pdbFileName)
+	# pdb,metalName,resNum,atomNum,chain,geoShort,ext = re.split('[._]',pdbFileName)
 	# print(pdbPath)
 	# print(re.split('[.]',pdbFileName))
 	
-	# mineral,Mn_30_30_A_irr,geoShort,ext = re.split('[.]',pdbFileName)
-	# metalName,resNum,atomNum,chain = re.split('[._]',Mn_30_30_A_irr)
+	mineralID,Mn_30_30_A_irr,geoShort,ext = re.split('[.]',pdbFileName)
+	mineral,amcsd = re.split('_',mineralID)
+	metalName,resNum,atomNum,chain = re.split('[._]',Mn_30_30_A_irr)
 	
 	metalName = metalName.upper()
 
@@ -47,18 +50,18 @@ def process_queue(id):
 	try:
 		STR = PDB.PDBParser(QUIET=False).get_structure('pdb',pdbPath)
 
-		environment = tools.get_environment(STR,pdbFileName)
+		# environment = tools.get_environment(STR,pdbFileName)
 
-		gRMSD = tools.get_rmsd(pdbFileName)
+		# gRMSD = tools.get_rmsd(pdbFileName)
 
-		angles = tools.get_angles(STR,metalName)
+		# angles = tools.get_angles(STR,metalName)
 
-		for i in angles:
+		# for i in angles:
 			# print('Protein,'+i)
 			# process_queue.q.put('Mineral,'+pdbFileName + ',' + i + ',' + environment)
-			process_queue.q.put('Protein,'+pdbFileName + ',' + i + ',' + environment)
+			# process_queue.q.put('Protein,'+pdbFileName + ',' + i + ',' + environment)
 
-		# atomDist = tools.get_atomDistances(STR,metalName)
+		atomDist = tools.get_atomDistances(STR,metalName)
 
 		# for key in atomDist.keys():
 		# 	metName,ligName = key.split("_")
@@ -81,7 +84,7 @@ def process_queue(id):
 	# print(metalElements)
 	# print(ligElements)
 	# print(atomDist)
-		# metVal = tools.calc_bvs(atomDist)
+		metVal = tools.calc_bvs(atomDist,oxStates[mineral])
 
 		# vecsum = tools.calc_vecsum(metVal,STR,metalName)
 
@@ -149,7 +152,7 @@ def main():
     jobs = []
 
     with tqdm(total=len(pdbPaths.keys())) as pbar: 
-        for i, job in tqdm(enumerate(pool.imap_unordered(process_queue,list(pdbPaths.index)))):
+        for i, job in tqdm(enumerate(pool.imap_unordered(process_queue,list(pdbPaths.index)[0:1]))):
             jobs.append(job)
             # print(job)
             pbar.update()

@@ -12,12 +12,15 @@ def load_mineral_oxidation():
     transMetals = ['Fe','Cu','Mn','Ni','Mo','Co','V','W']
     transMetals.sort()
     dic = {}
-    # f = '/Users/ken/Box/proj/proXtal/justin_redoxPotential/data/mineralname_mineralcharge.csv'
-    f = '/home/kenneth/proj/proMin/minerals/mineralname_mineralcharge.csv'
+    f = '/Users/ken/Box/proj/proXtal/justin_redoxPotential/data/mineralname_mineralcharge.csv'
+    # f = '/home/kenneth/proj/proMin/minerals/mineralname_mineralcharge.csv'
     df = pd.read_csv(f,header=0,index_col=False)
     for i,series in df.iterrows():
         # print(series.Mineral)
         dic[series['Mineral']] = {}
+        dic[series['Mineral']]['Formula'] = series['Formula']
+        if series['Formula'].find('Fe ') > -1:
+            print(series['Mineral'],series['Formula'])
         # print(dic)
         for metal in transMetals:
             # print(metal)
@@ -167,9 +170,8 @@ def calc_bond_valence(r0,measured,ox_num):
 	valence = math.exp((r0 - measured) / b)
 	return valence
 
-def calc_bvs(dists):  # inpu
+def calc_bvs(dists,oxStates):  # inpu
 	#calculates bond valence sum
-
 	numDist = len(dists.keys())
 	mElem = [value[0].split(":")[0] for value in dists.values()]
 	lElem = [value[0].split(":")[1] for value in dists.values()] 
@@ -192,11 +194,13 @@ def calc_bvs(dists):  # inpu
 
 		#get oxidative states
 		dfOxParm = dfParms[(dfParms.valence_param_atom_1 == metElem) & (dfParms.valence_param_atom_2 == ligElem)]
-
+		ox = oxStates[metElem]
+		print(ox)
+		# quit()
 		metVal[key] = {}
 		metVal[key]['mElem'] = metElem
 		metVal[key]['lElem'] = ligElem
-		metVal[key]['Ox'] = []
+		metVal[key]['Ox'] = [] 
 		metVal[key]['Valence'] = []
 		# key,metElem,ligElem,dist,ox,r0,b
 		# loop through standard oxidation values
