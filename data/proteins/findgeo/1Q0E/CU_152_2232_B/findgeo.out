@@ -1,0 +1,13 @@
+------------------------------------------------------------------------------------------------
+Geometries tested                                                            |      Tag|    RMSD
+------------------------------------------------------------------------------------------------
+pbp - PENTAGONAL BIPYRAMID                                                   |Irregular|   0.881
+coc - OCTAHEDRON, FACE MONOCAPPED                                            |Irregular|   0.838
+ctp - TRIGONAL PRISM, SQUARE-FACE MONOCAPPED                                 |Irregular|   1.104
+hva - HEXAGONAL BIPYRAMID WITH A VACANCY (AXIAL)                             |Irregular|   1.514
+hvp - HEXAGONAL BIPYRAMID WITH A VACANCY (EQUATORIAL)                        |Irregular|   0.761
+cuv - CUBE WITH A VACANCY                                                    |Irregular|   1.034
+sav - SQUARE ANTIPRISM WITH A VACANCY                                        |Irregular|   0.954
+------------------------------------------------------------------------------------------------
+Best geometry of the site: irr (n/a)
+------------------------------------------------------------------------------------------------

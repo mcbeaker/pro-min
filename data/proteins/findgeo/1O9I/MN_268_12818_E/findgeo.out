@@ -1,0 +1,12 @@
+------------------------------------------------------------------------------------------------
+Geometries tested                                                            |      Tag|    RMSD
+------------------------------------------------------------------------------------------------
+hbp - HEXAGONAL BIPYRAMID                                                    |Irregular|   1.582
+cub - CUBE                                                                   |Irregular|   1.593
+sqa - SQUARE ANTIPRISM                                                       |Irregular|   1.527
+boc - OCTAHEDRAL, TRANS-BICAPPED                                             |Irregular|   1.502
+bts - TRIGONAL PRISM, SQUARE-FACE BICAPPED                                   |Irregular|   1.480
+btt - TRIGONAL PRISM, TRIANGULAR-FACE BICAPPED                               |Irregular|   1.491
+------------------------------------------------------------------------------------------------
+Best geometry of the site: irr (n/a)
+------------------------------------------------------------------------------------------------

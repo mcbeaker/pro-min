@@ -1,0 +1,14 @@
+------------------------------------------------------------------------------------------------
+Geometries tested                                                            |      Tag|    RMSD
+------------------------------------------------------------------------------------------------
+oct - OCTAHEDRON                                                             |  Regular|   0.037
+tpr - TRIGONAL PRISM                                                         |Irregular|   1.242
+pva - PENTAGONAL BIPYRAMID WITH A VACANCY (AXIAL)                            |Irregular|   1.762
+pvp - PENTAGONAL BIPYRAMID WITH A VACANCY (EQUATORIAL)                       |Irregular|   0.830
+cof - OCTAHEDRON, FACE MONOCAPPED WITH A VACANCY (CAPPED FACE)               |Irregular|   0.972
+con - OCTAHEDRON, FACE MONOCAPPED WITH A VACANCY (NON-CAPPED FACE)           |Irregular|   1.649
+ctf - TRIGONAL PRISM, SQUARE-FACE MONOCAPPED WITH A VACANCY (CAPPED FACE)    |Irregular|   1.270
+ctn - TRIGONAL PRISM, SQUARE-FACE MONOCAPPED WITH A VACANCY (NON-CAPPED EDGE)|Irregular|   1.172
+------------------------------------------------------------------------------------------------
+Best geometry of the site: oct (regular)
+------------------------------------------------------------------------------------------------

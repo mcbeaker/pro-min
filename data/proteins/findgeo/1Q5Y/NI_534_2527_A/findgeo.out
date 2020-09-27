@@ -1,0 +1,11 @@
+------------------------------------------------------------------------------------------------
+Geometries tested                                                            |      Tag|    RMSD
+------------------------------------------------------------------------------------------------
+tet - TETRAHEDRON                                                            |Irregular|   1.747
+spl - SQUARE PLANE                                                           |  Regular|   0.116
+bva - TRIGONAL BIPYRAMID WITHA VACANCY (AXIAL)                               |Irregular|   1.879
+bvp - TRIGONAL BIPYRAMID WITHA VACANCY (EQUATORIAL)                          |Irregular|   1.032
+pyv - SQUARE PYRAMID WITH A VACANCY (EQUATORIAL)                             |Irregular|   1.559
+------------------------------------------------------------------------------------------------
+Best geometry of the site: spl (regular)
+------------------------------------------------------------------------------------------------
