@@ -8,9 +8,9 @@ findGeoSummativeFile=$2
 combineFindGeoFolder=$basePath/combineFindGeoResults
 
 #make output folder if it doesnt exist
-# if [[ ! -d $combineFindGeoFolder ]]; then
-    # mkdir $combineFindGeoFolder
-# fi
+ if [[ ! -d $combineFindGeoFolder ]]; then
+     mkdir $combineFindGeoFolder
+ fi
 
 IFS=''
 while read line; do
@@ -19,21 +19,24 @@ while read line; do
     # echo $line
     line=`echo $line | tr -d '\n'`
     # echo $line
-    pdb=`echo $line | cut -d'.' -f 1`
-    pdbLower=`echo $pdb | perl -ne 'print lc'`
+    pdb=`echo $line | cut -d'.' -f 1` 
+    # pdbLower=`echo $pdb | perl -ne 'print lc'`
     geo=`echo $line | cut -d',' -f 3`
     metalID=`echo $line | cut -d',' -f 5`
+    # echo $metalID
     chain=`echo $metalID | cut -d'_' -f4`
     metalCheck=`echo $line | cut -d',' -f 5| cut -d'_' -f 1|sed 's/[0-9]\+$//'`
+    upperMetal=`echo $metalCheck | perl -ne 'print uc'`
+    echo $upperMetal
     # echo $metalCheck
-    metals=("FE" "CO" "MN" "CU" "NI" "MO" "W" "V")
+    metals=("FE","CO" "MN" "CU" "NI" "MO" "W" "V")
     # echo "${pdbLower}_${chain}"
     # echo $pdb
     # echo $geo
     # echo $metalID
     # echo $metalID
     # if [[ "$metal" == "FE" ]] || [[ ! "$metal" == *"CO"* ]] && [[ ! "$metal" == *"CA_"* ]] && [[ ! "$metal" == *"NA_"* ]]; then
-    if [[ " ${metals[@]} " =~ " ${metalCheck} " ]];then
+    if [[ " ${metals[@]} " =~ " ${upperMetal} " ]];then
         # echo $metals
         pdbPath=$basePath/$pdb/$metalID/"findgeo.input"
         # echo $pdbPath
@@ -53,9 +56,9 @@ while read line; do
         # fi
 
         if [[ ! -f $outPDB ]] && [[ -f $pdbPath ]]; then
-            # echo 'blah'
-            #  pdb_sort $pdbPath > $outPDB
-            cp $pdbPath $outPDB
+            echo $pdbPath
+            pdb_sort $pdbPath > $outPDB
+            # cp $pdbPath $outPDB
         fi
         # exit
     fi

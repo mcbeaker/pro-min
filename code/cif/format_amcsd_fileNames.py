@@ -4,17 +4,22 @@ import os
 import shutil
 import glob
 
-d = "/home/kenneth/proj/proMin/minerals/database/data/xx"
+d = "/home/kenneth/proj/proMin/minerals/database/data/cif/feS"
 
 files = glob.glob(os.path.join(d,"xx*"))
 
-shaunna_list = []
+mineral_list = []
+
+#iron minerals
+mineralFile = os.path.join(d,'iron.txt') #iron text
+# mineralFile = os.path.join(d,'mineralNames.csv') #shaunna
+
 
 #get shaunna's list of minerals
-with open(os.path.join(d,'mineralNames.csv')) as f:
-    next(f)
-    for line in f:
-        shaunna_list.append(line.rstrip())
+# with open(mineralFile) as f:
+#     next(f)
+#     for line in f:
+#         mineral_list.append(line.rstrip())
 
 with Bar('Processing',max=len(files)) as bar:
     for f in files:
@@ -24,18 +29,20 @@ with Bar('Processing',max=len(files)) as bar:
             #print(f)
             if '_chemical_name_mineral' in cf['global']: 
 
-                if cf['global']['_chemical_name_mineral'] in shaunna_list:
+                # if cf['global']['_chemical_name_mineral'] in mineral_list:
 
-                    code = str(cf['global']['_database_code_amcsd']).lstrip("0")
-                    mineral = cf['global']['_chemical_name_mineral']
-                    
-                    if os.path.exists(os.path.join(d,mineral)) == False:
-                        os.mkdir(os.path.join(d,mineral))
+                code = str(cf['global']['_database_code_amcsd']).lstrip("0")
+                mineral = cf['global']['_chemical_name_mineral']
+                
+                if os.path.exists(os.path.join(d,mineral)) == False:
+                    os.mkdir(os.path.join(d,mineral))
 
-                    outName = os.path.join(d,mineral,mineral+"_"+code+".cif")
-                    
-                    shutil.copy(f,outName)
-                    shutil.move(f,os.path.join(d,'csplit'))
+                outName = os.path.join(d,mineral,mineral+"_"+code+".cif")
+                
+                shutil.copy(f,outName)
+                # shutil.move(f,os.path.join(d,'csplit'))
+                # else:
+                    # print("notFound ",cf['global']['_chemical_name_mineral'])
                 # names.append(cf['global']['_chemical_name_mineral'])
                 # print(f)
         except Exception as e:

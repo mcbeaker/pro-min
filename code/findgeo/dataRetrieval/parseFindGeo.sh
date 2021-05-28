@@ -1,9 +1,9 @@
 #!/bin/bash
-pdb=$1
+pdb=`echo "$1" | cut -d'.' -f1`
 
 while read i;
 do 
-	id=`echo "$i" | cut -d':' -f1`; 
+	id=`echo "$i" | cut -d':' -f1` 
 	metal=`echo "$id" | cut -d'_' -f1`
 	residue=`echo "$id" | cut -d'_' -f2`
 	atom=`echo "$id" | cut -d'_' -f3`
