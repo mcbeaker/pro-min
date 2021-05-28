@@ -1,7 +1,0 @@
-HETATM    2 Ni   UNK A   2       2.859   1.018   1.464  1.00  0.20          NI
-HETATM    7 As2  UNK     7       4.984   1.788   0.789  1.00  0.29          AS
-HETATM    4 As1  UNK     4       0.688   0.317   2.064  1.00  0.23          AS
-HETATM    0 As1  UNK     0       3.565   0.317   3.640  1.00  0.23          AS
-HETATM    3 As1  UNK     3       2.188   3.217   2.064  1.00  0.23          AS
-HETATM    5 As2  UNK     5       2.108   1.111  -0.789  1.00  0.29          AS
-HETATM    6 As2  UNK     6       3.645  -1.111   0.789  1.00  0.29          AS

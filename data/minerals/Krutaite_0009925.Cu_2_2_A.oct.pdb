@@ -1,7 +1,0 @@
-HETATM    2 Cu   UNK A   2       3.059   3.059   0.000  1.00  0.00          CU
-HETATM    3 Se   UNK     3       2.389   0.671  -0.671  1.00  0.00          SE
-HETATM    5 Se   UNK     5       5.448   2.389   0.671  1.00  0.00          SE
-HETATM    6 Se   UNK     6       2.389   2.389   2.389  1.00  0.00          SE
-HETATM    7 Se   UNK     7       3.730   5.448   0.671  1.00  0.00          SE
-HETATM    0 Se   UNK     0       0.671   3.730  -0.671  1.00  0.00          SE
-HETATM    4 Se   UNK     4       3.730   3.730  -2.389  1.00  0.00          SE

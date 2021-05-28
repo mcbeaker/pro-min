@@ -1,8 +1,0 @@
-HETATM   74 Cu   UNK A  74       3.895   0.000   3.895  1.00  0.00          CU
-HETATM   52 Pt2  UNK    52       1.947   0.000   5.842  1.00  0.00          PT
-HETATM   40 Pt2  UNK    40       1.947   1.947   3.895  1.00  0.00          PT
-HETATM    3 Pt2  UNK     3       1.947   0.000   1.947  1.00  0.00          PT
-HETATM   26 Pt2  UNK    26       3.895  -1.947   1.947  1.00  0.00          PT
-HETATM   56 Pt2  UNK    56       5.842   0.000   1.947  1.00  0.00          PT
-HETATM   50 Pt2  UNK    50       3.895   1.947   1.947  1.00  0.00          PT
-HETATM   64 Pt2  UNK    64       1.947  -1.947   3.895  1.00  0.00          PT

@@ -1,7 +1,0 @@
-HETATM    0 Co   UNK A   0      -2.042   2.042   2.042  1.00  0.00          CO
-HETATM    1 As   UNK     1      -1.225   0.000   2.859  1.00  0.00          AS
-HETATM   47 As   UNK    47      -2.859   4.085   1.226  1.00  0.00          AS
-HETATM   36 As   UNK    36      -1.225   2.860   4.085  1.00  0.00          AS
-HETATM   14 As   UNK    14       0.000   2.859   1.226  1.00  0.00          AS
-HETATM   33 As   UNK    33      -2.859   1.226   0.000  1.00  0.00          AS
-HETATM   40 As   UNK    40      -4.085   1.226   2.859  1.00  0.00          AS

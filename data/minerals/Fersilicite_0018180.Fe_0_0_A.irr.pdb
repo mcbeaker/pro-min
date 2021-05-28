@@ -1,8 +1,0 @@
-HETATM    0 Fe   UNK A   0       0.599   0.599   0.599  1.00  0.00          FE
-HETATM    1 Si   UNK     1      -0.695  -0.695  -0.695  1.00  0.00          SI
-HETATM   14 Si   UNK    14       0.695   1.539   2.928  1.00  0.00          SI
-HETATM   12 Si   UNK    12       2.928   0.695   1.539  1.00  0.00          SI
-HETATM   11 Si   UNK    11      -1.539   0.695   1.539  1.00  0.00          SI
-HETATM   16 Si   UNK    16       1.539   2.928   0.695  1.00  0.00          SI
-HETATM   15 Si   UNK    15       1.539  -1.539   0.695  1.00  0.00          SI
-HETATM   13 Si   UNK    13       0.695   1.539  -1.539  1.00  0.00          SI

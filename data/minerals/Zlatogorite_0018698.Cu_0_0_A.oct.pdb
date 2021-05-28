@@ -1,7 +1,0 @@
-HETATM    0 Cu   UNK A   0       0.000   0.000   0.000  1.00  0.50          CU
-HETATM    3 Sb   UNK     3      -2.025   1.169  -1.389  1.00  0.30          SB
-HETATM    8 Sb   UNK     8      -2.026  -1.169   1.389  1.00  0.30          SB
-HETATM    5 Sb   UNK     5       2.026  -1.169   1.389  1.00  0.30          SB
-HETATM    6 Sb   UNK     6       0.000   2.339   1.389  1.00  0.30          SB
-HETATM    7 Sb   UNK     7       0.000  -2.339  -1.389  1.00  0.30          SB
-HETATM    2 Sb   UNK     2       2.026   1.169  -1.389  1.00  0.30          SB

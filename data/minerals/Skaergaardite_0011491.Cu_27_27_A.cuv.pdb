@@ -1,8 +1,0 @@
-HETATM   27 Cu   UNK A  27       0.000   0.000   2.988  1.00  0.00          CU
-HETATM   53 Pd   UNK    53       1.494   1.494   4.482  1.00  0.00          PD
-HETATM    9 Pd   UNK     9       1.494  -1.494   4.482  1.00  0.00          PD
-HETATM    3 Pd   UNK     3       1.494  -1.494   1.494  1.00  0.00          PD
-HETATM   61 Pd   UNK    61      -1.494  -1.494   4.482  1.00  0.00          PD
-HETATM   64 Pd   UNK    64      -1.494   1.494   1.494  1.00  0.00          PD
-HETATM   62 Pd   UNK    62      -1.494  -1.494   1.494  1.00  0.00          PD
-HETATM   10 Pd   UNK    10       1.494   1.494   1.494  1.00  0.00          PD
