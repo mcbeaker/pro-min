@@ -60,6 +60,8 @@ bv_elem = []
 bv_sum = []
 bv_type = []
 bvs = []
+bv_name = []
+bv_geo = []
 
 for m in mins:
     print(m)
@@ -93,70 +95,76 @@ for m in mins:
     if structure.is_ordered:
         for sites in equi_sites:
             test_site = sites[0]
+            if test_site.specie.symbol in ['Fe']:
             # print(test_site)
-            nn = structure.get_neighbors(test_site, 3.0)
-        
-            bv_sum.append(pma.calculate_bv_sum(test_site, nn))
-            bv_elem.append(test_site.specie.symbol)
-            bv_type.append('Mineral')
+                nn = structure.get_neighbors(test_site, 3.0)
+            
+                bv_sum.append(round(pma.calculate_bv_sum(test_site, nn),2))
+                bv_elem.append(test_site.specie.symbol)
+                bv_type.append('Mineral')
+                bv_name.append(m)
 # print(bv_sum)
 # exit()
 #protein
 
-d = '/home/kenneth/proj/pro-min/proteins/feS/findGeo/combineFindGeoResults'
+# d = '/home/kenneth/proj/pro-min/proteins/feS/clusters/findGeo/combineFindGeoResults'
+d='/home/kenneth/proj/pro-min/proteins/feS/sites'
 xyzs = glob(os.path.join(d,'*.xyz'))
 for xyz in xyzs:
-    mol = XYZ.from_file(xyz).molecule
-    test_site = mol[0]
-    nn = mol.get_neighbors(test_site, 3.0)
-    bv_sum.append(pma.calculate_bv_sum(test_site, nn))
-    bv_elem.append(test_site.specie.symbol)
-    bv_type.append('Protein')
+    print(xyz)
+    if xyz != os.path.join(d,'pdb.xyz'):
+        
+        xyzObj = XYZ.from_file(xyz)
+        # print(dir(xyzObj))
+        mol = xyzObj.molecule
+        
+        for site in mol.sites:
+            print(site)
+            import re
+            f = os.path.splitext(os.path.split(xyz)[1])[0]
+            # print(re.split('[_\.]',f))
+            # exit()
+            pdb,resNum,elName,resID,atomID,chain,geo = re.split('[_\.]',f)
+            
+            # print(pdb,resNum,elName,resID,atomID,chain,geo)
+            if (geo != 'irr' and site.specie.symbol == 'Fe'):
+                nn = mol.get_neighbors(site, 3.0)
+                print(nn)
+                bv_sum.append(round(pma.calculate_bv_sum(site, nn),2))
+                bv_elem.append(site.specie.symbol)
+                bv_type.append('Protein')
+                bv_name.append(f.upper())
+  
 
-    # # print(test_site)
-    # # exit()
-    # print(dir(mol))
-    # print(mol.molecule)
-    
-    
-    # print(test_site)
-    # print(pma.calculate_bv_sum(test_site, nn))
-    
-    # print(mol)
-    # exit()
-
-# parser = CifParser(d) #XYZ()
-# structures = parser.get_structures(d)
-# print(structures)
-# exit()
-# for structure in structures:
-#     print(structure)
-#     exit()
-#     els = [Element(el.symbol) for el in structure.composition.elements]
-#     test_site = structure[0]
-#     if not set(els).issubset(set(BV_PARAMS.keys())):
-#         raise ValueError("Structure contains elements not in set of BV parameters!")
-
-#     # print(test_site)
-    
-
-df = pd.DataFrame(np.random.randn(len(bv_sum),3),columns=['Element','Bond_Valence_Sum','Type'])
+df = pd.DataFrame(np.random.randn(len(bv_sum),4),columns=['Element','Bond_Valence_Sum','Type','Name'])
 df['Element'] = bv_elem
 df['Bond_Valence_Sum'] = bv_sum
 df['Type'] = bv_type
+df['Name'] = bv_name
 
-
+out = '/home/kenneth/proj/pro-min/results'
+df.to_csv(os.path.join(out,'053021_vp_min_pro_val.csv'),index=False,columns=['Name','Type','Bond_Valence_Sum','Element'])
+# exit()
 # print(df.Element)
 # exit()
 import seaborn as sb
 
 # print(df.groupby('Element').describe())
 # print(df['Element'])
-el = ['Fe','S']
-df = df.loc[(df['Element'].isin(el)) & (df['Bond_Valence_Sum'] > -3)]
+print(df.groupby(['Type','Element']).describe()) #.reset_index().pivot(index='Element', values='Bond', columns='level_1')
+# exit()
+# el = ['Fe','S']
+# df = df.loc[(df['Element'].isin(el)) & (df['Bond_Valence_Sum'] > -3)]
+# print(df.groupby(['Type','Element']).describe()) #.reset_index().pivot(index='Element', values='Bond', columns='level_1')
+# print(df.describe(include='all'))
+# exit()
 # print(df)
 # exit()
-sb.boxplot(data=df, x='Element', y = 'Bond_Valence_Sum', hue='Type')
-plt.show()
+print(df[df.Type=='Protein'])
+vp = sb.violinplot(data=df, x='Element', y = 'Bond_Valence_Sum', hue='Type',split=True)
+vp.set(ylabel='Bond Valence Sum')
+plt.tight_layout()
+plt.savefig(os.path.join(out,'053021-vp_min_pro_val.png'),dpi=400)
+# plt.show()
 
 
